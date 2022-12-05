@@ -1,0 +1,84 @@
+name: Bug Report
+description: Report a bug
+
+body:
+  - type: checkboxes
+    attributes:
+      label: Contribution guidelines
+      description: Please read the contribution guidelines before proceeding.
+      options:
+        - label: I've read the [contribution guidelines]
+        (https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) 
+        and wholeheartedly agree
+          required: true
+
+ - type: textarea
+    attributes:
+      label: Introdutory remarks
+      description: Please provide a brief (!) description of what features you
+      were implementing.
+    validations:
+      required: true
+
+ - type: textarea
+    attributes:
+      label: Links to the documentation
+      description: Please provide the links to the specific sections in the
+      Material for MkDocs documentation you were implementing.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Bug description
+      description: Please give a precise description of the bug in 1-2 
+      sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Step by step guidance
+      description: Please give a step by step guidance to reproduce the bug.
+      placeholder: |-
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Configuration
+      description: Please provide a minimal (!) reproducible example to 
+      demonstrate the bug. For this, see provided examples and detailed 
+      instruction.
+      placeholder: |-
+        site_name: My Docs
+        site_url: https://example.com/docs
+      render: yaml
+    validations:
+      required: true
+
+ - type: textarea
+    attributes:
+      label: Package versions
+      description: Please install the following plugin and copy the output lines.
+      value: |-
+        - Python: `python --version`
+        - MkDocs: `mkdocs --version`
+        - Material: `pip show mkdocs-material | grep -E ^Version`
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: System information
+      description: Please provide the your operating system and browser type and 
+      version.
+      value: |-
+        - Operating system: ...
+        - Browser: ...
+    validations:
+      required: true
+
