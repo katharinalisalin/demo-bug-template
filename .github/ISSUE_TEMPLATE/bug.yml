@@ -2,22 +2,19 @@ name: Bug Report
 description: Report a bug
 
 body:
-  - type: checkboxes
-    attributes:
-      label: Contribution guidelines
-      description: Please read the contribution guidelines before proceeding.
-      options:
-        - label: >-
-            I've read the [contribution guidelines]
-            (https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) 
-            and wholeheartedly agree
-          required: true
   - type: textarea
     attributes:
-      label: Introdutory remarks
+      label: Introductory remarks
       description: >
         Please provide a brief (!) description of what features you
-        were implementing.
+        were implementing. context for the bug.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Bug description
+      description: >
+        Please give a precise description of the bug in 1-2 sentences.
     validations:
       required: true
   - type: textarea
@@ -25,14 +22,22 @@ body:
       label: Links to the documentation
       description: >-
         Please provide the links to the specific sections in the
-        Material for MkDocs documentation you were implementing.
+        Material for MkDocs documentation you were implementing.  
+      value: |-
+        - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
+        - 
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Bug description
-      description: >
-        Please give a precise description of the bug in 1-2 sentences.
+      label: Reproducible example
+      description: >-
+        Please provide a minimal (!) reproducible example to 
+        demonstrate the bug. For this, see provided examples and detailed 
+        instruction.
+      placeholder: |-
+        site_name: My Docs
+        site_url: https://example.com/docs
     validations:
       required: true
   - type: textarea
@@ -43,19 +48,6 @@ body:
         1. ...
         2. ...
         3. ...
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Configuration
-      description: >-
-        Please provide a minimal (!) reproducible example to 
-        demonstrate the bug. For this, see provided examples and detailed 
-        instruction.
-      placeholder: |-
-        site_name: My Docs
-        site_url: https://example.com/docs
-      render: yml
     validations:
       required: true
   - type: textarea
