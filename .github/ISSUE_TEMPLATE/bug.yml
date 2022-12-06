@@ -6,8 +6,8 @@ body:
     attributes:
       label: Introductory remarks
       description: >
-        Please provide a brief (!) context for the bug or a descripition of the features you
-        were implementing if needed. 
+        (If needed) Please provide a brief (!) context for the bug or a descripition of the features you
+        were implementing. 
     validations:
       required: false
 
@@ -36,7 +36,7 @@ body:
       label: Reproducible example
       description: >-
         Please provide a minimal (!) reproducible example to 
-        demonstrate the bug. Attach a .zip file in the box below. See detailed 
+        demonstrate the bug. Attach a .zip file in the box below or provide a link to a GitHub repository. See detailed 
         instruction and provided examples to know how.
       placeholder: |-
         site_name: My Docs
@@ -79,9 +79,9 @@ body:
 
   - type: checkboxes
     attributes:
-      label: Check all steps before submitting the bug report
+      label: Before submitting your bug report
       description:  >
-        Please ensure you provide all the needed information and steps above by checking the following boxes before submitting this bug support.
+        Please ensure you provide all the needed information and steps above by checking the following boxes before submitting this bug support. If you can not check all boxes, please see (bug report link)
       options:
         - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
           required: true
