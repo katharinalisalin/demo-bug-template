@@ -84,9 +84,13 @@ body:
         Please make sure you followed the steps by cheking the boxes below before submitting this bug support.
       options:
         - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
+          required: true
         - label: I've attached a minimal (!) reproducible example in a .zip file
+          required: true
         - label: I've attached links to the relevanted sections to the Material for MkDocs documentation
+          required: true
         - label: I've checked that the problem persists when all overrides are removed, i.e. `custom_dir`, `extra_javascript` and `extra_css`
+          required: true
         - label: I've made sure there are no open or closed issues that are related to my problem
           required: true
   
