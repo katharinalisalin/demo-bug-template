@@ -6,8 +6,8 @@ body:
     attributes:
       label: Introductory remarks
       description: >
-        Please provide a brief (!) context for the buf or describition of the features you
-        were implementing. 
+        Please provide a brief (!) context for the bug or a descripition of the features you
+        were implementing if needed. 
     validations:
       required: false
 
@@ -15,7 +15,7 @@ body:
     attributes:
       label: Bug description
       description: >
-        Please give a precise description of the bug in 1-2 sentences.
+        Please give a detailed description of the bug in 1-2 sentences.
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Links to the documentation
       description: >-
-        Please share the links to the specific sections in the
+        Please share the links to the specific sections of the
         Material for MkDocs documentation you were implementing when the bug appeared.  
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
@@ -46,7 +46,7 @@ body:
   
   - type: textarea
     attributes:
-      label: Step by step guidance
+      label: Step-by-step guidance
       description: Please give a step by step guidance to reproduce the bug.
       placeholder: |-
         1. ...
@@ -70,7 +70,7 @@ body:
     attributes:
       label: System information
       description: >
-        Please provide the your operating system and browser type and version.
+        Please provide your operating system and browser type and version.
       value: |-
         - Operating system: ...
         - Browser: ...
@@ -81,13 +81,13 @@ body:
     attributes:
       label: hbk
       description:  >
-        Please make sure you followed the steps by cheking the boxes below before submitting this bug support.
+        Please ensure you provide all the needed information and steps above by checking the following boxes before submitting this bug support.
       options:
         - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
           required: true
         - label: I've attached a minimal (!) reproducible example in a .zip file
           required: true
-        - label: I've attached links to the relevanted sections to the Material for MkDocs documentation
+        - label: I've attached links to the relevant sections of the Material for MkDocs documentation
           required: true
         - label: I've checked that the problem persists when all overrides are removed, i.e. `custom_dir`, `extra_javascript` and `extra_css`
           required: true
