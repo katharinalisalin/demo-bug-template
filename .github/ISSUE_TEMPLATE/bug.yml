@@ -6,7 +6,7 @@ body:
     attributes:
       label: Introductory remarks
       description: >
-        (If needed) Please provide a brief (!) context for the bug or a descripition of the features you
+        (If needed) Please provide a brief context for the bug or a descripition of the features you
         were implementing. 
     validations:
       required: false
@@ -24,7 +24,7 @@ body:
       label: Links to the documentation
       description: >-
         Please share the links to the specific sections of the
-        Material for MkDocs documentation you were implementing when the bug appeared.  
+        Material for MkDocs documentation you were working on when the bug appeared.  
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
         - 
