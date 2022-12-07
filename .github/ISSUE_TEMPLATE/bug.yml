@@ -36,7 +36,7 @@ body:
       label: Reproducible example
       description: >-
         Please provide a minimal (!) reproducible example to 
-        demonstrate the bug. For guidance on how to create a reproducible example here, see detailed instruction.
+        demonstrate the bug. For more information on how to create a reproducible example, see detailed instruction.
       placeholder: |-
         Attach a .zip file here or provide a link to a GitHub repository. 
     validations:
@@ -56,7 +56,8 @@ body:
   - type: textarea
     attributes:
       label: Package versions
-      description: Please install the following plugin and copy the output lines.
+      description: >
+        Please provide all package versions, i.e. run the commands in backticks on a shell.
       value: |-
         - Python: `python --version`
         - MkDocs: `mkdocs --version`
@@ -79,7 +80,8 @@ body:
     attributes:
       label: Before submitting this bug report, I've...
       description:  >
-        Please ensure your request fulfills all of the following requirements by **checking all boxes below** before submitting this bug support. If one requirement cannot be satisfied, please see (bug report link)
+        Please ensure your request fulfills all of the following requirements by **checking all boxes below** before submitting this bug support.
+        If one requirement cannot be satisfied, please see (bug report link)
       options:
         - label: ... read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
           required: true
