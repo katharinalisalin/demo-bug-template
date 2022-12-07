@@ -81,17 +81,17 @@ body:
     attributes:
       label: Before submitting this bug report, I've...
       description:  >
-        Please ensure you provide all the needed information and steps above by checking the following boxes before submitting this bug support. If you can not check all boxes, please see (bug report link)
+        Please ensure you provide all the needed information and steps above by **checking all boxes below** before submitting this bug support. If you can not check all boxes, please see (bug report link)
       options:
         - label: read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
           required: true
-        - label: attached a minimal (!) reproducible example in a .zip file
+        - label: attached a **minimal (!) reproducible example** in a **.zip** file
           required: true
-        - label: added links to the relevant sections of the Material for MkDocs documentation
+        - label: added **links to the relevant sections** of the Material for MkDocs documentation
           required: true
         - label: checked that the problem persists when all overrides are removed, i.e. `custom_dir`, `extra_javascript` and `extra_css`
           required: true
-        - label: made sure there are no open or closed issues that are related to my problem
+        - label: made sure there are **no open or closed issues** that are related to my problem
           required: true
   
 
