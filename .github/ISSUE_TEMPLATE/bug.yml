@@ -15,7 +15,7 @@ body:
     attributes:
       label: Bug description
       description: >
-        Please give a detailed description of the bug in 1-2 sentences.
+        Please give a description of the bug in 1-2 sentences.
     validations:
       required: true
 
