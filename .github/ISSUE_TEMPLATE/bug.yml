@@ -36,11 +36,9 @@ body:
       label: Reproducible example
       description: >-
         Please provide a minimal (!) reproducible example to 
-        demonstrate the bug. Attach a .zip file in the box below or provide a link to a GitHub repository. See detailed 
-        instruction and provided examples to know how.
+        demonstrate the bug. For guidance on how to create a reproducible example here, see detailed instruction.
       placeholder: |-
-        site_name: My Docs
-        site_url: https://example.com/docs
+        Attach a .zip file here or provide a link to a GitHub repository. 
     validations:
       required: true
   
