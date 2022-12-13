@@ -1,19 +1,19 @@
 name: Bug Report
-description: Report a bug
+description: Report a bug in Material for MkDocs
 
 body:
   - type: textarea
     attributes:
-      label: Introductory remarks
+      label: Introduction
       description: >
-        (If needed) Please provide a brief context for the bug or a descripition of the features you
-        were implementing. 
+        Please provide a brief context for the bug or a description of the 
+        features you were implementing. 
     validations:
       required: false
 
   - type: textarea
     attributes:
-      label: Bug description
+      label: Bug Description
       description: >
         Please give a description of the bug in 1-2 sentences.
     validations:
@@ -21,10 +21,10 @@ body:
 
   - type: textarea
     attributes:
-      label: Links to the documentation
+      label: Links to Documentation
       description: >-
-        Please share the links to the specific sections of the
-        Material for MkDocs documentation you were working on when the bug appeared.  
+        Please share the links to the specific sections of the Material for 
+        MkDocs documentation you were working on when the bug appeared.  
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
         - 
@@ -33,10 +33,10 @@ body:
 
   - type: textarea
     attributes:
-      label: Reproducible example
+      label: Reproducible Example
       description: >-
-        Please provide a minimal (!) reproducible example to 
-        demonstrate the bug. For more information on how to create a reproducible example, see detailed instruction.
+        Please provide a minimal (!) reproducible example to demonstrate the bug.
+        For more information on how to create a reproducible example, see detailed instruction.
       placeholder: |-
         Attach a .zip file here or provide a link to a GitHub repository. 
     validations:
@@ -44,8 +44,8 @@ body:
   
   - type: textarea
     attributes:
-      label: Step-by-step guidance
-      description: Please give a step by step guidance to reproduce the bug.
+      label: Step-by-Step Guidance
+      description: Please give step-by-step guidance to reproduce the bug.
       placeholder: |-
         1. ...
         2. ...
@@ -55,9 +55,9 @@ body:
  
   - type: textarea
     attributes:
-      label: Package versions
+      label: Package Versions
       description: >
-        Please provide all package versions, i.e. run the commands in backticks on a shell.
+        Please provide all package versions by running the following commands:
       value: |-
         - Python: `python --version`
         - MkDocs: `mkdocs --version`
@@ -67,7 +67,7 @@ body:
 
   - type: textarea
     attributes:
-      label: System information
+      label: System Information
       description: >
         Please provide your operating system and browser type and version.
       value: |-
@@ -78,20 +78,20 @@ body:
 
   - type: checkboxes
     attributes:
-      label: Before submitting this bug report, I've...
+      label: Before Submitting
       description:  >
         Please ensure your request fulfills all of the following requirements by **checking all boxes below** before submitting this bug support.
         If one requirement cannot be satisfied, please see (bug report link)
       options:
-        - label: ... read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
+        - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree.
           required: true
-        - label: ... attached a [minimal reproducible example] (link) in a **.zip** file
+        - label: I've attached a [minimal reproducible example] (link) in a **.zip** file.
           required: true
-        - label: ... added [links to the relevant sections] (link) of the Material for MkDocs documentation
+        - label: I've added [links to the relevant sections] (link) of the Material for MkDocs documentation.
           required: true
-        - label: ... checked that the problem persists when all [overrides are removed] (link), i.e. `custom_dir`, `extra_javascript` and `extra_css`
+        - label: I've checked that the problem persists when all [overrides are removed] (link), i.e. `custom_dir`, `extra_javascript` and `extra_css`.
           required: true
-        - label: ... made sure there are **no other open or closed issues** that are related to my problem
+        - label: I've made sure there are **no other open or closed issues** that are related to my bug report.
           required: true
   
 
