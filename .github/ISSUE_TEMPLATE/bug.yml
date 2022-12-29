@@ -96,13 +96,13 @@ body:
         Please ensure your request fulfills all of the following requirements by **checking all boxes below** before submitting this bug report.
         If one requirement cannot be satisfied, please see (bug report link)
       options:
-        - label: I've read and agree with the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
+        - label: I've read and agree with the [__contribution guidelines__](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
           required: true
         - label: I've attached a [__minimal reproduction__](#).
           required: true
         - label: I've attached links to [the documentation] and related issues and discussions.
           required: true
-        - label: I assure that I [removed all customizations](#) prior to reporting this bug.
+        - label: I assure that I [__removed all customizations__](#) prior to reporting this bug.
           required: true
   
 
