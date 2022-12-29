@@ -46,7 +46,7 @@ body:
       description: >-
         Please create a __minimal reproduction__ for the bug. First, read our
         [reproduction guide](#) that explains the necessary steps, then use
-        the [built-in info plugin] to create a self-contained .zip file with
+        the [built-in info plugin](#) to create a self-contained .zip file with
         the reproduction which we use to recreate the bug.
         __This is mandatory__. [Explanation](#)
       placeholder: |-
