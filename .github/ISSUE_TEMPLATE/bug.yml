@@ -1,5 +1,8 @@
 name: Bug Report
 description: Report a bug in Material for MkDocs
+title: Foobar
+labels:
+  - needs investigation
 
 body:
   - type: textarea
