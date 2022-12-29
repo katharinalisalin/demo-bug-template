@@ -32,8 +32,8 @@ body:
         [our documentation](https://squidfunk.github.io/mkdocs-material) that
         are relevant to the problem, in order to show that you have consulted
         and thoroughly read it. Additionally, list links to possibly related
-        issues or discussions you encountered when searching our issue tracker
-        prior to reporting the bug. [Explanation](#)
+        issues or discussions you encountered when searching our issue tracker.
+        [Explanation](#)
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
         - 
