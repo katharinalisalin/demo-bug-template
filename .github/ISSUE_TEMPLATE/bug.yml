@@ -4,7 +4,7 @@ description: Report a bug in Material for MkDocs
 body:
   - type: textarea
     attributes:
-      label: Introduction
+      label: Context
       description: >
         This field is optional. You may provide additional context for the bug
         you want to report, helping us to understand what you're working on and
@@ -18,7 +18,9 @@ body:
       label: Bug Description
       description: >
         Please give a precise description of the bug. Explain where Material for
-        MkDocs doesn't behave as you would expect. Be as specific as possible.
+        MkDocs doesn't behave as you would expect it to. Be as specific as
+        possible and tell us (and all other users) if you found a way to work
+        around the problem. [Explanation](#)
     validations:
       required: true
 
