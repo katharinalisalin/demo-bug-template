@@ -60,8 +60,8 @@ body:
       description: >-
         Please provide a detailed list of instructions, guiding us maintainers
         through the required steps to help us recreate the problem you want
-        to report. Be as specific as possible and as verbose as necessary.
-        [Explanation](#)
+        to report. Be as specific as possible and as verbose as necessary –
+        try not to leave anything out. [Explanation](#)
       placeholder: |-
         1. ...
         2. ...
