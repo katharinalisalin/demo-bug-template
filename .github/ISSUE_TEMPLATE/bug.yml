@@ -47,8 +47,8 @@ body:
         Please create a __minimal reproduction__ for the bug. First, read our
         [reproduction guide](#) that explains the necessary steps, then use
         the [built-in info plugin](#) (mandatory) to create a self-contained
-        .zip file with the reproduction. We will use this .zip file to
-        understand and reproduce the bug. [Explanation](#)
+        .zip file with the reproduction. Without a reproduction, we have no way
+        to recreate and fix the bug. [Explanation](#)
       placeholder: |-
         Drag and drop .zip file with reproduction here. 
     validations:
