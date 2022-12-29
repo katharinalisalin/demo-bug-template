@@ -93,9 +93,10 @@ body:
     attributes:
       label: Before Submitting
       description:  >
-        Please ensure your bug report fulfills the following requirements. Each
-        requirement includes a link with further information. Make sure to read
-        and understand what the requirement means before ticking the box.
+        Please ensure your bug report fulfills all of the following requirements.
+        If you are not sure what a specific requirement means, follow the link
+        to learn and understand why it is necessar before ticking the box.
+        This will save the maintainers and you time.
       options:
         - label: I've read and agree with the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
           required: true
