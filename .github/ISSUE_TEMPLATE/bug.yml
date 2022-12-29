@@ -95,8 +95,8 @@ body:
       description:  >
         Please ensure your bug report fulfills all of the following requirements.
         If you are not sure what a specific requirement means, follow the link
-        to learn and understand why it is necessar before ticking the box.
-        This will save the maintainers and you time.
+        to learn about it and understand why it is necessary before ticking the
+        box. This will save the maintainers and you valueable time.
       options:
         - label: I've read and agree with the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
           required: true
