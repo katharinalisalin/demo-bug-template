@@ -9,7 +9,7 @@ body:
         This field is optional. You may provide additional context for the bug
         you want to report, helping us to understand what you're working on and
         what you're trying to achieve. If the context is not relevant, you can
-        leave this field empty. [Explanation](#)
+        leave this field empty. [More](#)
     validations:
       required: false
 
@@ -20,7 +20,7 @@ body:
         Please give a precise description of the bug. Explain where Material
         for MkDocs doesn't behave as you would expect it to. Be as specific as
         possible and tell us (and all other users) if you found a way to work
-        around or even fix the problem. [Explanation](#)
+        around or even fix the problem. [More](#)
     validations:
       required: true
 
@@ -33,7 +33,7 @@ body:
         are relevant to the bug, in order to show that you have consulted and
         thoroughly read it. Additionally, list links to possibly related issues
         or discussions you encountered when searching our issue tracker.
-        [Explanation](#)
+        [More](#)
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
         - 
@@ -48,7 +48,7 @@ body:
         [reproduction guide](#) that explains the necessary steps, then use
         the [built-in info plugin](#) (mandatory) to create a self-contained
         .zip file with the reproduction. Without a reproduction, it can be
-        challenging to fix the bug. [Explanation](#)
+        challenging to fix the bug. [More](#)
       placeholder: |-
         Drag and drop .zip file with reproduction here. 
     validations:
@@ -61,7 +61,7 @@ body:
         Please provide a detailed list of instructions, guiding us maintainers
         through the required steps to help us recreate the problem using the
         minimal reproduction you provided. Be as specific as possible and as
-        verbose as necessary – try not to leave anything out. [Explanation](#)
+        verbose as necessary – try not to leave anything out. [More](#)
       placeholder: |-
         1. ...
         2. ...
@@ -77,7 +77,7 @@ body:
         If the bug only happens in a __specific browser__, please select it from
         the dropdown below. If your browser is not listed, please select _Other_
         and provide information on the browser you're using as part of the
-        context at the top of this issue form. [Explanation](#)
+        context at the top of this issue form. [More](#)
       options:
         - All
         - Chrome
