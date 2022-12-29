@@ -44,12 +44,12 @@ body:
     attributes:
       label: Reproduction
       description: >-
-        Please create a _minimal_ reproduction for the bug. If you don't know
-        what this is or how to do it, please read our [reproduction guide](#).
-        Without the minimal reproduction, we will not be able to help you and
-        we might close the issue without further notice. [Explanation](#)
+        Please create a __minimal reproduction__ for the bug. First, read our
+        [reproduction guide](#) that explains the process step-by-step, then use
+        the [built-in info plugin] to create a self-contained .zip file with
+        the reproduction. [Explanation](#)
       placeholder: |-
-        Drag and drop a .zip file here. 
+        Drag and drop .zip file with reproduction here. 
     validations:
       required: true
   
