@@ -7,8 +7,9 @@ body:
       label: Introduction
       description: >
         This field is optional. You may provide additional context for the bug
-        you're about to report, helping us to understand what you're working on
-        and what you're trying to achieve.
+        you want to report, helping us to understand what you're working on and
+        what you're trying to achieve. If the context is not relevant, you can
+        leave this field empty. [Explanation](#)
     validations:
       required: false
 
