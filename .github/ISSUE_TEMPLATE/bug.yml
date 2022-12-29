@@ -4,7 +4,7 @@ description: Report a bug in Material for MkDocs
 body:
   - type: textarea
     attributes:
-      label: Introduction
+      label: Introduction [Explanation](#)
       description: >
         Please provide a brief context for the bug or a description of the 
         features you were implementing. 
