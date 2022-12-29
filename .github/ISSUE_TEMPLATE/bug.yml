@@ -74,9 +74,9 @@ body:
     attributes:
       label: Browser
       description: >-
-        If the bug only happens in a __specific browser__, please select it from
-        the dropdown below. If your browser is not listed, please select _Other_
-        and provide information on the browser you're using as part of the
+        If the bug only happens in __specific browsers__, please select them
+        from the dropdown below. If your browser is not listed, please select
+        _Other_ and provide details on the browser you're using as part of the
         context at the top of this issue form. [More](#)
       multiple: true
       options:
