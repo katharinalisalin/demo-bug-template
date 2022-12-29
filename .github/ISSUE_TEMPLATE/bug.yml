@@ -73,18 +73,16 @@ body:
     id: browsers
     attributes:
       label: Browser Information
-      description: >
+      description: >-
+        If the bug only happens in a specific browser, 
         Please choose the browser you have been using in which appeared below.
       options:
-        - All
         - Chrome
         - Safari
         - Edge
         - Firefox
         - Opera
         - Other (please explain above)
-    validations:
-      required: true
 
   - type: checkboxes
     attributes:
