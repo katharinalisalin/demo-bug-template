@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug in Material for MkDocs
+description: Something's not working? Report a bug in Material for MkDocs.
 
 body:
   - type: textarea
@@ -90,19 +90,27 @@ body:
   - type: checkboxes
     attributes:
       label: Before Submitting
-      description:  >
+      description: >-
         Please ensure your bug report fulfills all of the following requirements.
         If you are not sure what a specific requirement means, follow the link
         to learn about it and understand why it is necessary before ticking the
         box. This will save the maintainers and you valueable time.
       options:
-        - label: I've read and agree with the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
+        - label: >-
+            I've read and agree with the
+            [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
           required: true
-        - label: I've attached links to [the documentation](#), and related issues or discussions.
+        - label: >-
+            I've attached links to
+            [the documentation](https://squidfunk.github.io/mkdocs-material),
+            and related issues or discussions.
           required: true
-        - label: I assure that I [removed all customizations](#) before reporting this bug.
+        - label: >-
+            I assure that I [removed all customizations](#) before submitting
+            this bug report.
           required: true
-        - label: I've attached a [minimal reproduction](#).
+        - label: >-
+            I've attached a [minimal reproduction](#).
           required: true
   
 
