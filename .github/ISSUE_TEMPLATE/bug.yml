@@ -17,19 +17,21 @@ body:
     attributes:
       label: Bug Description
       description: >
-        Please give a precise description of the bug. Explain where Material for
-        MkDocs doesn't behave as you would expect it to. Be as specific as
+        Please give a precise description of the bug. Explain where Material
+        for MkDocs doesn't behave as you would expect it to. Be as specific as
         possible and tell us (and all other users) if you found a way to work
-        around the problem. [Explanation](#)
+        around or even fix the problem. [Explanation](#)
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Links to Documentation
+      label: Related Links
       description: >-
-        Please share the links to the specific sections of the Material for 
-        MkDocs documentation you were working on when the bug appeared.  
+        Please list links to all relevant sections of 
+        [our documentation](https://squidfunk.github.io/mkdocs-material), to
+        show that you have consulted and thoroughly read it. Additionaly, please
+        list links to other issues that might be related. [Explanation](#)
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
         - 
@@ -38,7 +40,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Reproducible Example
+      label: Reproduction
       description: >-
         Please provide a minimal (!) reproducible example to demonstrate the bug.
         For more information on how to create a reproducible example, see detailed instruction.
