@@ -76,8 +76,8 @@ body:
       description: >-
         If the bug only happens in a __specific browser__, please select it from
         the dropdown below. If your browser is not listed, please select _Other_
-        and provide more information as part of the [context] field at the top
-        of this issue form. [Explanation](#)
+        and provide information on the browser you're using as part of the
+        context at the top of this issue form. [Explanation](#)
       options:
         - All
         - Chrome
