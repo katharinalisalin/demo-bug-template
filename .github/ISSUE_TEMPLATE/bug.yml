@@ -5,7 +5,7 @@ body:
   - type: textarea
     attributes:
       label: Context
-      description: >
+      description: >-
         This field is optional. You may provide additional context for the bug
         you want to report, helping us to understand what you're working on and
         what you're trying to achieve. If the context is not relevant, you can
@@ -16,7 +16,7 @@ body:
   - type: textarea
     attributes:
       label: Bug Description
-      description: >
+      description: >-
         Please give a precise description of the bug. Explain where Material
         for MkDocs doesn't behave as you would expect it to. Be as specific as
         possible and tell us (and all other users) if you found a way to work
@@ -28,11 +28,11 @@ body:
     attributes:
       label: Related Links
       description: >-
-        Please list links to the sections of 
+        Please list all links to the sections of 
         [our documentation](https://squidfunk.github.io/mkdocs-material) that
-        are relevant to the problem, in order to show that you have consulted
-        and thoroughly read it. Additionally, list links to possibly related
-        issues or discussions you encountered when searching our issue tracker.
+        are relevant to the bug, in order to show that you have consulted and
+        thoroughly read it. Additionally, list links to possibly related issues
+        or discussions you encountered when searching our issue tracker.
         [Explanation](#)
       value: |-
         - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
@@ -44,10 +44,12 @@ body:
     attributes:
       label: Reproduction
       description: >-
-        Please provide a minimal (!) reproducible example to demonstrate the bug.
-        For more information on how to create a reproducible example, see detailed instruction.
+        Please create a _minimal_ reproduction for the bug. If you don't know
+        what this is or how to do it, please read our [reproduction guide](#).
+        Without the minimal reproduction, we will not be able to help you and
+        we might close the issue without further notice. [Explanation](#)
       placeholder: |-
-        Attach a .zip file here. 
+        Drag and drop a .zip file here. 
     validations:
       required: true
   
