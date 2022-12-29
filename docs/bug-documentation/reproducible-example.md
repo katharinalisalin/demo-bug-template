@@ -1,109 +1,63 @@
 # Minimal reproducible Example
 
+A minimal reproducible example is a simplified version of a bug that demonstrates the specific scenario in which a bug occurred. It includes all necessary minimal settings in the `mkdocs.yml` file to provide a clear and concise way to reproduce the bug. Minimal reproducible examples are essential for debugging and troubleshooting issues. It can be difficult or impossible to accurately reproduce the bug without a reproducible example and determine the root cause. This can lead to a longer resolution time and a less satisfactory outcome for the community.
+
+By reading the following guideline thoroughly and creating a minimal reproducible as described, you can help us determine the root of the issues.
 
 
+## How to create a minimal reproducible example
 
+In order to create a minimal reproducible example, you need to first set up a new project containing only the minimal cinfigurations. 
 
-
-When you're running the pre-installed version of Python on macOS, `pip` tries
-to install packages in a folder for which your user might not have the adequate
-permissions. There are three possible solutions for this, the recommended one
-of which is to use virtual environments:
-
-=== "Virtual environments"
-
-    If you're installing Material for MkDocs with `pip`, the easiest way to make
-    sure that you end up with the correct versions and without any
-    incompatibility problems between packages it to use a [virtual
-    environment][1]. First, ensure that you have a Python version of 3 or
-    higher installed:
-
-    ```
-    python --version
-    ```
-
-    If you're good to go, create and activate a virtual environment with:
+1. Create a new virtual environment
 
     ```
     python -m venv venv
-    source ./venv/bin/activate
-    ```
+     ```
 
-    Note that the second `venv` is the name of the folder where to create the
-    virtual environment – you may choose it as you like. Your terminal should
-    now print `(venv)` before the prompt and the `python` executable should be
-    located inside the folder you just created.
+2. Install Material for Mkdocs with pip and run the following commands
 
-    Next, [install Material for MkDocs][2] with `pip`, which will download and
-    install all packages in the `venv` folder you just created, including MkDocs
-    and its dependencies:
 
     ```
     pip install mkdocs-material
     ```
 
-    Verify that MkDocs and Material for MkDocs were both installed correctly:
+2. Go to the directory where you want your example to be located and set up a new project entering    
 
-    ```
-    mkdocs --version
-    mkdocs serve --help
-    ```
-
-    MkDocs should list `material` as an option under the `--theme` flag. When
-    you're finished working with MkDocs, you can exit the virtual environment
-    with:
-
-    ```
-    deactivate
+     ```
+    mkdocs new .
     ```
 
-=== "User space"
+    This will create the following structure:
 
-    Provide the `--user` flag to the install command and `pip` will install the
-    package in a user-site location. While this is not a global installation,
-    it's still not isolated and may lead to problems when you use different
-    versions of Material for MkDocs in other projects:
 
     ```
-    pip install --user mkdocs-material
+    .
+    ├─ docs/
+    │  └─ index.md
+    └─ mkdocs.yml
     ```
 
-=== "Upgrade Python"
-
-    Upgrade your Python installation by installing Python with [Homebrew][3].
-    This should eliminate a lot of problems you will run into with `pip`. Yet,
-    it's still not an isolated installation which may also lead to the same
-    problems as installing in user space:
+4. Open the newly created folder in your editor and start the local fileserver
 
     ```
-    brew upgrade python
+    mkdocs serve
     ```
 
-  [1]: https://docs.python.org/3/tutorial/venv.html
-  [2]: getting-started.md#with-pip
-  [3]: https://brew.sh/
+5. Add the configurations to `mkdocs.yml` to enable the Material for MkDocs theme
 
+    ``` yaml
+    theme:
+    name: material
+    ```
 
+6. Create your minimal reproducible example to showcase the issue. Add only the essential configurations to your `mkdocs.yml` file.
 
+7. Install the info-plugin adding the following to the `mkdocs.yml`:
 
-
-pip install git+https://github.com/squidfunk/mkdocs-material@feature/material-v9
-
-mkdir report a new bug
-
-cd report a new bug
-
-python -m venv venv 
-
-pip install git+https://github.com/squidfunk/mkdocs-material@feature/material-v9
-
-mkdocs new .
-
-code .
-
-mkdocs serve
-
-mkdocs build
-
-
-
+    ``` yaml
+    plugins:
+      - info
+    ```
+    
+7. Create the **.zip** file using the info plugin and upload the file to the designated field in the bug report.
