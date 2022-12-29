@@ -38,7 +38,7 @@ body:
         Please provide a minimal (!) reproducible example to demonstrate the bug.
         For more information on how to create a reproducible example, see detailed instruction.
       placeholder: |-
-        Attach a .zip file here or provide a link to a GitHub repository. 
+        Attach a .zip file here. 
     validations:
       required: true
   
@@ -52,27 +52,21 @@ body:
         3. ...
     validations:
       required: true
- 
-  - type: textarea
-    attributes:
-      label: Package Versions
-      description: >
-        Please provide all package versions by running the following commands:
-      value: |-
-        - Python: `python --version`
-        - MkDocs: `mkdocs --version`
-        - Material: `pip show mkdocs-material | grep -E ^Version`
-    validations:
-      required: true
 
-  - type: textarea
+  - type: dropdown
+    id: browsers
     attributes:
-      label: System Information
+      label: Browser Information
       description: >
-        Please provide your operating system and browser type and version.
-      value: |-
-        - Operating system: ...
-        - Browser: ...
+        Please choose the browser you have been using below.
+      options:
+        - All
+        - Chrome
+        - Safari
+        - Edge
+        - Firefox
+        - Opera
+        - Other *please explain above
     validations:
       required: true
 

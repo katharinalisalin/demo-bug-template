@@ -1,6 +1,6 @@
 # Minimal reproducible Example
 
-When reporting a bug it is essential to minimal reproducible example 
+
 
 
 
@@ -82,3 +82,28 @@ of which is to use virtual environments:
   [1]: https://docs.python.org/3/tutorial/venv.html
   [2]: getting-started.md#with-pip
   [3]: https://brew.sh/
+
+
+
+
+
+pip install git+https://github.com/squidfunk/mkdocs-material@feature/material-v9
+
+mkdir report a new bug
+
+cd report a new bug
+
+python -m venv venv 
+
+pip install git+https://github.com/squidfunk/mkdocs-material@feature/material-v9
+
+mkdocs new .
+
+code .
+
+mkdocs serve
+
+mkdocs build
+
+
+

@@ -1,111 +1,130 @@
 # Issue reporting
 
-Material for MkDocs is activly maintained and constantly improved. A large
-project like this with a variety of features, different configurations and , it's unavoidable for bugs to appear. However, if you've
-found a bug in the source code, you can help us by submitting an issue in our
-[issue tracker] in the public Material for MkDocs GitHub repository.
+Material for MkDocs is an actively maintained project that we constantly strive
+to improve. With a project of this size and complexity, bugs may occur. If you 
+have discovered a bug in the source code, you can help us by submitting an issue 
+in our public Material for MkDocs GitHub repository's 
+[issue tracker].
+
+
+## Requirements
+
+Before reporting an issue for Material for MkDocs please make sure you fulfill 
+the following essiential **requirements**:
+
+- Upgrade to the lastest Material for MkDocs version:
+
+```
+pip install --upgrade mkdocs-material
+```
+
+!!! warning "Latest version essential"
+
+    Please understand that only issues that occur in the latest version of Material 
+    for MkDocs will be addressed, and issues from older versions will not be fixed.
+
+- Update your MkDocs yml and insert the info-plugin:
+
+``` yaml
+plugins:
+  - info
+   
+```
+
+- Remove all overrides and customizations in your MkDocs YAML and keep only the 
+essentials relevant to the bug report.
+
 
 ## Issue template
 
-We designed a custom issue template for the public Material for MkDocs repository
-to make it easier for you to report bugs and for us to reproduce and fix them. The
-issue template includes several text fields that you need to fill out to provide
-us with detailed information about the bug you've found.
+We have created a custom issue template for the **public** Material for MkDocs 
+repository to make it easier for you to report bugs and and for us to reproduce 
+and fix them efficiently. The issue template includes several fields you will 
+need to fill out to provide us with detailed information about the bug you found.
 
-The issue template is devided into eight sections:
+The issue template is divided into the follwing sections:
 
 1. Introduction 
 2. Bug Description
 3. Links to Documentation
 4. Reproducible Example
 5. Step-by-Step Guidance
-6. Package Versions
-7. System Information
-8. Checklist
+6. Checklist
+
 
 ## Introduction
 
-This field requires a brief context for the bug or a description of the features
-you were implementing when the bug appeared. Instead of describing the bug here,
-we ask you to paint a picture and provide all relevant information that might be
-of help.
+Here, you can provide a brief context for the bug or a description of what your 
+were working on when the bug appeared. Instead of describing the bug itself 
+in this section, we ask that you provide all relevant information that might be 
+helpful.
 
-> Why do we need this?
-
-This field is optional, but can be helpful for understanding the situation in 
-which the bug occurred.
+> Why we need this: This field is optional but can be helpful for understanding 
+the context in which the bug occurred.
 
 
+## Bug Description
 
-## Bug description
+In this section, you are asked to briefly describe the bug in 1-2 sentences. 
+This description should be a clear, focused, and concise summary of the issue at 
+hand.
 
-In this field, you are asked to provide a short description of the bug in 1-2 sentences.
-This should be a clear, focused and concise summary of the issue at hand.
-
-> Why do we need this?
-
+> Why we need this: In order for us to understand the issue, we need a clear 
+description of the problem and the impact it is having.
 
 
 ## Links to Documentation
 
-What were you implementing and what did you read? This field requires you to
-share the specific sections of the Material for MkDocs documentation you were
-working on when the bug appeared. 
+We require that you share all necessary links to the specific sections of the 
+Material for MkDocs documentation you were working on when the bug appeared. 
+We ask that you provide all relevant links to show that you have thoroughly read 
+and understood the documentation.
 
-> Why do we need this?
+> Why we need this: These links help us understand exactly what you were working 
+on and if any documentation sections may need adjustment.
 
-Improving the documentation constantly, providing more information and seeing, where it went wrong. Understanding the context faster.
 
 ## Reproducible example
 
-This example can be attached as a .zip file or provided as a link to
-a GitHub repository. Detailed instructions on how to create a reproducible
-example are provided here
+A minimal reproducible example demonstrates the specific scenario in which the 
+bug occurred. It includes all necessary minimal user settings in the MkDocs YAML file 
+and excludes all overrides and customizations. This example should be attached 
+as a **.zip** file in the issue template. Links to repositories will not be 
+accepted, because they do not contain information about the enviroment which might 
+be highly relevant depending on the bug. For guidance on how to build an example, 
+see this detailed instruction (Link).
 
-> Why do we need this?
+> Why we need this: A minimal reproducible example is essential for every issue 
+report. It helps us, maintainers, to reproduce the bug within minutes using the 
+same user settings. This allows us to determine if the issue is related to specific 
+settings or notation errors and, if necessary, adjust the documentation.
 
-Minimal reproducible examples are the key to every issue report. The minimal
-example helps us to reproduce the bug, so we can fix it. 
 
 ## Step-by-Step Guidance
 
-requires users to provide step-by-step guidance on how to reproduce the bug.
-This should be a clear and detailed set of instructions that will allow the
-maintainers to easily reproduce the issue.
+You are required to provide a clear, detailed set of instructions on how to 
+reproduce the bug. This should be a list with each step described in the correct 
+order.
 
-> Why do we need this?
+> Why we need this: The step-by-step guidance paired with the minimal reproducible 
+example helps maintainers quickly reproduce the bug by following your described 
+steps.
 
-## Package Versions
-
-requires users to provide the versions of relevant packages. This can be done by
-running the provided commands, which will output the necessary information.
-
-> Why do we need this?
-
-## System Information
-
-provide their operating system and browser type and 
-version. This will help the development team understand the environment in which 
-the bug occurred.
-
-> Why do we need this?
 
 ## Checklist
 
-Please ensure your request fulfills all of the following requirements by checking
-all boxes below before submitting this bug support. If one requirement cannot be
-satisfied, please see (bug report link).
+To ensure that you have provided all necessary information before submitting the 
+bug report, we ask that you check all boxes. These boxes represent the most 
+important information for this bug report. Before checking these boxes, make sure 
+you are thoroughly convinced that you have provided all relevant information. 
+Please see the detailed descriptions above if some boxes cannot be checked. We 
+reserve the right to close incomplete issue forms and return them to the user so 
+that only complete issues are processed.
 
-- [ ] ... read the contribution guidelines and wholeheartedly agree
-- [ ] ... attached a [minimal reproducible example] (link) in a .zip file
-- [ ] ... added [links to the relevant sections] (link) of the Material for MkDoc
-documentation
-- [ ] ... checked that the problem persists when all [overrides are removed]
-(link), i.e. custom_dir, extra_javascript and extra_css
-- [ ] ... made sure there are no other open or closed issues that are related
-to my problem
-
-> Why do we need this?
+> Why we need this: Submitting issue forms should be well thought through. It 
+should benefit the project and thus especially the community working with Material
+for MkDocs. In order to push the project forward, we are reliant on the active
+and productive involvement of all users.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
