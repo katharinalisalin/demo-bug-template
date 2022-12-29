@@ -4,10 +4,11 @@ description: Report a bug in Material for MkDocs
 body:
   - type: textarea
     attributes:
-      label: Introduction [Explanation](#)
+      label: Introduction
       description: >
-        Please provide a brief context for the bug or a description of the 
-        features you were implementing. 
+        This field is optional. You may provide additional context for the bug
+        you're about to report, helping us to understand what you're working on
+        and what you're trying to achieve.
     validations:
       required: false
 
@@ -15,7 +16,8 @@ body:
     attributes:
       label: Bug Description
       description: >
-        Please give a description of the bug in 1-2 sentences.
+        Please give a precise description of the bug. Explain where Material for
+        MkDocs doesn't behave as you would expect. Be as specific as possible.
     validations:
       required: true
 
