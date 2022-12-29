@@ -80,15 +80,12 @@ body:
         context at the top of this issue form. [More](#)
       multiple: true
       options:
-        - All
         - Chrome
         - Safari
         - Edge
         - Firefox
         - Opera
         - Other
-    validations:
-      required: true
 
   - type: checkboxes
     attributes:
