@@ -74,15 +74,20 @@ body:
     attributes:
       label: Browser Information
       description: >-
-        If the bug only happens in a specific browser, 
-        Please choose the browser you have been using in which appeared below.
+        If the bug only happens in a __specific browser__, please select it from
+        the dropdown below. If your browser is not listed, please select _Other_
+        and provide more information as part of the [context] field at the top
+        of this issue form. [Explanation](#)
       options:
+        - All
         - Chrome
         - Safari
         - Edge
         - Firefox
         - Opera
-        - Other (please explain above)
+        - Other
+    validations:
+      required: true
 
   - type: checkboxes
     attributes:
