@@ -103,7 +103,7 @@ body:
         - label: >-
             I have attached links to
             [the documentation](https://squidfunk.github.io/mkdocs-material),
-            and related issues or discussions.
+            and possibly related issues or discussions.
           required: true
         - label: >-
             I assure that I have [removed all customizations](#) before
