@@ -3,65 +3,70 @@ description: Something is not working? Report a bug in Material for MkDocs.
 
 body:
   - type: textarea
+    id: context
     attributes:
       label: Context
       description: >-
         This field is optional. You may provide additional context for the bug
         you want to report, helping us to understand what you are working on and
         what you are trying to achieve. If the context is not relevant, you can
-        leave this field empty. [More](#)
+        leave this field empty. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#context)
     validations:
       required: false
 
   - type: textarea
+    id: bug-description
     attributes:
-      label: Bug Description
+      label: Bug description
       description: >-
         Please give a detailed description of the bug. Explain where Material
         for MkDocs does not behave as you would expect it to. Be as specific as
         possible. If you have found a workaround or a fix for the problem,
-        please let us (and all other users) know. [More](#)
+        please let us maintainers (and all other users) know. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#bug-description)
     validations:
       required: true
 
   - type: textarea
+    id: related-links
     attributes:
-      label: Related Links
+      label: Related links
       description: >-
-        Please list all links to the sections of 
+        Please list all links to the sections of
         [our documentation](https://squidfunk.github.io/mkdocs-material) that
         are relevant to the bug, in order to show that you have consulted and
         thoroughly read it. Additionally, list links to possibly related issues
         or discussions you encountered when searching our issue tracker.
-        [More](#)
+        [More](https://squidfunk.github.io/mkdocs-material/bug-report/#related-links)
       value: |-
-        - [Contributing guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md)
-        - 
+        - [Bug reporting](https://squidfunk.github.io/mkdocs-material/bug-report/)
+        -
     validations:
       required: true
 
   - type: textarea
+    id: reproduction
     attributes:
       label: Reproduction
       description: >-
-        Please create a __minimal reproduction__ for the bug. First, read our
-        [reproduction guide](#) that explains the necessary steps, then use
-        the [built-in info plugin](#) (mandatory) to create a self-contained
+        Please create a __minimal reproduction__ .zip for the bug. First, read our
+        [reproduction guide](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/)
+        that explains the necessary steps, then use the [built-in info plugin](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#creating-a-zip-file) (mandatory) to create a self-contained
         .zip file with the reproduction. Without a reproduction, it can be
-        challenging to fix the bug. [More](#)
+        challenging to fix the bug. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#reproduction)
       placeholder: |-
-        Drag and drop .zip file with reproduction here. 
+        Drag and drop .zip file with reproduction here.
     validations:
       required: true
-  
+
   - type: textarea
+    id: steps-to-reproduce
     attributes:
-      label: Steps to Reproduce
+      label: Steps to reproduce
       description: >-
         Please provide a detailed list of instructions, guiding us maintainers
         through the required steps, helping us to recreate the problem using the
         minimal reproduction you provided. Be as specific as possible and as
-        verbose as necessary – try not to leave anything out. [More](#)
+        verbose as necessary – try not to leave anything out. [More](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#steps-to-reproduce)
       placeholder: |-
         1. ...
         2. ...
@@ -70,14 +75,14 @@ body:
       required: true
 
   - type: dropdown
-    id: browsers
+    id: browser
     attributes:
       label: Browser
       description: >-
         If the bug only happens in __specific browsers__, please select them
-        from the dropdown below. If your browser is not listed, please select
-        _Other_ and provide details in the _Context_ field at the top of this
-        issue form. [More](#)
+        from the dropdown below. If your browser is not listed or the version
+        is relevant, you may select _Other_ and provide more details in the
+        field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#browser)
       multiple: true
       options:
         - Chrome
@@ -88,8 +93,9 @@ body:
         - Other
 
   - type: checkboxes
+    id: checklist
     attributes:
-      label: Before Submitting
+      label: Before submitting
       description: >-
         Please ensure your bug report fulfills all of the following requirements.
         If you are not sure what a specific requirement means, follow the link
@@ -97,20 +103,17 @@ body:
         box. This will save the maintainers and you valuable time.
       options:
         - label: >-
-            I have read and agree to the
-            [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
+            I have read and followed the [bug reporting guidelines](https://squidfunk.github.io/mkdocs-material/bug-report/).
           required: true
         - label: >-
-            I have attached links to
-            [the documentation](https://squidfunk.github.io/mkdocs-material),
-            and possibly related issues or discussions.
+            I have attached links to [the documentation](https://squidfunk.github.io/mkdocs-material),
+            and possibly related [issues](https://github.com/squidfunk/mkdocs-material/issues)
+            or [discussions](https://github.com/squidfunk/mkdocs-material/discussions).
           required: true
         - label: >-
-            I assure that I have [removed all customizations](#) before
-            submitting this bug report.
+            I assure that I have [removed all customizations](https://squidfunk.github.io/mkdocs-material/bug-report/#remove-customizations)
+            before submitting this bug report.
           required: true
         - label: >-
-            I have attached a [minimal reproduction](#).
+            I have attached a [minimal reproduction](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/) .zip file.
           required: true
-  
-
