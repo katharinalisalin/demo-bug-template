@@ -10,7 +10,7 @@ body:
       description: >-
         Please describe the bug you have found in the [Material for MkDocs 
         documentation](https://squidfunk.github.io/mkdocs-material). Explain 
-        where the documentation contains a bug or needs improvements, and 
+        where the documentation contains a bug or needs improvement, and 
         explain the impact.
         [More](#)
     validations:
