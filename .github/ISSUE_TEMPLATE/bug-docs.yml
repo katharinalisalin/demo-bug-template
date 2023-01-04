@@ -8,9 +8,10 @@ body:
     attributes:
       label: Description
       description: >-
-        Please describe the bug you have found in the Material for MkDocs 
-        documentation. Explain where the documentation contains a bug or needs 
-        improvements, and explain the impact.
+        Please describe the bug you have found in the [Material for MkDocs 
+        documentation](https://squidfunk.github.io/mkdocs-material). Explain 
+        where the documentation contains a bug or needs improvements, and 
+        explain the impact.
         [More](#)
     validations:
       required: true
@@ -35,10 +36,9 @@ body:
     attributes:
       label: Improvement proposals
       description: >-
-        Please suggest an improvement to 
-        [our documentation](https://squidfunk.github.io/mkdocs-material). 
-        Provide the suggestion in the text field below or create a pull request 
-        containing the issue number.
+        Please suggest an improvement to our documentation. Provide the 
+        suggestion in the text field below or create a pull request containing 
+        the issue number.
         [More](#)
     validations:
       required: true
