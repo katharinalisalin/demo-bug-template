@@ -1,6 +1,6 @@
 name: Docs Report
-description: Do the docs need adjustment? Report a bug regarding the Material for MkDocs documentation.
-title: "Docs:"
+description: Do the docs need adjustment? Report a bug in the Material for MkDocs documentation.
+title: "Docs: "
 
 body:
   - type: textarea
@@ -9,21 +9,21 @@ body:
       label: Description
       description: >-
         Please describe the bug you have found with the Material for MkDocs 
-        documentation. Explain where the documentation contains errors or needs 
-        improvements, and explain the impact these errors have.
+        documentation. Explain where the documentation contains bugs or needs 
+        improvements, and explain their impact.
         [More](#)
     validations:
       required: true
 
   - type: textarea
-    id: Links-to-the-documentation
+    id: Link-to-the-documentation
     attributes:
-      label: Links to the documentation
+      label: Link to the documentation
       description: >-
-        Please list all links to the sections of 
+        Please provide the link to and a screenshot of the section in 
         [our documentation](https://squidfunk.github.io/mkdocs-material) where
-        you have found errors or feel there is a need for more 
-        detailed instructions. Include screenshots showing these sections.
+        you have found the bug or feel there is a need for more 
+        detailed instructions.
         [More](#)
       value: |-
         -
