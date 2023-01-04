@@ -8,7 +8,7 @@ body:
     attributes:
       label: Description
       description: >-
-        Please describe the bug you have found with the Material for MkDocs 
+        Please describe the bug you have found in the Material for MkDocs 
         documentation. Explain where the documentation contains bugs or needs 
         improvements, and explain their impact.
         [More](#)
@@ -20,10 +20,10 @@ body:
     attributes:
       label: Link to the documentation
       description: >-
-        Please provide the link to and a screenshot of the section in 
-        [our documentation](https://squidfunk.github.io/mkdocs-material) where
-        you have found the bug or feel there is a need for more 
-        detailed instructions.
+        Please provide the link to [our documentation](https://squidfunk.github.io/mkdocs-material) 
+        where you have found the bug or feel there is a need for more 
+        detailed instructions. Additionally, add a screenshot of the specific
+        section.
         [More](#)
       value: |-
         -
@@ -35,10 +35,9 @@ body:
     attributes:
       label: Improvement proposals
       description: >-
-        Please suggest an improvement to the documentation. This can either be 
-        a text you provide here or a pull request, which you provide after 
-        posting this issue containing the issue number to help us maintainers to 
-        connect the two.
+        Please suggest an improvement to the documentation. Provide the
+        suggestion in the text field below or create a pull request containing 
+        the issue number.
         [More](#)
     validations:
       required: true
