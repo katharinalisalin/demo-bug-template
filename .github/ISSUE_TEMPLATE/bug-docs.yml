@@ -1,16 +1,8 @@
 name: Docs Report
 description: Do the docs need adjustment? Report a bug regarding the Material for MkDocs documentation.
+title: "Docs:"
 
 body:
-  - type: textarea
-    id: title
-    attributes: 
-      label: Title
-      description: 
-        Docs
-    validations: 
-        required: true
-
   - type: textarea
     id: description
     attributes:
@@ -62,7 +54,7 @@ body:
         box. This will save the maintainers and you valuable time.
       options:
         - label: >-
-            I have read and followed the [bug reporting guidelines](#).
+            I have read and followed the [docs reporting guidelines](#).
           required: true
         - label: >-
             I have attached the links to [the documentation](https://squidfunk.github.io/mkdocs-material), where I have found the bug.

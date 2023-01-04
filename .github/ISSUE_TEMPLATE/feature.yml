@@ -1,6 +1,26 @@
-name: Feature
-description: Suggest an idea
+name: Feature Request
+description: Suggest a feature idea for Material for MkDocs.
+
 body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Please describe your idea in a reasonable amount of detail.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Use Cases
+      description: Please describe how your idea would benefit you and other users.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Screenshots / Mockups
+      description: If applicable, provide mockups or screenshots. You can drag-and-drop images here, or link to external assets.
+
   - type: checkboxes
     attributes:
       label: Contribution guidelines
@@ -16,19 +36,3 @@ body:
       - label: ... to my best knowledge, my idea wouldn't break something for other users
       - label: ... the documentation does not mention anything about my idea
       - label: ... there are no open or closed issues that are related to my idea
-  - type: textarea
-    attributes:
-      label: Description
-      description: Please describe your idea in a reasonable amount of detail.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Use Cases
-      description: Please describe how your idea would benefit you and other users.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Screenshots / Mockups
-      description: If applicable, provide mockups or screenshots. You can drag-and-drop images here, or link to external assets.
