@@ -1,9 +1,13 @@
 # Docs reporting
 
-Material for MkDocs is an actively maintained project that we constantly strive
-to improve. With a project of this size and complexity, bugs may occur. If you
-think you have discovered a bug, you can help us by submitting an issue in our
-public [issue tracker], following this guide.
+The documentation of Material for MkDocs contains more than + sites decribing 
+our features, configurations and everything you need to know making use of Material f
+than 
+
+
+With a project of this size and complexity, bugs may occur. If you
+think you have discovered a bug in the docs, you can help us by submitting an 
+issue in our public [issue tracker], following this docs reporting guide.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
@@ -16,40 +20,28 @@ can be inferred from the title.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
-| :material-check:{ style="color: #4DB6AC" } __Clear__ | Docs:  
-| :material-close:{ style="color: #EF5350" } __Wordy__ | The built-in `typeset` plugin changes the precedence of the nav title over the document headline
-| :material-close:{ style="color: #EF5350" } __Unclear__ | Title does not work
+| :material-check:{ style="color: #4DB6AC" } __Clear__ | Docs: wrong feature flag code.action
+| :material-close:{ style="color: #EF5350" } __Unclear__ | Bug in Documentation
 | :material-close:{ style="color: #EF5350" } __Generic__ | Bug
 
 
 ### Description
 
-Now, to the bug, you want to report. Provide a clear, focused, specific, and
-concise summary of the bug you encountered. Explain why you think this is a bug
-that should be reported to Material for MkDocs, and not to one of its
-dependencies.[^3] Adhere to the following principles:
+Provide a clear and concise summary of the bug you encountered in the 
+[Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material).
+Explain why you think the documentation contains a bug or needs improvement. 
 
-  [^3]:
-    Sometimes, users report bugs on our [issue tracker] that are caused by one
-    of our upstream dependencies, including [MkDocs], [Python Markdown],
-    [Python Markdown Extensions] or third-party plugins. A good rule of thumb is
-    to change the [`theme.name`][theme.name] to `mkdocs` or `readthedocs` and
-    check if the problem persists. If it does, the problem is likely not
-    related to Material for MkDocs and should be reported upstream. When in
-    doubt, use our [discussion board] to ask for help.
+-   __Keep it short and concise__ – if the bug and it's impact can be precisely 
+    explained in one or two sentences, perfect. Don't inflate it – maintainers 
+    and future users will be grateful for having to read less.
 
--   __Explain the <u>what</u>, not the <u>how</u>__ – don't explain
-    [how to reproduce the bug][Steps to reproduce] here, we're getting there.
-    Focus on articulating the problem and its impact as clearly as possible.
+-   __One bug at a time__ – if you encountered several unrelated bugs on 
+    different sites of the documentation, please create separate issues for them. 
+    Don't report them in the same issue, as this makes attribution difficult.
 
--   __Keep it short and concise__ – if the bug can be precisely explained in one
-    or two sentences, perfect. Don't inflate it – maintainers and future users
-    will be grateful for having to read less.
-
--   __One bug at a time__ – if you encountered several unrelated bugs, please
-    create separate issues for them. Don't report them in the same issue, as
-    this makes attribution difficult.
-
+-   __Same bug occurs on another site__ - if you have found the bug 
+    exception would be if the error also occurs on other pages, because the same 
+    topic is picked up in a different context.
 ---
 
 :material-run-fast: __Stretch goal__ – if you found a workaround or a way to fix

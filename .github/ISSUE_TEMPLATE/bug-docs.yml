@@ -9,9 +9,9 @@ body:
       label: Description
       description: >-
         Please describe the bug you have found in the [Material for MkDocs 
-        documentation](https://squidfunk.github.io/mkdocs-material). Explain 
-        where the documentation contains a bug or needs improvement, and 
-        explain the impact.
+        documentation](https://squidfunk.github.io/mkdocs-material) or where you 
+        feel there is a need for improvement of the docs. Furthermore, explain 
+        the impact.
         [More](#)
     validations:
       required: true
@@ -21,10 +21,10 @@ body:
     attributes:
       label: Link to the documentation
       description: >-
-        Please provide the link to 
+        Please link the specific site to
         [our documentation](https://squidfunk.github.io/mkdocs-material) where 
-        you have found a bug or feel there is a need for more detailed 
-        instructions. Additionally, add a screenshot of the specific section.
+        you have found this bug or where you miss additional content. If 
+        possible, add screenshots of the specific section.
         [More](#)
       value: |-
         -
@@ -36,7 +36,7 @@ body:
     attributes:
       label: Improvement proposals
       description: >-
-        Please suggest an improvement to our documentation. Provide the 
+        Please provide an improvement proposal for our documentation. Provide the 
         suggestion in the text field below or create a pull request containing 
         the issue number.
         [More](#)
@@ -52,6 +52,7 @@ body:
         If you need clarification on a specific requirement, follow the link
         to learn about it and understand why it is necessary before ticking the
         box. This will save the maintainers and you valuable time.
+        [More](#)
       options:
         - label: >-
             I have read and followed the [docs reporting guidelines](#).

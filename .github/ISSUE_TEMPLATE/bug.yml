@@ -10,7 +10,8 @@ body:
         This field is optional. You may provide additional context for the bug
         you want to report, helping us to understand what you are working on and
         what you are trying to achieve. If the context is not relevant, you can
-        leave this field empty. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#context)
+        leave this field empty. 
+        [More](https://squidfunk.github.io/mkdocs-material/bug-report/#context)
     validations:
       required: false
 
@@ -22,7 +23,8 @@ body:
         Please give a detailed description of the bug. Explain where Material
         for MkDocs does not behave as you would expect it to. Be as specific as
         possible. If you have found a workaround or a fix for the problem,
-        please let us maintainers (and all other users) know. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#bug-description)
+        please let us maintainers (and all other users) know. 
+        [More](https://squidfunk.github.io/mkdocs-material/bug-report/#bug-description)
     validations:
       required: true
 
@@ -48,11 +50,14 @@ body:
     attributes:
       label: Reproduction
       description: >-
-        Please create a __minimal reproduction__ .zip for the bug. First, read our
+        Please create a __minimal reproduction__ in form of a __.zip file__ for 
+        the bug. First, read our
         [reproduction guide](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/)
-        that explains the necessary steps, then use the [built-in info plugin](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#creating-a-zip-file) (mandatory) to create a self-contained
-        .zip file with the reproduction. Without a reproduction, it can be
-        challenging to fix the bug. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#reproduction)
+        that explains the necessary steps, then use the
+        [built-in info plugin](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#creating-a-zip-file) 
+        (mandatory) to create a self-contained .zip file with the reproduction. 
+        Without a reproduction, it can be challenging to fix the bug. 
+        [More](https://squidfunk.github.io/mkdocs-material/bug-report/#reproduction)
       placeholder: |-
         Drag and drop .zip file with reproduction here.
     validations:
@@ -66,7 +71,8 @@ body:
         Please provide a detailed list of instructions, guiding us maintainers
         through the required steps, helping us to recreate the problem using the
         minimal reproduction you provided. Be as specific as possible and as
-        verbose as necessary – try not to leave anything out. [More](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#steps-to-reproduce)
+        verbose as necessary – try not to leave anything out. 
+        [More](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#steps-to-reproduce)
       placeholder: |-
         1. ...
         2. ...
