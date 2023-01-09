@@ -23,8 +23,8 @@ body:
       description: >-
         Please link the specific site to
         [our documentation](https://squidfunk.github.io/mkdocs-material) where 
-        you have found this bug or where you miss additional content. If 
-        possible, add screenshots of the specific section.
+        you have found the bug described above or where you miss additional 
+        content. If possible, add screenshots of the specific section.
         [More](#)
       value: |-
         -
@@ -37,8 +37,8 @@ body:
       label: Improvement proposals
       description: >-
         Please provide an improvement proposal for our documentation. Provide the 
-        suggestion in the text field below or create a pull request containing 
-        the issue number.
+        suggestion in the text field below or create a pull request after 
+        reporting this issue containing the issue number.
         [More](#)
     validations:
       required: true
