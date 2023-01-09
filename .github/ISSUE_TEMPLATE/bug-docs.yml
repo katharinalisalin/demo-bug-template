@@ -23,8 +23,8 @@ body:
       description: >-
         Please link the specific site to
         [our documentation](https://squidfunk.github.io/mkdocs-material) where 
-        you have found the bug described above or where you miss additional 
-        content. If possible, add screenshots of the specific section.
+        you have found the bug described above. If possible, add screenshots of 
+        the specific section.
         [More](#)
       value: |-
         -
