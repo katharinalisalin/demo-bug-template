@@ -19,8 +19,8 @@ before creating a new and helpful issue to report a bug in the docs.
 A great issue title should be a short, one-sentence desbription of the bug and 
 contain all information relevant to the bug. When reporting a bug in the 
 documentation, the issue name should start with "Docs:" and including all 
-relevant keywords. This makes search for relevant bug reports in the issue tracker 
-faster for the community.
+relevant keywords. This makes search for relevant bug reports in the issue 
+tracker faster for the community.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
@@ -49,13 +49,8 @@ Furthermore, explain its impact.
 
 ### Links to the documentation
 
-Links to the section of the documentation that require adjustment, help us 
-maintainers helps us gradually improve it.
----
-
-__Stretch goal__ – if you also include the search terms you
-used when [searching for a solution][search for solutions] to your problem, you
-make it easier for us maintainers to improve the documentation.
+Now, provide the link to the section of the documentation you decribed above and 
+Make sure you link the subpages and anchor the headings directly.
 
 > __Why we need this__: providing the links to the documentation help us 
 > understand which sections of our documentation need to be adjusted, extended, 
@@ -65,10 +60,7 @@ make it easier for us maintainers to improve the documentation.
 
 ### Improvement proposals
 
-A minimal reproduction is at the heart of every well-written bug report, as
-it allows us maintainers to quickly recreate the necessary conditions to inspect
-the bug and quickly find its root cause. It's a proven fact that issues with
-concise and small reproductions can be fixed much faster.
+
 
 ---
 
