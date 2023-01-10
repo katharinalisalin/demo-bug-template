@@ -61,8 +61,5 @@ body:
             I have attached the links to [the documentation](https://squidfunk.github.io/mkdocs-material), where I have found the bug.
           required: true
         - label: >-
-            I have added screenshots showing the bug.
-          required: true
-        - label: >-
             I have provided an improvement proposal to the best of my knowledge.
           required: true

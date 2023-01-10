@@ -50,7 +50,7 @@ Furthermore, explain its impact.
 ### Links to the documentation
 
 Now, provide the link to the section of the documentation you decribed above and 
-Make sure you link the subpages and anchor the headings directly.
+make sure you link the subpages and anchor the headings directly.
 
 > __Why we need this__: providing the links to the documentation help us 
 > understand which sections of our documentation need to be adjusted, extended, 
@@ -60,39 +60,22 @@ Make sure you link the subpages and anchor the headings directly.
 
 ### Improvement proposals
 
+At this point, you provided us with the bug description and the link to the 
+specific section of the documentation. Now, you can help us maintainers by 
+providing an improvement proposal for our documentation. If you have found a 
+solution, workaround or a way to fix the bug, you can help other users to 
+temporarily mitigate the problem before we maintainers can fix the bug in our 
+documentation.
 
-
----
-
-:material-run-fast: __Stretch goal__ – if you found a workaround or a way to fix
-the bug, you can help other users temporarily mitigate the problem before
-we maintainers can fix the bug in our code base.
-
-
-> __Why we need this__: if an issue contains no minimal reproduction, or just
-> a link to a repository with thousands of files, the maintainers would need to
-> invest a lot of time into trying to recreate the right conditions to even
-> inspect the bug, let alone fix it.
-
-!!! warning "Don't share links to repositories"
-
-    While we know that it is a good practice among developers to include a link
-    to a repository with the bug report, we currently don't support those in our
-    process. The reason is that the reproduction which is automatically
-    produced by the [built-in info plugin] contains all of the necessary
-    environment information that is often forgotten to be included.
-    
-    Additionally, there are many non-technical users of Material for MkDocs that
-    have trouble creating repositories.
-
-  [Create reproduction]: reproduction.md
-  [built-in info plugin]: reproduction.md#creating-a-zip-file
+> __Why we need this__: improvement proposals can help us maintainers to 
+> migrate bug fixes faster and more efficiantly and therefore benefits the 
+> entire community.
 
 ### Checklist
 
-Thanks for following the guide and creating a high-quality and complete bug
-report – you are almost done. This section ensures that you have read this guide
-and have worked to your best knowledge to provide us with everything we need to
-know to help you.
+Thanks for following the docs reporting guide and creating a high-quality docs 
+bug report. This section ensures that you have read this guide and have worked 
+to your best knowledge to provide us with every information we need to 
+improve the Material for MkDocs documentation.
 
 __We'll take it from here.__
