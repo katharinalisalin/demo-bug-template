@@ -1,5 +1,5 @@
 name: Feature suggestion
-description: Have a feature suggestion? Report an idea for Material for MkDocs.
+description: Have a feature suggestion? Brief an idea for Material for MkDocs.
 title: "Feature suggestions: "
 
 body:
@@ -13,7 +13,8 @@ body:
   - type: textarea
     attributes:
       label: Use Cases
-      description: Please describe how your idea would benefit you and other users.
+      description: Please describe how your idea would benefit you and the 
+      community.
     validations:
       required: true
 

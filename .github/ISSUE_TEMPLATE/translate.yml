@@ -1,5 +1,5 @@
-name: Translate
-description: Add localization for a new language in Material for MkDocs.
+name: Translation
+description: Have a new translation? Add localization for a new language in Material for MkDocs.
 title: 'New language: {replace with language name}'
 body:
   - type: checkboxes
