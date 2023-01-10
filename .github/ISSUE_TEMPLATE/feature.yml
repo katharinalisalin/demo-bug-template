@@ -13,8 +13,7 @@ body:
   - type: textarea
     attributes:
       label: Use Cases
-      description: Please describe how your idea would benefit you and the 
-      community.
+      description: Please describe how your idea would benefit you and the community.
     validations:
       required: true
 
