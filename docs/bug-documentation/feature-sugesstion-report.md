@@ -11,6 +11,26 @@ __docs reporting guide__.
 
 ## Before creating a feature request
 
+When adding a new feature or changing the behavior of an existing one, the 
+following things have to be considered:
+
+- [ ] The new feature is not incompatible with one of the existing features
+- [ ] The new feature can (ideally) be used together with all existing features
+- [ ] The new feature can be implemented in a way that it is accessible
+- [ ] The implementation follows the principle of progressive enhancement
+- [ ] The implementation works on all screen sizes (mobile, tablet, desktop)
+- [ ] The implementation works on all modern browsers (nope, not IE)
+- [ ] The new feature can be implemented with reasonable effort
+- [ ] The new feature matches the overall "tone" of this project
+- [ ] The new feature is useful to the majority of users
+- [ ] The new feature is easy to use for authors
+
+
+
+
+
+
+
 - Open a discussion on the discussion board and ask the community, if the feature 
 would benefit more people than yourself (use this tag????)
 - Make sure it is a feature that needs to be implemented by Material for MkDocs 

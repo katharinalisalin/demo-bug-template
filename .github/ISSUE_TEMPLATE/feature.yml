@@ -50,6 +50,8 @@ body:
         Please provide sketches, screenshots, mockups, or external assets to 
         paint a full picture of your idea. If you have seen this feature in 
         another project, please describe how it was used and incorporated.
+      placeholder: |-
+        Drag and drop images here or link external assets.
     validations:
       required: true
 
