@@ -1,4 +1,4 @@
-name: Bug Report
+name: Report a bug
 description: Something is not working? Report a bug in Material for MkDocs.
 
 body:
@@ -10,8 +10,7 @@ body:
         This field is optional. You may provide additional context for the bug
         you want to report, helping us to understand what you are working on and
         what you are trying to achieve. If the context is not relevant, you can
-        leave this field empty. 
-        [More](https://squidfunk.github.io/mkdocs-material/bug-report/#context)
+        leave this field empty. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#context)
     validations:
       required: false
 
@@ -36,8 +35,10 @@ body:
         Please list all links to the sections of
         [our documentation](https://squidfunk.github.io/mkdocs-material) that
         are relevant to the bug, in order to show that you have consulted and
-        thoroughly read it. Additionally, list links to possibly related issues
-        or discussions you encountered when searching our issue tracker.
+        thoroughly read it. Additionally, list links to possibly related 
+        [issues](https://github.com/squidfunk/mkdocs-material/issues)
+        or [discussions](https://github.com/squidfunk/mkdocs-material/discussions)
+        you encountered when searching our issue tracker.
         [More](https://squidfunk.github.io/mkdocs-material/bug-report/#related-links)
       value: |-
         - [Bug reporting](https://squidfunk.github.io/mkdocs-material/bug-report/)
@@ -50,14 +51,11 @@ body:
     attributes:
       label: Reproduction
       description: >-
-        Please create a __minimal reproduction__ in form of a __.zip file__ for 
-        the bug. First, read our
-        [reproduction guide](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/)
-        that explains the necessary steps, then use the
-        [built-in info plugin](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#creating-a-zip-file) 
-        (mandatory) to create a self-contained .zip file with the reproduction. 
-        Without a reproduction, it can be challenging to fix the bug. 
-        [More](https://squidfunk.github.io/mkdocs-material/bug-report/#reproduction)
+        Please create a __.zip file__ with a __minimal reproduction__ for the bug. First,
+        read our [reproduction guide](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/)
+        that explains the necessary steps, then use the [built-in info plugin](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#creating-a-zip-file) (mandatory) to create a self-contained
+        .zip file with the reproduction. We reserve the right to close issues
+        without .zip files. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#reproduction)
       placeholder: |-
         Drag and drop .zip file with reproduction here.
     validations:
@@ -71,8 +69,7 @@ body:
         Please provide a detailed list of instructions, guiding us maintainers
         through the required steps, helping us to recreate the problem using the
         minimal reproduction you provided. Be as specific as possible and as
-        verbose as necessary – try not to leave anything out. 
-        [More](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#steps-to-reproduce)
+        verbose as necessary – try not to leave anything out. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#steps-to-reproduce)
       placeholder: |-
         1. ...
         2. ...
@@ -88,7 +85,7 @@ body:
         If the bug only happens in __specific browsers__, please select them
         from the dropdown below. If your browser is not listed or the version
         is relevant, you may select _Other_ and provide more details in the
-        field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/#browser)
+        field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#browser)
       multiple: true
       options:
         - Chrome
@@ -121,5 +118,5 @@ body:
             before submitting this bug report.
           required: true
         - label: >-
-            I have attached a [minimal reproduction](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/) .zip file.
+            I have attached a __.zip file__ with a [minimal reproduction](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/).
           required: true
