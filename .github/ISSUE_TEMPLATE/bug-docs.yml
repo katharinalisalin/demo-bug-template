@@ -1,6 +1,7 @@
 name: Docs Report
 description: Do the docs need adjustment? Report a bug in the Material for MkDocs documentation.
-title: "Docs: "
+labels:
+  - documentation
 
 body:
   - type: textarea
@@ -23,7 +24,7 @@ body:
       description: >-
         Please link the specific site to
         [our documentation](https://squidfunk.github.io/mkdocs-material) where 
-        you have found the bug described above. Additionally, add screenshots of 
+        you have found the bug described above. If applicable, add screenshots of 
         the specific section.
         [More](#)
       value: |-
@@ -40,15 +41,13 @@ body:
         suggestion in the text field below or create a pull request after 
         reporting this issue containing the issue number.
         [More](#)
-    validations:
-      required: true
 
   - type: checkboxes
     id: checklist
     attributes:
       label: Before submitting
       description: >-
-        Please ensure your bug report fulfills all of the following requirements.
+        Please ensure your docs issue report fulfills all of the following requirements.
         If you need clarification on a specific requirement, follow the link
         to learn about it and understand why it is necessary before ticking the
         box. This will save the maintainers and you valuable time.
@@ -62,4 +61,3 @@ body:
           required: true
         - label: >-
             I have provided an improvement proposal to the best of my knowledge.
-          required: true

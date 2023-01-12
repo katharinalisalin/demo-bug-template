@@ -18,6 +18,13 @@ and we can work together to make Material for MkDocs even better.
 
 
 
+Introducing Material for MkDocs, a powerful tool for creating beautiful and functional technical documentation. As the project is quite large, maintaining it can be challenging. That's why we have created this feature request guide to help users understand the process of considering and implementing new features.
+
+We understand that Material for MkDocs serves a wide range of users and use cases, which is why it is important to follow this guide before submitting a feature request. This guide will explain the reasoning behind our decisions and the criteria we use when evaluating new feature suggestions. By following this guide, users can ensure that their feature request is compatible with existing features, accessible, and works well on all screen sizes and modern browsers.
+
+We highly appreciate any contributions from the community, but we kindly ask you to take the time to read this guide before submitting your feature request. This way, you can help us understand your idea and how it will benefit the community, and we can work together to make Material for MkDocs even better.
+
+
 
 
 
@@ -30,10 +37,15 @@ __docs reporting guide__.
 
 
 
-- Open a discussion on the discussion board and ask the community, if the feature 
-would benefit more people than yourself (use this tag????)
+- Open a discussion - pre flight - on the discussion board and ask the community, if the feature 
+would benefit more people than yourself
+
+
+
+
+
 - Make sure it is a feature that needs to be implemented by Material for MkDocs 
-- Do other template provide this feature? Would be a great showcase
+- Do other solution, e.g., static site generators or themes, provide this feature? Would be a great showcase
 
 
 When adding a new feature or changing the behavior of an existing one, the 
@@ -51,7 +63,7 @@ following things have to be considered:
 - [ ] The new feature is easy to use for authors
 
 
-
+- Feature selbst bauen, yes, aber dann stimm dich dringend mit uns ab.
 
 
 ## Feature suggestion guide

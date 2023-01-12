@@ -1,13 +1,12 @@
 # Docs reporting
 
-The documentation for Material for MkDocs is spread across more than 20 pages 
+The documentation for Material for MkDocs is spread across more than 60 pages 
 and covers information about its features, configurations, and everything you 
 need to take advantage of Material for MkDocs' full capabilities. If you have 
 found a bug or see room for improvement in the documentation, please submit an 
-issue to our public  [issue tracker], by following the 
-__docs reporting guide__.
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+issue to our public  [issue tracker], by following this guide.
 
+  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
 ## Docs issue template
 
@@ -26,7 +25,7 @@ community.
 | -------- | -------- | 
 | :material-check:{ style="color: #4DB6AC" } __Clear__ | Docs: wrong feature flag code.action
 | :material-close:{ style="color: #EF5350" } __Unclear__ | Docs: Missing information 
-| :material-close:{ style="color: #EF5350" } __Generic__ | Bug
+| :material-close:{ style="color: #EF5350" } __Generic__ | Please help
 
 ### Description
 
@@ -46,7 +45,6 @@ also explain its impact.
 > __Why we need this__: in order for us to understand the problem you have found 
 > or the clarification the documentation needs, we ask for a decription of the bug.
 
-
 ### Links to the documentation
 
 Now, include the link to the specific section of the documentation you described 
@@ -55,8 +53,6 @@ above, and make sure you link to the sub-pages and anchor the headings directly.
 > __Why we need this__: providing the link to the documentation helps us 
 > understand which sections of our documentation need to be adjusted, extended, 
 > or overhauled. 
-
-  [search for solutions]: #search-for-solutions
 
 ### Improvement proposals
 
