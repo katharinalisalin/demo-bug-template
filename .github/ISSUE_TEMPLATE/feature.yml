@@ -1,6 +1,6 @@
 name: Feature suggestion
 description: Have a feature suggestion? Submit an idea for Material for MkDocs.
-title: "Feature suggestions: "
+title: "Feature: "
 
 body:
   - type: textarea
