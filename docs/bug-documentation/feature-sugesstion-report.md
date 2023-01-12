@@ -1,4 +1,4 @@
-# Docs reporting
+# Feature suggestion form 
 
 The documentation for Material for MkDocs is spread across more than 20 pages 
 and covers information about its features, configurations, and everything you 

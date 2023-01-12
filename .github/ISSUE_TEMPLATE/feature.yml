@@ -1,5 +1,5 @@
 name: Feature suggestion
-description: Have a feature suggestion? Brief an idea for Material for MkDocs.
+description: Have a feature suggestion? Submit an idea for Material for MkDocs.
 title: "Feature suggestions: "
 
 body:
@@ -7,8 +7,9 @@ body:
     attributes:
       label: Description
       description: >-
-        Please explain your feature idea for the Material for MkDocs as 
-        precisely as possible to us maintainers.
+        Please provide a detailed description of your idea for a missing feature 
+        in Material for MkDocs, so that we maintainers can fully understand 
+        what you are proposing.
     validations:
       required: true
 
@@ -18,15 +19,18 @@ body:
       label: Related links
       description: >-
         Please link the discussion you started regarding this feature suggestion 
-        on our[discussion board](https://github.com/squidfunk/mkdocs-material/discussions).
+        on our [discussion board](https://github.com/squidfunk/mkdocs-material/discussions).
         Additionally list all possibly related [issues](https://github.com/squidfunk/mkdocs-material/issues), 
         [discussions](https://github.com/squidfunk/mkdocs-material/discussions 
         or relevant sections of [our documentation](https://squidfunk.github.io/mkdocs-material).
         [More](#)
       value: |-
+        - Link to my discussion:
         - Related features in the docs:
         - Discussions:
         - Issues:
+        -
+        -
     validations:
       required: true
 
@@ -34,16 +38,18 @@ body:
     attributes:
       label: Use Cases
       description: >-
-        Please explain the use cases of your idea and how your idea  would benefit you and the community
+        Please describe the use cases for your idea and explain how it will 
+        benefit you and the community. 
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Screenshots / Mockups
-      description: Have you seen this feature somewhere before? If you did, 
-        please showcase it with screenshots or provide external assets. If not,
-        please build mockups to the best of your ability.
+      description: >-
+        Please provide sketches, screenshots, mockups, or external assets to 
+        paint a full picture of your idea. If you have seen this feature in 
+        another project, please describe how it was used and incorporated.
     validations:
       required: true
 
@@ -59,15 +65,15 @@ body:
         [More](#)
       options:
       - label: >-
-            I have discussed this feature suggestion in the discussion with the community before opening this form. 
+            I have discussed this idea with the community on our [discussions board](https://github.com/squidfunk/mkdocs-material/discussions) before submitting. 
         required: true
       - label: >-
             I have read and followed the [feature suggestion guidelines](#).
         required: true
       - label: >-
-            I have made sure that, to my best knowledge, my idea will not break something for the community, other plugins or other themes.
+            I have ensured that, to my best knowledge, my idea will not negatively impact other plugins, themes, or the community.
         required: true
       - label: >-
-            I have attached links to [the documentation](https://squidfunk.github.io/mkdocs-material), related [issues](https://github.com/squidfunk/mkdocs-material/issues)
-            or [discussions](https://github.com/squidfunk/mkdocs-material/discussions) that are relevant to this feature suggestion
+            I have included relevant links to [the documentation](https://squidfunk.github.io/mkdocs-material), related [issues](https://github.com/squidfunk/mkdocs-material/issues)
+            or [discussions](https://github.com/squidfunk/mkdocs-material/discussions) to underline the need of my idea.
         required: true
