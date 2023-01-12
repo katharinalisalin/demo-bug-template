@@ -8,8 +8,8 @@ body:
       label: Description
       description: >-
         Please provide a detailed description of your idea for a missing feature 
-        in Material for MkDocs, so that we maintainers can fully understand 
-        what you are proposing.
+        in Material for MkDocs in 2-3 sentences, so that we maintainers can 
+        fully understand what you are proposing.
     validations:
       required: true
 
@@ -38,8 +38,8 @@ body:
     attributes:
       label: Use Cases
       description: >-
-        Please describe the use cases for your idea and explain how it will 
-        benefit you and the community. 
+        Please explain the use cases for your idea. How will your feature be 
+        used by the community and what are the benefits?
     validations:
       required: true
 
