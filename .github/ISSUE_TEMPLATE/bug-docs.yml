@@ -28,7 +28,7 @@ body:
         [More](#)
       value: |-
         - [Bug reporting](https://squidfunk.github.io/mkdocs-material/bug-report/)
-        - Discussions: 
+        - Documentation:  
         - 
     validations:
       required: true
