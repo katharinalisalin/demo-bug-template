@@ -6,9 +6,9 @@ body:
     attributes:
       label: Description
       description: >-
-        Please provide a detailed description of your idea of in Material for 
-        MkDocs in 2-3 sentences, so that we maintainers can fully understand 
-        what change, feature or improvement you are proposing.
+        Please provide a detailed description of your idea in 2-3 sentences, so 
+        that we maintainers can fully understand what change, feature or 
+        improvement you are proposing.
     validations:
       required: true
 
