@@ -1,14 +1,14 @@
-name: Feature suggestion
-description: Have a feature suggestion? Submit an idea for Material for MkDocs.
+name: Change request
+description: Have a change, feature or improvement suggestion? Submit an idea for Material for MkDocs.
 
 body:
   - type: textarea
     attributes:
       label: Description
       description: >-
-        Please provide a detailed description of your idea for a missing feature 
-        in Material for MkDocs in 2-3 sentences, so that we maintainers can 
-        fully understand what you are proposing.
+        Please provide a detailed description of your idea of in Material for 
+        MkDocs in 2-3 sentences, so that we maintainers can fully understand 
+        what change, feature or improvement you are proposing.
     validations:
       required: true
 
@@ -17,20 +17,18 @@ body:
     attributes:
       label: Related links
       description: >-
-        Please list all possibly related [issues](https://github.com/squidfunk/mkdocs-material/issues), 
+        Please list all links to [issues](https://github.com/squidfunk/mkdocs-material/issues), 
         [discussions](https://github.com/squidfunk/mkdocs-material/discussions) 
-        or relevant sections of our [documentation](https://squidfunk.github.io/mkdocs-material).
-
-
-        IF - Please link the discussion you started regarding this feature suggestion 
-        on our [discussion board](https://github.com/squidfunk/mkdocs-material/discussions).
-        
+        or to [documentation sections](https://squidfunk.github.io/mkdocs-material) 
+        that are relevant to your idea. 
+        If you discussed your idea with the community on our 
+        [discussion board](https://github.com/squidfunk/mkdocs-material/discussions)
+        please link it here.
         [More](#)
       value: |-
-        - Related features in the docs:
-        - Discussions:
         - Issues:
-        - Link to my discussion:
+        - Discussions:
+        - Documentation
         -
         -
     validations:
@@ -40,18 +38,19 @@ body:
     attributes:
       label: Use Cases
       description: >-
-        Please explain the use cases for your idea. How will your feature be 
-        used by you and the community and what are the benefits?
+        Please explain how your idea will be used by you and the community. 
+        Additionally describe the benefits.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Screenshots / Mockups
+      label: Idea illustration
       description: >-
         Please provide sketches, screenshots, mockups, or external assets to 
-        paint a full picture of your idea. If you have seen this feature in 
-        another project, please describe how it was used and incorporated.
+        illustrate your idea. If you have seen this change, feature or 
+        improvement usde in other static site generators or themes, please 
+        describe how it was used and incorporated.
       placeholder: |-
         Drag and drop images here or link external assets.
 
@@ -59,18 +58,17 @@ body:
     attributes:
       label: Before submitting
       description:
-        Please ensure your feature suggestion fulfills all of the following 
-        requirements. If you need clarification on a specific requirement, 
-        follow the link to learn about it and understand why it is necessary 
-        before ticking the box. This will save the maintainers and you valuable 
-        time.
+        Please ensure your idea fulfills all of the following requirements. If 
+        you need clarification on a specific requirement, follow the link to 
+        learn about it and understand why it is necessary before ticking the box. 
+        This will save the maintainers and you valuable time.
         [More](#)
       options:
       - label: >-
             I have discussed this idea with the community on our [discussions board](https://github.com/squidfunk/mkdocs-material/discussions) before submitting. 
         required: true
       - label: >-
-            I have read and followed the [feature suggestion guidelines](#).
+            I have read and followed the [change request guidelines](#).
         required: true
       - label: >-
             I have ensured that, to my best knowledge, my idea will not negatively impact other plugins, themes, or the community.

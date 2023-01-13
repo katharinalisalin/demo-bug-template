@@ -4,7 +4,7 @@ The documentation for Material for MkDocs is spread across more than 60 pages
 and covers information about its features, configurations, and everything you 
 need to take advantage of Material for MkDocs' full capabilities. If you have 
 found a bug or see room for improvement in the documentation, please submit an 
-issue to our public  [issue tracker], by following this guide.
+issue to our public  [issue tracker] by following this guide.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
@@ -16,9 +16,9 @@ new issue.
 
 ### Title
 
-A great issue title should be a short, one-sentence description of the issue and 
-contain all relevant information and keywords  – to simplefy the seach in the 
-issue tracker.
+An excellent issue title should be a short, one-sentence description of the 
+issue and contain all relevant information and in particular keywords  – to 
+simplify the search in the issue tracker.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
@@ -29,17 +29,16 @@ issue tracker.
 ### Description
 
 Provide a clear and concise summary of the bug you encountered in the 
-documentation or the section of the documentation that needs improvement. Explain 
-why you think the documentation should be adjusted and also describe its 
-impact. 
+documentation or the documentation section that needs improvement. Explain why 
+you think the documentation should be adjusted and describe its impact. 
 
--   __Keep it short and concise__ – if the bug and it's impact can be precisely 
-    explained in one or two sentences, perfect. Don't eleborate, as maintainers 
+-   __Keep it short and concise__ – if the bug and its impact can be precisely 
+    explained in one or two sentences, perfect. Don't elaborate, as maintainers 
     and future users will be grateful for having to read less.
 
--   __One bug at a time__ – if you encountered multiple unrelated bugs on 
-    different sites of the documentation, please create separate issues. Don't 
-    report more than one bug in the same issue, as this makes identifying them
+-   __One bug at a time__ – if you encounter multiple unrelated bugs on 
+    different documentation sites, please create separate issues. Don't report 
+    more than one bug in the same issue, which makes identifying them
     difficult.
 
 > __Why we need this__: for us to understand the problem you have found or the 
@@ -48,10 +47,9 @@ impact.
 
 ### Links to the documentation
 
-After you described the section of the documentation that needs to be adjusted
-above, we now ask you to provide us with the link to this specific section of the 
-documentation. Make sure you link to the sub-pages and anchor the headings 
-directly.
+After you described the documentation section that needs to be adjusted above, 
+we now ask you to provide us with the link to this specific documentation 
+section. Make sure you link to the sub-pages and anchor the headings directly.
 
 > __Why we need this__: providing the link to the documentation helps us 
 > understand which sections of our documentation need to be adjusted, extended, 
@@ -59,20 +57,20 @@ directly.
 
 ### Improvement proposals
 
-Now, that you have provided us with the describtion, impact and link to the 
-documentation, you can help us maintainers by proposing an improvement. If you 
-have found a solution that works for you, you can help other users to 
+Now that you have provided us with the description, impact, and link to the 
+documentation, you can help us, maintainers, by proposing an improvement. If you 
+have found a solution that works for you, you can help other users
 temporarily fix the problem before we maintainers can update our documentation.
 
 > __Why we need this__: improvement proposals can help us maintainers to 
-> work faster and more efficiantly on fixes and therefore benefit the 
+> work faster and more efficiently on fixes and therefore benefit the 
 > entire community.
 
 ### Checklist
 
 Thanks for following the docs reporting guide and creating a high-quality docs 
 issue report. This section ensures that you have read this guide and have worked 
-to your best knowledge to provide us with every piece information we need to 
+to your best knowledge to provide us with every piece of information we need to 
 improve the Material for MkDocs documentation.
 
 __We'll take it from here.__
