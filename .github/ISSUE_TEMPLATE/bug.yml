@@ -42,7 +42,10 @@ body:
         [More](https://squidfunk.github.io/mkdocs-material/bug-report/#related-links)
       value: |-
         - [Bug reporting](https://squidfunk.github.io/mkdocs-material/bug-report/)
-        -
+        - Documentation: 
+        - Issues: 
+        - Discussions: 
+        - 
     validations:
       required: true
 

@@ -26,10 +26,9 @@ body:
         please link it here.
         [More](#)
       value: |-
-        - Issues:
-        - Discussions:
-        - Documentation
-        -
+        - Issues: 
+        - Discussions: 
+        - Documentation: 
         -
     validations:
       required: true
