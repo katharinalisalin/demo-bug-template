@@ -1,5 +1,5 @@
 name: Docs Report
-description: Do the docs need adjustment? Report a bug in the Material for MkDocs documentation.
+description: Do the docs need adjustment? Report your findings in the Material for MkDocs documentation.
 labels:
   - documentation
 
@@ -36,8 +36,8 @@ body:
     attributes:
       label: Improvement proposals
       description: >-
-        Please provide an improvement proposal for our documentation. Describe 
-        your suggestion in the text field below or create a pull request after 
+        Please provide an improvement proposal for our documentation by describing 
+        your suggestion in the text field below or creating a pull request after 
         reporting this issue containing the issue number.
         [More](#)
 
