@@ -10,14 +10,14 @@ issue to our public  [issue tracker], by following this guide.
 
 ## Docs issue template
 
-Reporting a mistake or a in the documentation differs from reporting a bug in the code. 
+Reporting something in the documentation differs from reporting a bug in the code. 
 Please thoroughly read the following __docs reporting guide__ before creating a 
-new issue to report a bug or improvement in the documentation.
+new issue.
 
 ### Title
 
-A great issue title should be a short, one-sentence description of the bug and 
-contain all relevant information and keywords – to simplefy the seach in the 
+A great issue title should be a short, one-sentence description of the issue and 
+contain all relevant information and keywords  – to simplefy the seach in the 
 issue tracker.
 
 | <!-- --> | Example  |
@@ -28,26 +28,30 @@ issue tracker.
 
 ### Description
 
-Provide a clear and concise summary of the bug oyou encountered in the 
-[Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material).
-Explain why you think the documentation contains a bug or needs improvement, and 
-also explain its impact. 
+Provide a clear and concise summary of the bug you encountered in the 
+documentation or the section of the documentation that needs improvement. Explain 
+why you think the documentation should be adjusted and also describe its 
+impact. 
 
 -   __Keep it short and concise__ – if the bug and it's impact can be precisely 
     explained in one or two sentences, perfect. Don't eleborate, as maintainers 
     and future users will be grateful for having to read less.
 
 -   __One bug at a time__ – if you encountered multiple unrelated bugs on 
-    different sites of the documentation, please create separate issues for them. 
-    Don't report them in the same issue, as this makes identifying the bugs difficult.
+    different sites of the documentation, please create separate issues. Don't 
+    report more than one bug in the same issue, as this makes identifying them
+    difficult.
 
-> __Why we need this__: in order for us to understand the problem you have found 
-> or the clarification the documentation needs, we ask for a decription of the bug.
+> __Why we need this__: for us to understand the problem you have found or the 
+> clarification of the documentation needs, we ask for a description and 
+> explanation of the impacts.
 
 ### Links to the documentation
 
-Now, include the link to the specific section of the documentation you described 
-above, and make sure you link to the sub-pages and anchor the headings directly.
+After you described the section of the documentation that needs to be adjusted
+above, we now ask you to provide us with the link to this specific section of the 
+documentation. Make sure you link to the sub-pages and anchor the headings 
+directly.
 
 > __Why we need this__: providing the link to the documentation helps us 
 > understand which sections of our documentation need to be adjusted, extended, 
@@ -55,21 +59,19 @@ above, and make sure you link to the sub-pages and anchor the headings directly.
 
 ### Improvement proposals
 
-At this point, you have provided us with a bug description and the link to the 
-specific section of the documentation. Now, you can help us maintainers by 
-providing an improvement proposal for our documentation. If you have found a 
-solution, workaround or a way to fix the bug, you can help other users to 
-temporarily mitigate the problem before we maintainers can fix the bug in our 
-documentation.
+Now, that you have provided us with the describtion, impact and link to the 
+documentation, you can help us maintainers by proposing an improvement. If you 
+have found a solution that works for you, you can help other users to 
+temporarily fix the problem before we maintainers can update our documentation.
 
 > __Why we need this__: improvement proposals can help us maintainers to 
-> migrate bug fixes faster and more efficiantly and therefore benefits the 
+> work faster and more efficiantly on fixes and therefore benefit the 
 > entire community.
 
 ### Checklist
 
 Thanks for following the docs reporting guide and creating a high-quality docs 
-bug report. This section ensures that you have read this guide and have worked 
+issue report. This section ensures that you have read this guide and have worked 
 to your best knowledge to provide us with every piece information we need to 
 improve the Material for MkDocs documentation.
 
