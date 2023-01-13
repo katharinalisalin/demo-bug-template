@@ -11,7 +11,7 @@ body:
       description: >-
         Please describe the bug you have found in the [Material for MkDocs 
         documentation](https://squidfunk.github.io/mkdocs-material) or where you 
-        feel there is a need for improvement of the docs. Furthermore, explain 
+        feel there is a need for improvement. Furthermore, explain 
         the impact.
         [More](#)
     validations:
@@ -22,10 +22,9 @@ body:
     attributes:
       label: Link to the documentation
       description: >-
-        Please link the specific site to
-        [our documentation](https://squidfunk.github.io/mkdocs-material) where 
-        you have found the bug described above. If applicable, add screenshots of 
-        the specific section.
+        Please link the specific site to [our documentation](https://squidfunk.github.io/mkdocs-material) 
+        you described above. If applicable, add screenshots of this specific 
+        section.
         [More](#)
       value: |-
         -
@@ -37,8 +36,8 @@ body:
     attributes:
       label: Improvement proposals
       description: >-
-        Please provide an improvement proposal for our documentation. Provide the 
-        suggestion in the text field below or create a pull request after 
+        Please provide an improvement proposal for our documentation. Describe 
+        your suggestion in the text field below or create a pull request after 
         reporting this issue containing the issue number.
         [More](#)
 
@@ -57,7 +56,7 @@ body:
             I have read and followed the [docs reporting guidelines](#).
           required: true
         - label: >-
-            I have attached the links to [the documentation](https://squidfunk.github.io/mkdocs-material), where I have found the bug.
+            I have attached the link to the described section of [the documentation](https://squidfunk.github.io/mkdocs-material)
           required: true
         - label: >-
             I have provided an improvement proposal to the best of my knowledge.

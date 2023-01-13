@@ -10,26 +10,25 @@ issue to our public  [issue tracker], by following this guide.
 
 ## Docs issue template
 
-Reporting a bug in the documentation differs from reporting a bug in the code. 
+Reporting a mistake or a in the documentation differs from reporting a bug in the code. 
 Please thoroughly read the following __docs reporting guide__ before creating a 
 new issue to report a bug or improvement in the documentation.
 
 ### Title
 
 A great issue title should be a short, one-sentence description of the bug and 
-contain all relevant information. The title should start with "Docs:" and 
-include relevant keywords to make searching for the issue faster for the 
-community.
+contain all relevant information and keywords – to simplefy the seach in the 
+issue tracker.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
-| :material-check:{ style="color: #4DB6AC" } __Clear__ | Docs: wrong feature flag code.action
-| :material-close:{ style="color: #EF5350" } __Unclear__ | Docs: Missing information 
+| :material-check:{ style="color: #4DB6AC" } __Clear__ | wrong feature flag code.action
+| :material-close:{ style="color: #EF5350" } __Unclear__ | Missing information 
 | :material-close:{ style="color: #EF5350" } __Generic__ | Please help
 
 ### Description
 
-Provide a clear and concise summary of the bug you encountered in the 
+Provide a clear and concise summary of the bug oyou encountered in the 
 [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material).
 Explain why you think the documentation contains a bug or needs improvement, and 
 also explain its impact. 
