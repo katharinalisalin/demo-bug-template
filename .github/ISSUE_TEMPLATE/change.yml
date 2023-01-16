@@ -29,7 +29,7 @@ body:
         - Issues: 
         - Discussions: 
         - Documentation: 
-        -
+        - 
     validations:
       required: true
 
