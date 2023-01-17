@@ -64,9 +64,6 @@ body:
         [More](#)
       options:
       - label: >-
-            I have discussed this idea with the community on our [discussions board](https://github.com/squidfunk/mkdocs-material/discussions) before submitting it. 
-        required: true
-      - label: >-
             I have read and followed the [change request guidelines](#).
         required: true
       - label: >-
