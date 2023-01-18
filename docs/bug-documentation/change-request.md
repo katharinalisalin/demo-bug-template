@@ -38,8 +38,9 @@ must ensure your idea won't need to be implemented in another project.
 __Did you see your idea executed before?__
 You may have already seen your idea implemented or executed in other static site 
 generators or themes. In that case, retake a look at the implementation and 
-explain your idea based on this. This helps us understand your idea more 
-precisely and get an idea of what needs to be done.
+explain your idea based on this and showcase the project containing this idea in 
+the required section of the change request. This helps us understand your idea 
+more precisely and get an idea of what needs to be done.
 
 ### Discussion board
 
@@ -71,17 +72,17 @@ I have checked, that my idea...
 - [ ] ...is useful to the majority of users.
 - [ ] ...matches the overall "tone" of this project.
 - [ ] ...is easy to use for authors.
-- [ ] ...is not incompatible with one existing features, themes or plugins.
-- [ ] ...can (ideally) be used together with all existing features, themes or plugins.
-- [ ] ...can be implemented in a way that it is accessible.
+- [ ] ...is not incompatible with one existing feature, theme, or plugin.
+- [ ] ...can (ideally) be used together with all existing features, themes, or plugins.
+- [ ] ...can be implemented in a way that is accessible.
 - [ ] ...can be implemented with reasonable effort.
-- [ ] ...can be implementated following the principle of progressive enhancement.
+- [ ] ...can be implemented following the principle of progressive enhancement.
 - [ ] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
 - [ ] ...can be implemented to work on all modern browsers (nope, not IE).
 
 If your idea does not meet all the criteria outlined in the checklist, it may be 
 beneficial to start a discussion on our discussion board to gather feedback 
-and input from the community. This can help evaluate the feasibility and 
+and input from the community. This can help evaluate the feasibility and the 
 potential impact of your idea, and provide a better understanding of any issues 
 or concerns that need to be addressed before submitting a change request.
 
@@ -93,16 +94,16 @@ or concerns that need to be addressed before submitting a change request.
 
 ## Change request guide
 
-Now that you have taken the time to do the necessary preliminary work, and your 
+Now that you have taken the time to do the necessary preliminary work and your 
 idea meets all the necessary requirements, you can proceed to open a change 
-request. The follwing guide will walk you through all the steps to help you 
+request. The following guide will walk you through all the steps to help you 
 submit a comprehensive and useful change request.
 
 ### Title
 
 The title should be a concise and clear one-sentence description that includes 
 all relevant keywords related to the change request. This will make it easier 
-for others to find your change request when searching in the issue tracker.
+for others to find your change request when searching the issue tracker.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
@@ -112,50 +113,71 @@ for others to find your change request when searching in the issue tracker.
 
 ### Description
 
-Next, provide a short, yet detailed description of your idea. 
+Next, provide a detailed and clear description of your idea. Explain why your 
+idea is relevant to Material for MkDocs and no other dependencies.
 
- Please provide a detailed description of your idea in 2-3 sentences, so that we maintainers can fully understand what change, feature, or improvement you are proposing.
+-   __Outline the goal, not the method__ - clearly state what you want to 
+achieve, not how you plan to achieve it. If you already have an idea of how to 
+execute your idea, you can describe it in the desired field below.
 
--   __Ke__ – 
+-   __Short and straightforward__ – be brief and to the point when describing 
+your idea, there is no need to over-describe it.
 
--   __One bug at a time__ – 
+-   __One idea at a time__ – if you have multiple ideas that don't belong 
+together, please open separate change requests for each idea.
 
+> __Why we need this__: To understand and evaluate your proposal fully, we need 
+> to have a clear understanding of your idea. Providing a detailed and precise 
+> description will save you and us time spent discussing your 
+> idea in the comment section of the change request.
 
-> __Why we need this__: 
-> 
+### Related links
 
+Please provide any relevant links to issues, discussions, or documentation 
+sections related to your change request. If you (or someone else) have already 
+discussed this idea with the community on our discussion board, please include 
+the link here.
 
-### Related Links
+> __Why we need this__: Relevant links help us gain a comprehensive 
+> understanding of your change request by providing additional information and 
+> context. Additionally, linking to previous discussions of the idea allows us 
+> to quickly evaluate the feedback and input already provided by the community.
 
-Please list all links to issues, discussions or to documentation sections that are relevant to your idea. If you discussed your idea with the community on our discussion board, please link it here. More
+### Use cases
 
-Just like relevant features, discussions or our documentation always helps
+Next, Next, outline how you and other users will use your idea. Additionally, 
+explain the benefits that your concept offers for the community.
 
-
-> __Why we need this__: Relevant links always help us to gain a full perspektive 
-> on the change request, because we find out more information about the 
-> background of your request. Linking discussions regarding this idea helps us 
-> to triage it, since it has been elvaluated by the community.
-
-### Use Cases
-
- explain how your idea will be used by you and the community. Additionally, describe the benefits.
-
-> __Why we need this__: 
-> 
+> __Why we need this__: Understanding the use cases and benefits of an idea is 
+> crucial in evaluating its potential impact and usefulness for the project and 
+> its users. This information helps us to understand the potential value of the 
+> idea and how it aligns with the goals of the project.
 
 ### Idea illustration <small>optional</small> { #idea-illustration }
 
- provide sketches, screenshots, mockups, or external assets to illustrate your idea. If you have seen this change, feature, or improvement used in other static site generators or themes, please describe how it was used and incorporated.
+We now have a clear and detailed description of your idea, including information 
+on its potential use cases and relevant links for context. If you have any 
+visual aids, such as sketches, screenshots, mockups, or external assets, you may 
+present them in this section. You can drag and drop the files here or include 
+links to external assets.
 
-> __Why we need this__: 
-> 
+Additionally, if you have seen this change, feature, or improvement used in 
+other static site generators or themes, please provide an example by showcasing 
+it and describing how it was implemented and incorporated.
+
+> __Why we need this__: Illustrations and visual aids can help us maintainers 
+> better understand and envision your idea. Screenshots, sketches, or mockups 
+> can create an additional level of detail and clarity that text alone may not 
+> be able to convey. Also, seeing how your idea has been implemented in other 
+> projects can help us understand its potential impact and feasibility in 
+> Material for MkDocs, which helps us maintainers when we evaluate and triage 
+> change requests.
 
 ### Checklist
 
-Thanks for following the feachange request guide and creating a high-quality 
-change request. This section ensures that you have read this guide and have worked 
-to your best knowledge to provide us with every piece information to review your 
-idea for Material for MkDocs.
+Thanks for following the change request guide and creating a high-quality 
+change request. This section ensures that you have read this guide and have
+worked to your best knowledge to provide us with every piece of information to 
+review your idea for Material for MkDocs.
 
 __We'll take it from here.__
