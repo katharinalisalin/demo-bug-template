@@ -1,70 +1,72 @@
 # Change request
-As Material for MkDocs is quite large project and serves a wide range of users 
-with different requests.
-
-
-Change requests can be features, updates or anything in this direction.
 
 Material for MkDocs is a powerful tool for creating beautiful and functional 
-technical documentation. As the project is quite large, maintaining it can be 
-challenging. That's why we have created this feature request guide to help users 
-understand the process of considering and implementing new features.
+technical documentation. However, as the project is quite large, it can be 
+challenging to maintain and add new features and functionalities. We understand 
+that our project serves a wide range of users and use cases, which is why we 
+have created this change request guide. This guide explains the reasoning behind 
+our decisions and the criteria we use when evaluating new ideas.
 
-We understand that Material for MkDocs serves a wide range of users and use 
-cases, which is why it is important to follow this guide before submitting a 
-feature request. This guide will explain the reasoning behind our decisions and 
-the criteria we use when evaluating new feature suggestions. By following this 
-guide, users can ensure that their feature request is compatible with existing 
-features, accessible, and works well on all screen sizes and modern browsers.
-
-We highly appreciate any contributions from the community, but we kindly ask you 
-to take the time to read this guide before submitting your feature request. This 
-way, you can help us understand your idea and how it will benefit the community, 
-and we can work together to make Material for MkDocs even better.
-
-
+We highly value contributions from our community, and we kindly ask you to take 
+the time to read the following guidelines before submitting your change request in 
+the [issue tracker]. This will help us understand your idea and how it will 
+benefit the community, and we can work together to make Material for MkDocs even 
+better.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
 
 ## Before submitting an idea
 
-When requesting an idea, a change, or a feature, it is important to check a few 
-things and ask yourself a couple of questions:
-
-### Dicussion board
-
-__Did you discuss your idea with the community?__ Our discussion board is the 
-best place to - pre flight - on the discussion board and ask the community, if 
-the feature would benefit more people than yourself
-
+Before you take your time to fill out and submit a change request, we advise you 
+to do some preliminary work and ask yourself some questions to determine if your 
+idea can be implemented in Material for MkDocs. For this, we have created the 
+following questions:
 
 ### Implementation in dependencies
 
-__Did you discuss your idea with the community?__  Make sure it is a feature that needs to be implemented by Material for MkDocs
+__Should your idea be implemented in Material for MkDocs or in other dependencies?__ 
+Make sure your change request is directly related to Material for MkDocs. Our 
+project relies on many different projects and has dependencies, which is why you 
+must ensure your idea won't need to be implemented in another project.
 
+  - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
+  - 
 
-### Existing feature / change in other themes
-- Do other solution, e.g., static site generators or themes, provide this feature? Would be a great showcase
+### Existing feature
 
+__Did you see your idea executed before?__
+You may have already seen your idea implemented or executed in other static site 
+generators or themes. In that case, retake a look at the implementation and 
+explain your idea based on this. This helps us understand your idea more 
+precisely and get an idea of what needs to be done.
+
+### Discussion board
+
+__Does your idea benefit the community?__
+Our discussion board is the best place to connect with our community. When 
+developing new ideas, it's important to seek input from others and consider 
+alternative viewpoints. This approach can help in identifying the most 
+efficient and effective way to implement ideas for the betterment of the 
+community.
 
 ### Pull request
 
-If you decide to realize the idea yourself and think about opening a pull 
-request, it is indespencible for you to coordinate with us maintainers bevorhand.
-
-
-Before starting the guide
+__Do you want to realize the idea yourself?__
+If you believe you have found a way to implement your idea and would like to 
+submit a pull request, it is essential to coordinate with us maintainers 
+beforehand. This will ensure that your changes align with the project's goals 
+and guidelines and can help prevent any potential conflicts or issues. 
+Additionally, communicating with us maintainers beforehand will give us an 
+opportunity to provide feedback and guidance on your proposed changes, which can 
+help improve the overall quality of your pull request.
 
 ### Checklist
 
-Does your idea check every box?
-Every idea su
+Lastly, before opening a change request, please ensure that your idea meets all 
+the criteria outlined in the following checklist.
 
-When adding a new feature or changing the behavior of an existing one, the 
-following things have to be considered:
-
-My idea...
+I have checked, that my idea...
 
 - [ ] ...is useful to the majority of users.
 - [ ] ...matches the overall "tone" of this project.
@@ -77,17 +79,30 @@ My idea...
 - [ ] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
 - [ ] ...can be implemented to work on all modern browsers (nope, not IE).
 
+If your idea does not meet all the criteria outlined in the checklist, it may be 
+beneficial to start a discussion on our discussion board to gather feedback 
+and input from the community. This can help evaluate the feasibility and 
+potential impact of your idea, and provide a better understanding of any issues 
+or concerns that need to be addressed before submitting a change request.
 
+[:octicons-comment-discussion-24: Start a discussion][Start a discussion]{ .md-button .md-button--primary }
+
+---
+
+  [Start a discussion]: https://github.com/squidfunk/mkdocs-material/discussions
 
 ## Change request guide
 
-Reporting a bug in the documentation differs from reporting a bug in the code. 
-Please thoroughly read the following __docs reporting guide__ before creating a 
-new issue to report a bug or improvement in the documentation.
+Now that you have taken the time to do the necessary preliminary work, and your 
+idea meets all the necessary requirements, you can proceed to open a change 
+request. The follwing guide will walk you through all the steps to help you 
+submit a comprehensive and useful change request.
 
 ### Title
 
-
+The title should be a concise and clear one-sentence description that includes 
+all relevant keywords related to the change request. This will make it easier 
+for others to find your change request when searching in the issue tracker.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
@@ -97,7 +112,9 @@ new issue to report a bug or improvement in the documentation.
 
 ### Description
 
-P
+Next, provide a short, yet detailed description of your idea. 
+
+ Please provide a detailed description of your idea in 2-3 sentences, so that we maintainers can fully understand what change, feature, or improvement you are proposing.
 
 -   __Ke__ – 
 
@@ -110,6 +127,8 @@ P
 
 ### Related Links
 
+Please list all links to issues, discussions or to documentation sections that are relevant to your idea. If you discussed your idea with the community on our discussion board, please link it here. More
+
 Just like relevant features, discussions or our documentation always helps
 
 
@@ -118,17 +137,16 @@ Just like relevant features, discussions or our documentation always helps
 > background of your request. Linking discussions regarding this idea helps us 
 > to triage it, since it has been elvaluated by the community.
 
-
 ### Use Cases
 
-
+ explain how your idea will be used by you and the community. Additionally, describe the benefits.
 
 > __Why we need this__: 
 > 
 
 ### Idea illustration <small>optional</small> { #idea-illustration }
 
-
+ provide sketches, screenshots, mockups, or external assets to illustrate your idea. If you have seen this change, feature, or improvement used in other static site generators or themes, please describe how it was used and incorporated.
 
 > __Why we need this__: 
 > 
