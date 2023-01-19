@@ -1,4 +1,4 @@
-name: Docs Report
+name: Documentation issue Report
 description: Do the docs need adjustment? Report your findings in the Material for MkDocs documentation.
 labels:
   - documentation
@@ -9,10 +9,10 @@ body:
     attributes:
       label: Description
       description: >-
-        Please describe the bug you have found in the [Material for MkDocs 
-        documentation](https://squidfunk.github.io/mkdocs-material) or where you 
-        feel there is a need for improvement. Furthermore, explain 
-        the impact.
+        Please describe the inconsitency or issue you have found in the 
+        [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material) 
+        or indicate where you feel there is a need for improvement. Furthermore, 
+        explain the impact.
         [More](#)
     validations:
       required: true
@@ -48,14 +48,15 @@ body:
     attributes:
       label: Before submitting
       description: >-
-        Please ensure your docs issue report fulfills all of the following requirements.
-        If you need clarification on a specific requirement, follow the link
-        to learn about it and understand why it is necessary before ticking the
-        box. This will save the maintainers and you valuable time.
+        Please ensure your documentation issue report fulfills all of the 
+        following requirements. If you need clarification on a specific 
+        requirement, follow the link to learn about it and understand why it is 
+        necessary before ticking the box. This will save the maintainers and you 
+        valuable time.
         [More](#)
       options:
         - label: >-
-            I have read and followed the [docs reporting guidelines](#).
+            I have read and followed the [documentation issue report guidelines](#).
           required: true
         - label: >-
             I have attached the link to the described section of [the documentation](https://squidfunk.github.io/mkdocs-material)

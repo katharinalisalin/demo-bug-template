@@ -1,15 +1,24 @@
 # Contributing
 
-Interested in contributing to the Material for MkDocs? Have a question? Want to 
-report a bug? Before you do, please read the following guidelines.
+Material for MkDocs is a 
+
+Interested in contributing to Material for MkDocs?
+Have a question?
+Want to report a bug?
+
+Before you do, please read the following guidelines.
 
 ## Submission context
 
 ### Got a question or problem?
 
-For quick questions there's no need to open an issue as you can reach us on
-[gitter.im].
+If you have questions and want to get in contact with the community, you have 
+two options.
 
+- [discussion board] - 
+- [gitter.im] - For quick questions there's no need to open an issue as you can reach us on
+
+  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [gitter.im]: https://gitter.im/squidfunk/mkdocs-material
 
 ### Found a bug?
@@ -17,12 +26,12 @@ For quick questions there's no need to open an issue as you can reach us on
 If you found a bug in the source code, you can help us by submitting an issue
 to the [issue tracker] in our GitHub repository. Even better, you can submit
 a Pull Request with a fix. However, before doing so, please read the
-[submission guidelines].
+[bug reporting guidelines](https://squidfunk.github.io/mkdocs-material/bug-report/).
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
   [submission guidelines]: #submission-guidelines
 
-### Missing a feature?
+### Have a change request?
 
 You can request a new feature by submitting an issue to our GitHub Repository.
 If you would like to implement a new feature, please submit an issue with a

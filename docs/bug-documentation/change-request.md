@@ -92,7 +92,7 @@ or concerns that need to be addressed before submitting a change request.
 
   [Start a discussion]: https://github.com/squidfunk/mkdocs-material/discussions
 
-## Change request guide
+## Change request template
 
 Now that you have taken the time to do the necessary preliminary work and your 
 idea meets all the necessary requirements, you can proceed to open a change 
