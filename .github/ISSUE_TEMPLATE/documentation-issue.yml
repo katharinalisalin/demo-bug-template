@@ -9,7 +9,7 @@ body:
     attributes:
       label: Description
       description: >-
-        Please describe the inconsitency or issue you have found in the 
+        Please describe the inconsistency or issue you have found in the 
         [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material) 
         or indicate where you feel there is a need for improvement. Furthermore, 
         explain the impact.

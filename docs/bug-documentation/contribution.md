@@ -15,7 +15,7 @@ If you have questions and want to get in contact with the community, you have
 two options.
 
 - [discussion board] - 
-- [gitter.im] - For quick questions there's no need to open an issue as you can reach us on
+- [gitter.im] - For quick questions, there's no need to open an issue, as you can reach us on
 
   [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [gitter.im]: https://gitter.im/squidfunk/mkdocs-material
@@ -45,7 +45,7 @@ it is:
 
 * **Small features and bugs** can be crafted and directly submitted as a Pull
   Request. However, there is no guarantee that your feature will make it into
-  the `master`, as it's always a matter of opinion whether if benefits the
+  the `master`, as it's always a matter of opinion whether it benefits the
   overall functionality of the project.
 
 ### Missing translations?
@@ -63,11 +63,11 @@ guidelines:
 2.  Open up the [translation file for your language] as well as the
     [English translations], as they are always up-to-date. Compare them
     side-by-side and add the missing translations. __Important__: only add the
-    translations that are different from the defaults, e.g. if your language
+    translations that are different from the defaults, e.g., if your language
     is left-to-right, don't add the `direction` translation, as English is
     left-to-right as well. The following translations are for technical
     purposes and should not be updated, so if they're missing from your
-    language, it's for good reason:
+    language, it's for a good reason:
 
     - `search.config.lang`
     - `search.config.pipeline`
@@ -82,7 +82,7 @@ guidelines:
 
 ### Submitting an issue
 
-Before you submit an issue, please search the issue tracker, maybe an issue for
+Before you submit an issue, please search the issue tracker. Maybe an issue for
 your problem already exists, and the discussion might inform you of workarounds
 readily available.
 
