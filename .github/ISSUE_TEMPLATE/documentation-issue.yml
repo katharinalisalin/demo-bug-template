@@ -1,5 +1,5 @@
 name: Documentation issue report
-description: Does the documentation need adjustment? Report your findings in the Material for MkDocs documentation.
+description: Does the docs need adjustment? Report your findings in the Material for MkDocs documentation.
 labels:
   - documentation
 
