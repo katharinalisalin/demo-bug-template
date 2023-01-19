@@ -2,11 +2,10 @@
 
 Material for MkDocs is a 
 
-Interested in contributing to Material for MkDocs?
-Have a question?
-Want to report a bug?
+- Interested in contributing to Material for MkDocs?
+- Have a question?
+- Want to report a bug?
 
-Before you do, please read the following guidelines.
 
 ## Submission context
 

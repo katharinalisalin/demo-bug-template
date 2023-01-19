@@ -3,7 +3,7 @@
 The documentation for Material for MkDocs is spread across more than 60 pages 
 and covers information about its features, configurations, and everything you 
 need to take advantage of Material for MkDocs' full capabilities. If you have 
-found an inconsistancy, an issue or see room for improvement in the 
+found an inconsistency, an issue, or see room for improvement in the 
 documentation, please submit an issue to our public [issue tracker] by following 
 this guide.
 
@@ -18,7 +18,7 @@ issue.
 ### Title
 
 An excellent documentation issue title should be a short, one-sentence 
-description of the issue and contain all relevant information and in particular 
+description of the issue and contain all relevant information and, in particular 
 keywords  – to simplify the search in the issue tracker.
 
 | <!-- --> | Example  |
@@ -29,16 +29,16 @@ keywords  – to simplify the search in the issue tracker.
 
 ### Description
 
-Provide a clear and concise summary of the inconsistancy or issue you 
+Provide a clear and concise summary of the inconsistency or issue you 
 encountered in the documentation or the documentation section that needs 
 improvement. Explain why you think the documentation should be adjusted and 
 describe its impact. 
 
--   __Keep it short and concise__ – if the inconsistancy or issue can be 
+-   __Keep it short and concise__ – if the inconsistency or issue can be 
     precisely explained in one or two sentences, perfect.
 
--   __One issue at a time__ – if you encounter multiple unrelated inconsistancy 
-    or issue on different documentation sites, please create separate issues. 
+-   __One issue at a time__ – if you encounter multiple unrelated inconsistencies 
+    or issues on different documentation sites, please create separate issues. 
     Don't report multiple issues in one issue report, which makes identifying 
     them difficult.
 
@@ -59,7 +59,7 @@ section. Make sure you link to the sub-pages and anchor the headings directly.
 ### Improvement proposals
 
 Now that you have provided us with the description, impact, and link to the 
-documentation, you can help us maintainers by proposing an improvement. If you 
+documentation, you can help us, maintainers, by proposing an improvement. If you 
 have found a solution that works for you, you can help other users temporarily 
 fix the issue before we maintainers can update our documentation.
 

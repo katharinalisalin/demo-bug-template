@@ -9,6 +9,7 @@ body:
         Please provide a detailed description of your idea in 2-3 sentences, so 
         that we maintainers can fully understand what change, feature, or 
         improvement you are proposing.
+        [More](#)
     validations:
       required: true
 
@@ -39,6 +40,7 @@ body:
       description: >-
         Please explain how your idea will be used by you and the community. 
         Additionally, describe the benefits.
+        [More](#)
     validations:
       required: true
 
@@ -50,6 +52,7 @@ body:
         illustrate your idea. If you have seen this change, feature, or 
         improvement used in other static site generators or themes, please 
         describe how it was used and incorporated.
+        [More](#)
       placeholder: |-
         Drag and drop images here or link external assets.
 

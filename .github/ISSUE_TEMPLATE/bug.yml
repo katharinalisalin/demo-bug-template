@@ -107,6 +107,7 @@ body:
         If you are not sure what a specific requirement means, follow the link
         to learn about it and understand why it is necessary before ticking the
         box. This will save the maintainers and you valuable time.
+        [More](#)
       options:
         - label: >-
             I have read and followed the [bug reporting guidelines](https://squidfunk.github.io/mkdocs-material/bug-report/).
