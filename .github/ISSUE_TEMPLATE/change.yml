@@ -1,4 +1,4 @@
-name: Change request
+name: Request a change
 description: Have a change, feature or improvement suggestion? Submit an idea for Material for MkDocs.
 
 body:
@@ -48,10 +48,10 @@ body:
     attributes:
       label: Idea illustration
       description: >-
-        Please provide sketches, screenshots, mockups, or external assets to 
-        illustrate your idea. If you have seen this change, feature, or 
-        improvement used in other static site generators or themes, please 
-        describe how it was used and incorporated.
+        This field is optional. You may provide sketches, screenshots, mockups, 
+        or external assets to illustrate your idea. If you have seen this change, 
+        feature, or improvement used in other static site generators or themes, 
+        please describe how it was used and incorporated.
         [More](#)
       placeholder: |-
         Drag and drop images here or link external assets.

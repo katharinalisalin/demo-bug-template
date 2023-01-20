@@ -1,5 +1,5 @@
-name: Documentation issue report
-description: Do the docs need adjustment? Report your findings in the Material for MkDocs documentation.
+name: Report a documentation issue
+description: Found something in the docs? Report your findings in the Material for MkDocs documentation.
 labels:
   - documentation
 
@@ -38,9 +38,10 @@ body:
     attributes:
       label: Improvement proposals
       description: >-
-        Please provide an improvement proposal for our documentation by describing 
-        your suggestion in the text field below or creating a pull request after 
-        reporting this issue containing the issue number.
+        This field is optional. You may provide an improvement proposal for our 
+        documentation by describing your suggestion in the text field below or 
+        creating a pull request after reporting this issue containing the issue 
+        number.
         [More](#)
 
   - type: checkboxes
@@ -61,5 +62,3 @@ body:
         - label: >-
             I have attached the link to the described section of [the documentation](https://squidfunk.github.io/mkdocs-material)
           required: true
-        - label: >-
-            I have provided an improvement proposal to the best of my knowledge.
