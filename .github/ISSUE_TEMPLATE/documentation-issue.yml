@@ -1,5 +1,5 @@
 name: Report a documentation issue
-description: Found something in the docs? Report your findings in the Material for MkDocs documentation.
+description: Didn't find something in our docs? Report your findings in the Material for MkDocs documentation.
 labels:
   - documentation
 
@@ -12,7 +12,7 @@ body:
         Please describe the inconsistency or issue you have found in the 
         [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material) 
         or indicate where you feel there is a need for improvement. Furthermore, 
-        explain the impact.
+        explain the severity of the issue.
         [More](#)
     validations:
       required: true

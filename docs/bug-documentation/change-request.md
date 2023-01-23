@@ -16,6 +16,15 @@ better.
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
 
+Was ist ein change request?
+Es ist kein Bug, der beschrieben wird?
+
+Make your your request is really a change!
+A change would be:
+- feature
+- 
+
+
 ## Before submitting an idea
 
 Before you take your time to fill out and submit a change request, we advise you 
@@ -23,19 +32,9 @@ to do some preliminary work and ask yourself some questions to determine if your
 idea can be implemented in Material for MkDocs. For this, we have created the 
 following questions:
 
-### Implementation in dependencies
-
-__Should your idea be implemented in Material for MkDocs or in other dependencies?__ 
-Make sure your change request is directly related to Material for MkDocs. Our 
-project relies on many different projects and has dependencies, which is why you 
-must ensure your idea won't need to be implemented in another project.
-
-  - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
-  - 
-
 ### Existing feature
 
-__Did you see your idea executed before?__
+__What's your source of inspiration?__
 You may have already seen your idea implemented or executed in other static site 
 generators or themes. In that case, retake a look at the implementation and 
 explain your idea based on this and showcase the project containing this idea in 
@@ -57,10 +56,14 @@ __Do you want to realize the idea yourself?__
 If you believe you have found a way to implement your idea and would like to 
 submit a pull request, it is essential to coordinate with us maintainers 
 beforehand. This will ensure that your changes align with the project's goals 
-and guidelines and can help prevent any potential conflicts or issues. 
+and guidelines and can help prevent douplicate work or lost efforts. 
 Additionally, communicating with us maintainers beforehand will give us an 
 opportunity to provide feedback and guidance on your proposed changes, which can 
 help improve the overall quality of your pull request.
+
+- für alle von VorteiL, müssen sie einen Qualitätsstandard erfüllen
+
+- Button zum pull request guide
 
 ### Checklist
 
@@ -69,16 +72,16 @@ the criteria outlined in the following checklist.
 
 I have checked, that my idea...
 
-- [ ] ...is useful to the majority of users.
-- [ ] ...matches the overall "tone" of this project.
-- [ ] ...is easy to use for authors.
-- [ ] ...is not incompatible with one existing feature, theme, or plugin.
-- [ ] ...can (ideally) be used together with all existing features, themes, or plugins.
-- [ ] ...can be implemented in a way that is accessible.
-- [ ] ...can be implemented with reasonable effort.
-- [ ] ...can be implemented following the principle of progressive enhancement.
-- [ ] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
-- [ ] ...can be implemented to work on all modern browsers (nope, not IE).
+- [x] ...is useful to the majority of users.
+- [x] ...matches the overall "tone" of this project.
+- [x] ...is easy to use for authors.
+- [x] ...is not incompatible with one existing feature, theme, or plugin.
+- [x] ...can (ideally) be used together with all existing features, themes, or plugins.
+- [x] ...can be implemented in a way that is accessible.
+- [x] ...can be implemented with reasonable effort.
+- [x] ...can be implemented following the principle of progressive enhancement.
+- [x] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
+- [x] ...can be implemented to work on all modern browsers (nope, not IE).
 
 If your idea does not meet all the criteria outlined in the checklist, it may be 
 beneficial to start a discussion on our discussion board to gather feedback 
@@ -118,7 +121,7 @@ idea is relevant to Material for MkDocs and no other dependencies.
 
 -   __Outline the goal, not the method__ - clearly state what you want to 
 achieve, not how you plan to achieve it. If you already have an idea of how to 
-execute your idea, you can describe it in the desired field below.
+execute your idea, you can describe it in another field below.
 
 -   __Short and straightforward__ – be brief and to the point when describing 
 your idea, there is no need to over-describe it.
@@ -145,19 +148,19 @@ the link here.
 
 ### Use cases
 
-Next, Next, outline how you and other users will use your idea. Additionally, 
+Next, outline how you and other users will use your idea. Additionally, 
 explain the benefits that your concept offers for the community.
 
 > __Why we need this__: Understanding the use cases and benefits of an idea is 
 > crucial in evaluating its potential impact and usefulness for the project and 
-> its users. This information helps us to understand the potential value of the 
+> its users. This information helps us to understand the expected value of the 
 > idea and how it aligns with the goals of the project.
 
 ### Idea illustration <small>optional</small> { #idea-illustration }
 
 We now have a clear and detailed description of your idea, including information 
 on its potential use cases and relevant links for context. If you have any 
-visual aids, such as sketches, screenshots, mockups, or external assets, you may 
+visuals, such as sketches, screenshots, mockups, or external assets, you may 
 present them in this section. You can drag and drop the files here or include 
 links to external assets.
 
@@ -165,7 +168,7 @@ Additionally, if you have seen this change, feature, or improvement used in
 other static site generators or themes, please provide an example by showcasing 
 it and describing how it was implemented and incorporated.
 
-> __Why we need this__: Illustrations and visual aids can help us maintainers 
+> __Why we need this__: Illustrations and visuals can help us maintainers 
 > better understand and envision your idea. Screenshots, sketches, or mockups 
 > can create an additional level of detail and clarity that text alone may not 
 > be able to convey. Also, seeing how your idea has been implemented in other 
@@ -181,3 +184,21 @@ worked to your best knowledge to provide us with every piece of information to
 review your idea for Material for MkDocs.
 
 __We'll take it from here.__
+
+
+
+
+
+
+
+Upstream dependencies
+
+### Implementation in dependencies
+
+__Should your idea be implemented in Material for MkDocs or in other dependencies?__ 
+Make sure your change request is directly related to Material for MkDocs. Our 
+project relies on many different projects and has dependencies, which is why you 
+must ensure your idea won't need to be implemented in another project.
+
+  - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
+  - 
