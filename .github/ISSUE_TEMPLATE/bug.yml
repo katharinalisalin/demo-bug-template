@@ -91,7 +91,7 @@ body:
         field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#browser)
       multiple: true
       options:
-        - Chrome
+        - 🇦🇽 Chrome
         - Safari
         - Edge
         - Firefox
