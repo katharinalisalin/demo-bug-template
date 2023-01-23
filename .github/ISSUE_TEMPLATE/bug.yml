@@ -2,6 +2,18 @@ name: Report a bug
 description: Something is not working? Report a bug in Material for MkDocs.
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+      
+        <div style="columns: 2; background: red;">
+          A<br />
+          B
+        </div>
+
+        - Foo
+        -Bar
   - type: textarea
     id: context
     attributes:
