@@ -1,14 +1,21 @@
-name: Translation
+name: Add translation
 description: Have a new translation? Add localization for a new language in Material for MkDocs.
-title: 'New language: {replace with language name}'
+title: 'New language: 
+
 body:
-  - type: checkboxes
+
+  - type: dropdown
+    id: browser
     attributes:
-      label: Contribution guidelines
-      description: Please read the contribution guidelines before proceeding.
+      label: Add or update a translation
+      description: >-
+        
+        [More](#)
+      multiple: true
       options:
-        - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
-          required: true
+        - Translate
+        - Update
+
   - type: checkboxes
     attributes:
       label: Language availability
@@ -16,6 +23,19 @@ body:
       options:
         - label: I've checked the [list of available languages](https://bit.ly/33vFDD0)
           required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Add or update a translation
+      description: >-
+        
+        [More](#)
+      multiple: true
+      options:
+        - Translate
+        - Update
+
   - type: textarea
     attributes:
       label: Translation
@@ -59,3 +79,13 @@ body:
       render: jinja
     validations:
       required: true
+
+
+
+  - type: checkboxes
+    attributes:
+      label: Contribution guidelines
+      description: Please read the contribution guidelines before proceeding.
+      options:
+        - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
+          required: true
