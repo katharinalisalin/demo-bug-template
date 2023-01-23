@@ -76,7 +76,7 @@ body:
           "toc.title": "Table of contents",
           "top.title": "Back to top"
         }[key] }}{% endmacro %}
-      render: jinja
+      render: Jinja
     validations:
       required: true
 

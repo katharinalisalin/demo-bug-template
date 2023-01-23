@@ -32,7 +32,7 @@ keywords  – to simplify the search in the issue tracker.
 Provide a clear and concise summary of the inconsistency or issue you 
 encountered in the documentation or the documentation section that needs 
 improvement. Explain why you think the documentation should be adjusted and 
-describe its impact. 
+describe the severity of the issue. 
 
 -   __Keep it short and concise__ – if the inconsistency or issue can be 
     precisely explained in one or two sentences, perfect.
@@ -59,12 +59,11 @@ section. Make sure you link to the sub-pages and anchor the headings directly.
 ### Improvement proposals
 
 Now that you have provided us with the description, impact, and link to the 
-documentation, you can help us, maintainers, by proposing an improvement. If you 
-have found a solution that works for you, you can help other users temporarily 
+documentation, you can help us, maintainers, by proposing an improvement. This 
+could also be benefitial to other users who stumble over the same section, you can help other users temporarily 
 fix the issue before we maintainers can update our documentation.
 
 > __Why we need this__: improvement proposals can help us maintainers to 
-> work faster and more efficiently on fixes and therefore benefit the 
 > entire community.
 
 ### Checklist
