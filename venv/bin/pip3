@@ -1,4 +1,4 @@
-#!/Users/katharinalinnenkugel/Desktop/material-for-mkdocs/repositories/demo-bug-template/venv/bin/python3.9
+#!/Users/squidfunk/Desktop/@squidfunk/Sources/demo-bug-template/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
