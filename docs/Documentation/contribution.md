@@ -1,8 +1,7 @@
-# Contribution & submission
+# Reportings, requests and submissions
 
 Material for MkDocs is actively maintained and constantly improved by us 
 maintainers. 
-
 
 ## Got a question or problem?
 

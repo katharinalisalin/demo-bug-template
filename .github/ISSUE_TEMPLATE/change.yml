@@ -38,12 +38,8 @@ body:
     attributes:
       label: Use Cases
       description: >-
-       ???? Please explain how your idea will be used by you and the community. 
-        Additionally, describe the benefits.
-
-
-
-
+        Please explain how your idea will be used by yourself and the community, 
+        as well as the benefits it brings.
         [More](#)
     validations:
       required: true

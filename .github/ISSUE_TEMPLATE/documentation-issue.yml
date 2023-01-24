@@ -1,5 +1,5 @@
 name: Report a documentation issue
-description: Didn't find something in our docs? Report your findings in the Material for MkDocs documentation.
+description: Couldn't find the information you needed in our docs? Report it in the Material for MkDocs documentation.
 labels:
   - documentation
 

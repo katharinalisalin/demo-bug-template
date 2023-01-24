@@ -3,7 +3,6 @@ description: Have a new translation? Add localization for a new language in Mate
 title: 'New language:'
 
 body:
-
   - type: dropdown
     id: browser
     attributes:
@@ -15,14 +14,6 @@ body:
       options:
         - Translate
         - Update
-
-  - type: checkboxes
-    attributes:
-      label: Language availability
-      description: Please ensure that the language you're adding isn't already available.
-      options:
-        - label: I've checked the [list of available languages](https://bit.ly/33vFDD0)
-          required: true
 
   - type: dropdown
     id: browser
@@ -88,4 +79,24 @@ body:
       description: Please read the contribution guidelines before proceeding.
       options:
         - label: I've read the [contribution guidelines](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md) and wholeheartedly agree
+          required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Add or update a translation
+      description: >-
+        
+        [More](#)
+      multiple: true
+      options:
+        - Translate
+        - Update
+
+  - type: checkboxes
+    attributes:
+      label: Language availability
+      description: Please ensure that the language you're adding isn't already available.
+      options:
+        - label: I've checked the [list of available languages](https://bit.ly/33vFDD0)
           required: true
