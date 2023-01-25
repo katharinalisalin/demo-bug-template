@@ -71,6 +71,9 @@ body:
             I have read and followed the [change request guidelines](#).
         required: true
       - label: >-
+            I have variefied that my idea is a change request and not a bug report. 
+        required: true
+      - label: >-
             I have ensured that, to the best knowledge, my idea will benefit the entire community.
         required: true
       - label: >-

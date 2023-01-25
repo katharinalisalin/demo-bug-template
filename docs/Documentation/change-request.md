@@ -8,7 +8,7 @@ have created this change request guide. This guide explains the reasoning behind
 our decisions and the criteria we use when evaluating new ideas.
 
 
-!!! warning "Change request are not bug reportings"
+!!! warning "Change request are not equal to bug reportings"
 
     Change requests include suggestions for minor adjustments, ideas for new 
     features, or proposals for the project's direction. It is important to note 
@@ -121,8 +121,8 @@ Next, provide a detailed and clear description of your idea. Explain why your
 idea is relevant to Material for MkDocs and no other dependencies.
 
 -   __Outline the goal, not the method__ - clearly state what you want to 
-achieve, not how you plan to achieve it. If you already have an idea of how to 
-execute your idea, you can describe it in another field below.
+achieve, not how you plan to achieve it. If you already have an idea of an 
+execution of your idea, you can describe it in another field below.
 
 -   __Short and straightforward__ – be brief and to the point when describing 
 your idea, there is no need to over-describe it.
