@@ -3,6 +3,59 @@
 Material for MkDocs is actively maintained and constantly improved by us 
 maintainers. 
 
+<div class="grid cards" markdown>
+
+-   :material-bug:{ .lg .middle } __Something is not working?__
+
+    ---
+
+    Report a bug with a [minimal reproduction .zip](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/).
+
+    [:octicons-arrow-right-24: Bug reporting](https://squidfunk.github.io/mkdocs-material/bug-report/)
+
+-   :material-file-document:{ .lg .middle } __Missing information in the docs?__
+
+    ---
+
+    Report missing information or an issue in the Material for MkDocs documentation.
+
+    [:octicons-arrow-right-24: Documentation issue reporting](https://squidfunk.github.io/mkdocs-material/documentation-issue-report/)
+
+-   :material-lightbulb-on:{ .lg .middle } __Want to submit an idea?__
+
+    ---
+
+    Submit a change, feature or improvement suggestion for Material for MkDocs.
+
+    [:octicons-arrow-right-24: Change request](https://squidfunk.github.io/mkdocs-material/change-request/)
+
+-   :material-chat-question:{ .lg .middle } __Have a question?__
+
+    ---
+
+    Ask questions openly on the Material for MkDocs discussion board and get in touch with our community.
+
+    [:octicons-arrow-right-24: Disscussion board](https://github.com/squidfunk/mkdocs-material/discussions)
+
+-   :material-lightbulb-on:{ .lg .middle } __Want to submit an idea?__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-chat-question:{ .lg .middle } __Have a question?__
+
+    ---
+
+    Ask it openly on the Material for MkDocs discussion board.
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+
 ## Got a question or problem?
 
 If you have questions and want to get in contact with the community, you have 
