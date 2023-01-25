@@ -27,6 +27,7 @@ body:
         please link it here.
         [More](#)
       value: |-
+        - [Change request guide](https://squidfunk.github.io/mkdocs-material/change-request/)
         - Issues: 
         - Discussions: 
         - Documentation: 

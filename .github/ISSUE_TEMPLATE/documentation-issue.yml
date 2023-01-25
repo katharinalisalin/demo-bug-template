@@ -1,5 +1,5 @@
 name: Report a documentation issue
-description: Couldn't find the information you needed in our docs? Report it in the Material for MkDocs documentation.
+description: Can't find the information you needed in our docs? | Missing information in our docs? Report it in the Material for MkDocs documentation.
 labels:
   - documentation
 
@@ -27,7 +27,7 @@ body:
         section.
         [More](#)
       value: |-
-        - [Bug reporting](https://squidfunk.github.io/mkdocs-material/bug-report/)
+        - [Dokumentation issue reporting](https://squidfunk.github.io/mkdocs-material/documentation-issue-report/)
         - Documentation:  
         - 
     validations:

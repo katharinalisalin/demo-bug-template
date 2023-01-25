@@ -7,12 +7,18 @@ that our project serves a wide range of users and use cases, which is why we
 have created this change request guide. This guide explains the reasoning behind 
 our decisions and the criteria we use when evaluating new ideas.
 
-Change requests include suggestions for minor adjustments, ideas for new 
-features, or proposals for the project's direction. It is important to note that 
-change requests are not intended for reporting bugs. If you wish to report a 
-bug, please use our [bug reporting guide] instead of submitting a change request.
+
+!!! warning "Change request are not bug reportings"
+
+    Change requests include suggestions for minor adjustments, ideas for new 
+    features, or proposals for the project's direction. It is important to note 
+    that change requests are not intended for reporting bugs. If you wish to 
+    report a bug, please use our [bug reporting guide] instead of submitting a 
+    change request.
+
 
   [bug reporting guide]: https://squidfunk.github.io/mkdocs-material/bug-report/
+
 
 We highly value every contribution or idea from our community, and we kindly 
 ask you to take the time to read the following guidelines before submitting your 
