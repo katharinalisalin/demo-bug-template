@@ -15,17 +15,73 @@ body:
         - Translate
         - Update
 
-  - type: dropdown
-    id: browser
+  - type: markdown
     attributes:
-      label: Add or update a translation
-      description: >-
-        
-        [More](#)
-      multiple: true
-      options:
-        - Translate
-        - Update
+      value: |
+        The following languages are already included:
+        <div style="columns: 2; background: red;">
+          A<br />
+          B
+        </div>
+        - `af` – Afrikaans
+        - `ar` – Arabic
+        - `bg` – Bulgarian
+        - `bn` – Bengali (Bangla)
+        - `ca` – Catalan
+        - `cs` – Czech
+        - `da` – Danish
+        - `de` – German
+        - `el` – Greek
+        - `en` – English
+        - `eo` – Esperanto
+        - `es` – Spanish
+        - `et` – Estonian
+        - `fa` – Persian (Farsi)
+        - `fi` – Finnish
+        - `fr` – French
+        - `gl` – Galician
+        - `he` – Hebrew
+        - `hi` – Hindi
+        - `hr` – Croatian
+        - `hu` – Hungarian
+        - `hy` – Armenian
+        - `id` – Indonesian
+        - `is` – Icelandic
+        - `it` – Italian
+        - `ja` – Japanese
+        - `ka` – Georgian
+        - `ko` – Korean
+        - `lt` – Lithuanian
+        - `lv` – Latvian
+        - `mk` – Macedonian
+        - `mn` – Mongolian
+        - `ms` – Bahasa Malaysia
+        - `my` – Burmese
+        - `nl` – Dutch
+        - `nb` – Norwegian (Bokmål)
+        - `nn` – Norwegian (Nynorsk)
+        - `pl` – Polish
+        - `pt` – Portuguese
+        - `pt-BR` – Portuguese (Brasilian)
+        - `ro` – Romanian
+        - `ru` – Russian
+        - `sh` – Serbo-Croatian
+        - `si` – Sinhalese
+        - `sk` – Slovak
+        - `sl` – Slovenian
+        - `sr` – Serbian
+        - `sv` – Swedish
+        - `th` – Thai
+        - `tl` – Tagalog
+        - `tr` – Turkish
+        - `uk` – Ukrainian
+        - `ur` – Urdu
+        - `uz` – Uzbek
+        - `vi` – Vietnamese
+        - `zh` – Chinese (Simplified)
+        - `zh-Hant` – Chinese (Traditional)
+        - `zh-TW` – Chinese (Taiwanese)
+        - [Add language](?template=bug.yml&steps-to-reproduce=Foo)
 
   - type: textarea
     attributes:
