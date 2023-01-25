@@ -127,8 +127,6 @@ body:
     validations:
       required: true
 
-
-
   - type: checkboxes
     attributes:
       label: Contribution guidelines

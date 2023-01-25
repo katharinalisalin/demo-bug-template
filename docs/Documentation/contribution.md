@@ -25,7 +25,7 @@ maintainers.
 
     ---
 
-    Submit a change, feature or improvement suggestion for Material for MkDocs.
+    Submit a change, feature or improvement suggestion.
 
     [:octicons-arrow-right-24: Change request](https://squidfunk.github.io/mkdocs-material/change-request/)
 
@@ -33,25 +33,25 @@ maintainers.
 
     ---
 
-    Ask questions openly on the Material for MkDocs discussion board and get in touch with our community.
+    Ask questions openly on our [discussion board](https://github.com/squidfunk/mkdocs-material/discussions) and get in touch with the community.
 
     [:octicons-arrow-right-24: Disscussion board](https://github.com/squidfunk/mkdocs-material/discussions)
 
--   :material-lightbulb-on:{ .lg .middle } __Want to submit an idea?__
+-   :material-chat-question:{ .lg .middle } __Have a new translation?__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Add or update localization for a language.
 
-    [:octicons-arrow-right-24: Customization](#)
+    [:octicons-arrow-right-24: Translation](https://github.com/squidfunk/mkdocs-material/translation)
 
--   :material-chat-question:{ .lg .middle } __Have a question?__
+-   :material-lightbulb-on:{ .lg .middle } __Want to create a PR?__
 
     ---
 
-    Ask it openly on the Material for MkDocs discussion board.
+    Learn how to create a pull request (PR) 
 
-    [:octicons-arrow-right-24: License](#)
+    [:octicons-arrow-right-24: ](https://github.com/squidfunk/mkdocs-material/pull-request)
 
 </div>
 
