@@ -27,6 +27,7 @@ body:
         please link it here.
         [More](#)
       value: |-
+        - [Change request guide](https://squidfunk.github.io/mkdocs-material/change-request/)
         - Issues: 
         - Discussions: 
         - Documentation: 
@@ -38,12 +39,8 @@ body:
     attributes:
       label: Use Cases
       description: >-
-       ???? Please explain how your idea will be used by you and the community. 
-        Additionally, describe the benefits.
-
-
-
-
+        Please explain how your idea will be used by yourself and the community, 
+        as well as the benefits it brings.
         [More](#)
     validations:
       required: true
@@ -72,6 +69,9 @@ body:
       options:
       - label: >-
             I have read and followed the [change request guidelines](#).
+        required: true
+      - label: >-
+            I have variefied that my idea is a change request and not a bug report. 
         required: true
       - label: >-
             I have ensured that, to the best knowledge, my idea will benefit the entire community.

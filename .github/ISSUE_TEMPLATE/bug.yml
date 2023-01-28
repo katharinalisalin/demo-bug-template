@@ -2,18 +2,6 @@ name: Report a bug
 description: Something is not working? Report a bug in Material for MkDocs.
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-      
-        <div style="columns: 2; background: red;">
-          A<br />
-          B
-        </div>
-
-        - [Foo](?template=bug.yml&steps-to-reproduce=Foo) (complete)
-        - [Bar](?template=bug.yml&steps-to-reproduce=Bar) (5 missing)
   - type: textarea
     id: context
     attributes:

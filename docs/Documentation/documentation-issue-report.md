@@ -44,13 +44,13 @@ describe the severity of the issue.
 
 > __Why we need this__: for us to understand the issue you have found or the 
 > clarification of the documentation needs, we ask for a description and 
-> explanation of the impacts.
+> explanation of the serenety.
 
 ### Links to the documentation
 
 After you described the documentation section that needs to be adjusted above, 
-we now ask you to provide us with the link to this specific documentation 
-section. Make sure you link to the sub-pages and anchor the headings directly.
+we now ask you to share the link to this specific documentation section. Make 
+sure you link to the sub-pages and anchor the headings directly.
 
 > __Why we need this__: providing the link to the documentation helps us 
 > understand which sections of our documentation need to be adjusted, extended, 
@@ -58,13 +58,13 @@ section. Make sure you link to the sub-pages and anchor the headings directly.
 
 ### Improvement proposals
 
-Now that you have provided us with the description, impact, and link to the 
-documentation, you can help us, maintainers, by proposing an improvement. This 
-could also be benefitial to other users who stumble over the same section, you can help other users temporarily 
-fix the issue before we maintainers can update our documentation.
+Now that you have provided us with the description and link to the 
+documentation, you can help us, maintainers, and the community by proposing an 
+improvement. This can be a suggestions, a fix or a temporary workaround.
 
-> __Why we need this__: improvement proposals can help us maintainers to 
-> entire community.
+> __Why we need this__: improvement proposal can be beneficial for other users 
+> who encounter the same issue, since it will offer them a temporary solution 
+> until we maintainers can update the documentation.
 
 ### Checklist
 

@@ -2,28 +2,31 @@
 
 Material for MkDocs is a powerful tool for creating beautiful and functional 
 technical documentation. However, as the project is quite large, it can be 
-challenging to maintain and add new features and functionalities. We understand 
+challenging to maintain and add new features or functionalities. We understand 
 that our project serves a wide range of users and use cases, which is why we 
 have created this change request guide. This guide explains the reasoning behind 
 our decisions and the criteria we use when evaluating new ideas.
 
-We highly value contributions from our community, and we kindly ask you to take 
-the time to read the following guidelines before submitting your change request in 
-the [issue tracker]. This will help us understand your idea and how it will 
-benefit the community, and we can work together to make Material for MkDocs even 
-better.
+
+!!! warning "Change request are not equal to bug reportings"
+
+    Change requests include suggestions for minor adjustments, ideas for new 
+    features, or proposals for the project's direction. It is important to note 
+    that change requests are not intended for reporting bugs. If you wish to 
+    report a bug, please use our [bug reporting guide] instead of submitting a 
+    change request.
+
+
+  [bug reporting guide]: https://squidfunk.github.io/mkdocs-material/bug-report/
+
+
+We highly value every contribution or idea from our community, and we kindly 
+ask you to take the time to read the following guidelines before submitting your 
+change request in the [issue tracker]. This will help us understand your idea 
+and how it will benefit the community, and we can work together to make Material 
+for MkDocs even better.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
-
-
-Was ist ein change request?
-Es ist kein Bug, der beschrieben wird?
-
-Make your your request is really a change!
-A change would be:
-- feature
-- 
-
 
 ## Before submitting an idea
 
@@ -43,27 +46,25 @@ more precisely and get an idea of what needs to be done.
 
 ### Discussion board
 
-__Does your idea benefit the community?__
+__Will the community benefit from your idea?__
 Our discussion board is the best place to connect with our community. When 
-developing new ideas, it's important to seek input from others and consider 
-alternative viewpoints. This approach can help in identifying the most 
+developing new ideas, seeking input from others and considering alternative 
+viewpoints are essential. This approach can help in identifying the most 
 efficient and effective way to implement ideas for the betterment of the 
 community.
 
 ### Pull request
 
-__Do you want to realize the idea yourself?__
+__Would you like to realize the idea yourself?__
 If you believe you have found a way to implement your idea and would like to 
 submit a pull request, it is essential to coordinate with us maintainers 
-beforehand. This will ensure that your changes align with the project's goals 
-and guidelines and can help prevent douplicate work or lost efforts. 
-Additionally, communicating with us maintainers beforehand will give us an 
-opportunity to provide feedback and guidance on your proposed changes, which can 
-help improve the overall quality of your pull request.
+beforehand. To ensure that your changes align with the project's goals and 
+guidelines, we recommend reading our [pull request guide]. This will help 
+prevent duplicate work or lost efforts, and it will give us an opportunity to 
+provide feedback and guidance on your proposed changes, which can help improve 
+the overall quality of your pull request.
 
-- für alle von VorteiL, müssen sie einen Qualitätsstandard erfüllen
-
-- Button zum pull request guide
+  [pull request guide]: https://github.com/squidfunk/mkdocs-material/pull-request
 
 ### Checklist
 
@@ -120,8 +121,8 @@ Next, provide a detailed and clear description of your idea. Explain why your
 idea is relevant to Material for MkDocs and no other dependencies.
 
 -   __Outline the goal, not the method__ - clearly state what you want to 
-achieve, not how you plan to achieve it. If you already have an idea of how to 
-execute your idea, you can describe it in another field below.
+achieve, not how you plan to achieve it. If you already have an idea of an 
+execution of your idea, you can describe it in another field below.
 
 -   __Short and straightforward__ – be brief and to the point when describing 
 your idea, there is no need to over-describe it.
@@ -185,20 +186,26 @@ review your idea for Material for MkDocs.
 
 __We'll take it from here.__
 
+## Declination
 
+If your request has been denied by us maintainers, it may be due to various
+reasons. As maintainers, we have a deeper understanding of the project's 
+background and can evaluate community ideas based on our experience and the 
+project's development over the last few years. Even though you may have done 
+your preliminary research, your understanding of implementing your idea may not 
+align with the project's goals or resources. Additionally, there may be other 
+reasons that led to the declination of your change request that may not be 
+immediately apparent to you as a user. These reasons may include the following:
 
+### Upstream dependencies
 
-
-
-
-Upstream dependencies
-
-### Implementation in dependencies
-
-__Should your idea be implemented in Material for MkDocs or in other dependencies?__ 
-Make sure your change request is directly related to Material for MkDocs. Our 
-project relies on many different projects and has dependencies, which is why you 
-must ensure your idea won't need to be implemented in another project.
+Your change might not be directly related to Material for MkDocs. Since our 
+project relies on many different projects and has dependencies, your change 
+request might need to be implemented in another project. Here is a list 
+of dependencies that might regard your change request
 
   - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
-  - 
+  - [GitHub](https://github.com/)
+  - [Cairo]
+  - [Pillow]
+  - [Homebrew]
