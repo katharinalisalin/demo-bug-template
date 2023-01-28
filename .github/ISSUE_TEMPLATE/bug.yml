@@ -12,8 +12,8 @@ body:
           B
         </div>
 
-        - [Foo](?template=bug.yml&steps-to-reproduce=Foo)
-        - [Bar](?template=bug.yml&steps-to-reproduce=Bar)
+        - [Foo](?template=bug.yml&steps-to-reproduce=Foo) (complete)
+        - [Bar](?template=bug.yml&steps-to-reproduce=Bar) (5 missing)
   - type: textarea
     id: context
     attributes:
