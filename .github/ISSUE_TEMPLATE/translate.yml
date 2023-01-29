@@ -7,7 +7,7 @@ body:
 
   - type: markdown
     attributes:
-      value: |
+      value: >
         **Warning**: Before creating a new translation, please make sure that
         Material for MkDocs does not already include support for your language.
         Please check the list of all available languages. You can update an
