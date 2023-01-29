@@ -11,7 +11,7 @@ body:
         **Warning**: Before creating a new translation, please make sure that
         Material for MkDocs does not already include support for your language.
         Please check the list of all available languages. You can update an
-        exustubg language by clicking on the "# missing translations" link,
+        existing language by clicking on the "# missing translations" link,
         which will pre-fill this template with all missing translations.
 
   - type: textarea
