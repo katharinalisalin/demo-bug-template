@@ -10,8 +10,12 @@ body:
       value: >-
         **Important**: Before creating a new translation, please make sure that
         Material for MkDocs does not already include support for your language.
-        Please check the list of all [available languages](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language)
-        and help us by adding missing translations.
+        Review the list of [available languages](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language)
+        and consider contributing missing translations.
+
+        Please note, that we have grouped languages. If you wish to add specific 
+        linguistic differences for your country, please fill out this 
+        translation issue and add a new language.
 
   - type: textarea
     id: translations
@@ -60,6 +64,23 @@ body:
           "top": "Back to top"
         }[key] }}{% endmacro %}
       render: Jinja
+    validations:
+      required: true
+
+  - type: textarea
+    id: country-flag
+    attributes:
+      label: Country flag
+      description: >-
+        Please note, that we have grouped languages to simplify it for our 
+        users. Despite speaking seemingly the same language, every country has 
+        cultural and linguistic differences. Therefore,
+        
+        
+        Please provide us with the correct country flag, when adding a new 
+        language. 
+        
+        [More](#)
     validations:
       required: true
 
