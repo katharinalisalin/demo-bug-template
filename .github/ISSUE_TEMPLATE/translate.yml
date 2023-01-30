@@ -71,15 +71,10 @@ body:
     id: country-flag
     attributes:
       label: Country flag
-      description: >-
-        Please note, that we have grouped languages to simplify it for our 
-        users. Despite speaking seemingly the same language, every country has 
-        cultural and linguistic differences. Therefore,
-        
-        
-        Please provide us with the correct country flag, when adding a new 
-        language. 
-        
+      description: >-     
+        Please provide us with your country flag, when adding a new 
+        language. You can choose this flag by inserting the command "flag_" in 
+        the search field on our [Icon, Emojis site](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/).     
         [More](#)
     validations:
       required: true
