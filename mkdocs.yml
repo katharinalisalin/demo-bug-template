@@ -1,11 +1,38 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
 site_name: My Docs
 
 theme:
   name: material
+  features:
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.sections
 
 markdown_extensions: 
+  - admonition
   - attr_list
+  - footnotes
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Contributing:
+    - contributing/index.md
+    - Reporting a bug: contributing/bug-report.md
+    - Reporting a docs issue: contributing/documentation-issue.md # ???
+    - Requesting a change: contributing/change-request.md
+    - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
+    - Adding a translation: contributing/translation.md
+    - Creating a pull request: "#"
+  - Guides:
+    - Creating a reproduction: contributing/reproduction.md

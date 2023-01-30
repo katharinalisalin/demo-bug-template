@@ -2,16 +2,29 @@ name: Add a translation
 description: Missing support for your language? Add a translation
 title: Add translations for ...
 labels:
+<<<<<<< HEAD
   - change request
+=======
+  - enhancement
+>>>>>>> 31809ce3b0ecaadd7927ead5f76be6d399db135c
 body:
 
   - type: markdown
     attributes:
+<<<<<<< HEAD
       value: >-
         **Important**: Before creating a new translation, please make sure that
         Material for MkDocs does not already include support for your language.
         Please check the list of all [available languages](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language)
         and help us by adding missing translations.
+=======
+      value: >
+        **Warning**: Before creating a new translation, please make sure that
+        Material for MkDocs does not already include support for your language.
+        Please check the list of all available languages. You can update an
+        existing language by clicking on the "# missing translations" link,
+        which will pre-fill this template with all missing translations.
+>>>>>>> 31809ce3b0ecaadd7927ead5f76be6d399db135c
 
   - type: textarea
     id: translations
