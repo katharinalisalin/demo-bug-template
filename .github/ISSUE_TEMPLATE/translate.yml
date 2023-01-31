@@ -20,6 +20,7 @@ body:
         Please translate the labels on the right. For new languages, translate 
         each line. For existing languages, only translate lines containing the 
         icon :arrow_left: and remove the icons before submitting.
+        [More](#)
       value: |-
         {% macro t(key) %}{{ {
           "language": "en",
