@@ -12,8 +12,8 @@ body:
         Material for MkDocs does not already include support for your language.
         Review the list of [available languages](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language)
         and consider contributing missing translations.
-
-        Please note, that we have grouped languages. If you wish to add specific 
+        ___
+        _Please note_, that we have grouped languages. If you wish to add specific 
         linguistic differences for your country, please fill out this 
         translation issue and add a new language.
 
@@ -75,7 +75,7 @@ body:
       label: Country flag
       description: >-     
         Please provide us with your country flag, when adding a new 
-        language. You can select the flag on our [Icons, Emojis site](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search). 
+        language. You can select the flag on our [Icons, Emojis site](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search)
         by inserting the command "flag_" in the search field. 
         [More](#)
       placeholder: |-
