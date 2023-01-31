@@ -76,8 +76,6 @@ body:
         [More](#)
       placeholder: |-
         Post your countrys flag icon here.
-    validations:
-      required: true
 
   - type: checkboxes
     id: checklist
