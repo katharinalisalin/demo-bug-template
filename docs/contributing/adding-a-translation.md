@@ -1,19 +1,31 @@
 # Adding a translation
 
 Material for MkDocs supports 50+ languages with the help of community
-contributions. When new features are released, new translations are required, 
-which means translations need to be constantly updated. For us maintainers it's 
+contributions. New features or changes often require updated translations, so 
+it's important to keep all translations up-to-date. For us maintainers it's 
 impossible to update all translations ourselfes (we just don't speak 50+ 
 languages), so we rely on contributors to update translations incrementally.
 
-If you find a translation missing in your language or want to add new language,
-we have created a process which gives you two options:
+If you notice a missing translation in your language or would like to add a new 
+language, we have created a process for you to help Material for MkDocs to 
+become even more international.
+
+## Before creating a translation issue
+
+Before you invest time into your contribution, it is essential to check the a view things:
+
+### List of supported languages
+
+There are already 50+ languages on the list 
+
+### Open translation issue
 
 
 
+## Translation guide
 
-if  follow 
-these guidelines:
+
+
 
 If you find a missing translation in your language, please follow these guidelines to assist in the process:
 

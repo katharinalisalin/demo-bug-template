@@ -21,7 +21,9 @@ body:
     id: translations
     attributes:
       label: Translations
-      description: Please translate the labels on the right, e.g. "Copy to clipboard", etc.
+      description: >-
+        Please translate the labels on the right, e.g. "Copy to clipboard", etc.
+        You c
       value: |-
         {% macro t(key) %}{{ {
           "language": "en",
@@ -73,8 +75,8 @@ body:
       label: Country flag
       description: >-     
         Please provide us with your country flag, when adding a new 
-        language. You can choose this flag by inserting the command "flag_" in 
-        the search field on our [Icon, Emojis site](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/).     
+        language. You can choose this flag on our [Icon, Emojis site](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/). 
+        by inserting the command "flag_" in the search field. 
         [More](#)
     validations:
       required: true
