@@ -1,169 +1,186 @@
-# Change request
+# Requesting a change
 
-Material for MkDocs is a powerful tool for creating beautiful and functional 
-technical documentation. However, as the project is quite large, it can be 
-challenging to maintain and add new features or functionalities. We understand 
-that our project serves a wide range of users and use cases, which is why we 
-have created this change request guide. This guide explains the reasoning behind 
-our decisions and the criteria we use when evaluating new ideas.
-
-
-!!! warning "Change request are not equal to bug reportings"
-
-    Change requests include suggestions for minor adjustments, ideas for new 
-    features, or proposals for the project's direction. It is important to note 
-    that change requests are not intended for reporting bugs. If you wish to 
-    report a bug, please use our [bug reporting guide] instead of submitting a 
-    change request.
-
-
-  [bug reporting guide]: https://squidfunk.github.io/mkdocs-material/bug-report/
-
-
-We highly value every contribution or idea from our community, and we kindly 
-ask you to take the time to read the following guidelines before submitting your 
-change request in the [issue tracker]. This will help us understand your idea 
-and how it will benefit the community, and we can work together to make Material 
-for MkDocs even better.
-
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
-
-## Before submitting an idea
-
-Before you take your time to fill out and submit a change request, we advise you 
-to do some preliminary work and ask yourself some questions to determine if your 
-idea can be implemented in Material for MkDocs. For this, we have created the 
-following questions:
-
-### Existing feature
-
-__What's your source of inspiration?__
-You may have already seen your idea implemented or executed in other static site 
-generators or themes. In that case, retake a look at the implementation and 
-explain your idea based on this and showcase the project containing this idea in 
-the required section of the change request. This helps us understand your idea 
-more precisely and get an idea of what needs to be done.
-
-### Discussion board
-
-__Will the community benefit from your idea?__
-Our discussion board is the best place to connect with our community. When 
-developing new ideas, seeking input from others and considering alternative 
-viewpoints are essential. This approach can help in identifying the most 
-efficient and effective way to implement ideas for the betterment of the 
-community.
-
-### Pull request
-
-__Would you like to realize the idea yourself?__
-If you believe you have found a way to implement your idea and would like to 
-submit a pull request, it is essential to coordinate with us maintainers 
-beforehand. To ensure that your changes align with the project's goals and 
-guidelines, we recommend reading our [pull request guide]. This will help 
-prevent duplicate work or lost efforts, and it will give us an opportunity to 
-provide feedback and guidance on your proposed changes, which can help improve 
-the overall quality of your pull request.
-
-  [pull request guide]: https://github.com/squidfunk/mkdocs-material/pull-request
-
-### Checklist
-
-Lastly, before opening a change request, please ensure that your idea meets all 
-the criteria outlined in the following checklist.
-
-I have checked, that my idea...
-
-- [x] ...is useful to the majority of users.
-- [x] ...matches the overall "tone" of this project.
-- [x] ...is easy to use for authors.
-- [x] ...is not incompatible with one existing feature, theme, or plugin.
-- [x] ...can (ideally) be used together with all existing features, themes, or plugins.
-- [x] ...can be implemented in a way that is accessible.
-- [x] ...can be implemented with reasonable effort.
-- [x] ...can be implemented following the principle of progressive enhancement.
-- [x] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
-- [x] ...can be implemented to work on all modern browsers (nope, not IE).
-
-If your idea does not meet all the criteria outlined in the checklist, it may be 
-beneficial to start a discussion on our discussion board to gather feedback 
-and input from the community. This can help evaluate the feasibility and the 
-potential impact of your idea, and provide a better understanding of any issues 
-or concerns that need to be addressed before submitting a change request.
-
-[:octicons-comment-discussion-24: Start a discussion][Start a discussion]{ .md-button .md-button--primary }
+Material for MkDocs is a powerful tool to create beautiful and functional
+project documentation. With more than 20,000 users, we understand that our
+project serves a wide range of use cases, which is why we have created the
+following guide.
 
 ---
 
+Put yourself in our shoes – with a project of this size, it can be challenging
+to maintain existing functionality while constantly adding new features at the
+same time. We highly value every idea or contribution from our community, and
+we kindly ask you to take the time to read the following guidelines before 
+submitting your change request in our public [issue tracker]. This will help us 
+better understand the proposed change, and how it will benefit the community.
+
+This guide is our best effort to explain the criteria and reasoning behind our
+decisions when evaluating change requests and considering them for
+implementation. 
+
+  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+
+## Before creating an issue
+
+Before you invest your time to fill out and submit a change request, we kindly
+ask you to do some preliminary work by answering some questions to determine if
+your idea is a good fit for Material for MkDocs and matches the project's
+[philosophy] and tone.
+
+__Please find answers to the following questions before creating an issue.__
+
+  [philosophy]: ../philosophy.md
+
+### It's not a bug, it's a feature
+
+Change requests are intended for suggesting minor adjustments, ideas for new
+features, or to influence the project's direction and vision. It is important
+to note that change requests are not intended for reporting bugs, as they're
+missing essential information for debugging.
+
+If you want to report a bug, please refer to our [bug reporting guide] instead.
+
+  [bug reporting guide]: reporting-a-bug.md
+
+### Source of inspiration
+
+If you have seen your idea implemented in another static site generator or
+theme, make sure to collect enough information on its implementation before
+submitting, as this allows us to evaluate potential fit more quickly. Explain
+what you like and dislike about the implementation.
+
+### Benefit for the community
+
+Our [discussion board] is the best place to connect with our community. When 
+evaluating new ideas, it's essential to seek input from other users and consider 
+alternative viewpoints. This approach helps to implement new features in a way
+that benefits a large number of users.
+
+[:octicons-comment-discussion-16:&nbsp; Start a discussion][Start a discussion]{ .md-button .md-button--primary }
+
+  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [Start a discussion]: https://github.com/squidfunk/mkdocs-material/discussions
 
-## Change request template
+## Issue template
 
-Now that you have taken the time to do the necessary preliminary work and your 
-idea meets all the necessary requirements, you can proceed to open a change 
-request. The following guide will walk you through all the steps to help you 
-submit a comprehensive and useful change request.
+Now that you have taken the time to do the necessary preliminary work and ensure 
+that your idea meets our requirements, you are invited to create a change
+request. The following guide will walk you through all necessary steps to help
+you submit a comprehensive and useful issue:
+
+- [Title]
+- [Context] <small>optional</small>
+- [Description]
+- [Related links]
+- [Use cases]
+- [Visuals] <small>optional</small>
+- [Checklist]
+
+  [Title]: #title
+  [Context]: #context
+  [Description]: #description
+  [Related links]: #related-links
+  [Use cases]: #use-cases
+  [Visuals]: #visuals
+  [Checklist]: #checklist
 
 ### Title
 
-The title should be a concise and clear one-sentence description that includes 
-all relevant keywords related to the change request. This will make it easier 
-for others to find your change request when searching the issue tracker.
+A good title is short and descriptive. It should be a one-sentence executive
+summary of the idea, so the potential impact and benefit for the community can 
+be inferred from the title.
 
 | <!-- --> | Example  |
 | -------- | -------- | 
-| :material-check:{ style="color: #4DB6AC" } __Clear__ | 
-| :material-close:{ style="color: #EF5350" } __Unclear__ | 
+| :material-check:{ style="color: #4DB6AC" } __Clear__ | Index custom front matter in search
+| :material-close:{ style="color: #EF5350" } __Wordy__ | Add a feature where authors can define custom front matter to be indexed in search
+| :material-close:{ style="color: #EF5350" } __Unclear__ | Improve search
 | :material-close:{ style="color: #EF5350" } __Generic__ | Please help
+
+### Context <small>optional</small> { #context }
+
+Before describing your idea, you can provide additional context for us to
+understand what you are trying to achieve. Explain the circumstances
+in which you're using Material for MkDocs, and what you _think_ might be
+relevant. Don't write about the change request here.
+
+> __Why this might be helpful__: some ideas might only benefit specific
+> settings, environments or edge cases, for example, when your documentation
+> contains thousands of documents. With a little context, change requests
+> can be prioritized more accurately.
 
 ### Description
 
 Next, provide a detailed and clear description of your idea. Explain why your 
-idea is relevant to Material for MkDocs and no other dependencies.
+idea is relevant to Material for MkDocs and must be implemented here, and not
+in one of its dependencies:[^1]
 
--   __Outline the goal, not the method__ - clearly state what you want to 
-achieve, not how you plan to achieve it. If you already have an idea of an 
-execution of your idea, you can describe it in another field below.
+  [^1]:
+    Sometimes, users suggest ideas on our [issue tracker] that concern one of
+    our upstream dependencies, including [MkDocs], [Python Markdown],
+    [Python Markdown Extensions] or third-party plugins. It's a good idea to
+    think about whether your idea is beneficial to other themes, upstreaming
+    change requests for bigger impact.
 
--   __Short and straightforward__ – be brief and to the point when describing 
-your idea, there is no need to over-describe it.
+-   __Explain the <u>what</u>, not the <u>why</u>__ – don't explain
+    [the benefits of your idea][Use cases] here, we're getting there.
+    Focus on describing the proposed change request as precisely as possible.
+
+-   __Keep it short and concise__ – be brief and to the point when describing 
+    your idea, there is no need to over-describe it. Maintainers and future
+    users will be grateful for having to read less.
 
 -   __One idea at a time__ – if you have multiple ideas that don't belong 
-together, please open separate change requests for each idea.
+together, please open separate change requests for each of those ideas.
 
-> __Why we need this__: To understand and evaluate your proposal fully, we need 
-> to have a clear understanding of your idea. Providing a detailed and precise 
-> description will save you and us time spent discussing your 
-> idea in the comment section of the change request.
+---
+
+:material-run-fast: __Stretch goal__ – if you have a customization or another
+way to add the proposed change, you can help other users by sharing it here
+before we  maintainers can add it to our code base.
+
+> __Why we need this__: To understand and evaluate your proposed change, we
+> need to have a clear understanding of your idea. By providing a detailed and 
+> precise description, you can help save you and us time spent discussing
+> further clarification of your idea in the comments.
+
+  [MkDocs]: https://www.mkdocs.org
+  [Python Markdown]: https://python-markdown.github.io/extensions/
+  [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
+  [theme.name]: https://www.mkdocs.org/user-guide/configuration/#theme
 
 ### Related links
 
 Please provide any relevant links to issues, discussions, or documentation 
-sections related to your change request. If you (or someone else) have already 
+sections related to your change request. If you (or someone else) already
 discussed this idea with the community on our discussion board, please include 
-the link here.
+the link to the discussion as well.
 
-> __Why we need this__: Relevant links help us gain a comprehensive 
-> understanding of your change request by providing additional information and 
-> context. Additionally, linking to previous discussions of the idea allows us 
+> __Why we need this__: Related links help us gain a comprehensive
+> understanding of your change request by providing additional context.
+> Additionally, linking to previous issues and discussions allows us
 > to quickly evaluate the feedback and input already provided by the community.
 
 ### Use cases
 
-Next, outline how you and other users will use your idea. Additionally, 
-explain the benefits that your concept offers for the community.
+Explain how your change request would work from an author's and user's
+perspective – what's the expected impact and why does it not only benefit you,
+but other users? How many of them? Furthermore, would it potentially break
+existing functionality?
 
 > __Why we need this__: Understanding the use cases and benefits of an idea is 
 > crucial in evaluating its potential impact and usefulness for the project and 
 > its users. This information helps us to understand the expected value of the 
 > idea and how it aligns with the goals of the project.
 
-### Idea illustration <small>optional</small> { #idea-illustration }
+### Visuals <small>optional</small> { #visuals }
 
 We now have a clear and detailed description of your idea, including information 
 on its potential use cases and relevant links for context. If you have any 
 visuals, such as sketches, screenshots, mockups, or external assets, you may 
-present them in this section. You can drag and drop the files here or include 
-links to external assets.
+present them in this section.
+
+__You can drag and drop the files here or include links to external assets.__
 
 Additionally, if you have seen this change, feature, or improvement used in 
 other static site generators or themes, please provide an example by showcasing 
@@ -174,7 +191,7 @@ it and describing how it was implemented and incorporated.
 > can create an additional level of detail and clarity that text alone may not 
 > be able to convey. Also, seeing how your idea has been implemented in other 
 > projects can help us understand its potential impact and feasibility in 
-> Material for MkDocs, which helps us maintainers when we evaluate and triage 
+> Material for MkDocs, which helps us maintainers evaluate and triage 
 > change requests.
 
 ### Checklist
@@ -197,6 +214,18 @@ align with the project's goals or resources. Additionally, there may be other
 reasons that led to the declination of your change request that may not be 
 immediately apparent to you as a user. These reasons may include the following:
 
+
+- [x] ...is useful to the majority of users.
+- [x] ...matches the overall "tone" of this project.
+- [x] ...is easy to use for authors.
+- [x] ...is not incompatible with one existing feature, theme, or plugin.
+- [x] ...can (ideally) be used together with all existing features, themes, or plugins.
+- [x] ...can be implemented in a way that is accessible.
+- [x] ...can be implemented with reasonable effort.
+- [x] ...can be implemented following the principle of progressive enhancement.
+- [x] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
+- [x] ...can be implemented to work on all modern browsers (nope, not IE).
+
 ### Upstream dependencies
 
 Your change might not be directly related to Material for MkDocs. Since our 
@@ -209,3 +238,4 @@ of dependencies that might regard your change request
   - [Cairo]
   - [Pillow]
   - [Homebrew]
+

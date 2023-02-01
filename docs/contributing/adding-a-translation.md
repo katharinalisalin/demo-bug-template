@@ -12,11 +12,11 @@ become even more international.
 
 ## Before creating a translation issue
 
-Before you invest time into your contribution, it is essential to check the a view things:
+We have a great community, that contributes translations to their language almost
+daily. The list already contains 50+ languages available, which is why it is 
+essitial for you to review the list of available languages and missing 
+translations __before you invest time__.
 
-### List of supported languages
-
-There are already 50+ languages on the list 
 
 ### Open translation issue
 

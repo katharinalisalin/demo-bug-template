@@ -1,21 +1,20 @@
 # Contributing
 
 Material for MkDocs is an actively maintained and constantly improved project 
-that caters to a diverse user base with varying backgrounds and needs. To 
-effectively address these needs of all our users, evaluate requests, and fix 
-bugs, a lot of work from us maintainers is required. 
+that caters to a diverse user base with varying backgrounds and needs. In order
+to effectively address the needs of all our users, evaluate requests, and fix 
+bugs, a lot of work from us maintainers is required.
 
-To optizime the process and make it more efficient for our users to report, 
-request, submit to the project or exchange with our community, we have created 
-new forms or updated existing ones in our [issue tracker]. This following guide 
-will give you an overview of the options and lead you to the guides, which fit 
-your needs.
+## How to contribute
+
+We have invested quite a lot of time in creating better templates for our
+[issue tracker], optimizing the processes for our users to report bugs, request
+features or changes, contribute to the project or exchange with our community. This section of
+the documentation explains each process.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
-## abc
-
-### You want us to help you
+### Creating an issue
 
 <div class="grid cards" markdown>
 
@@ -23,130 +22,64 @@ your needs.
 
     ---
 
-    Report a bug in the source code and create a [minimal reproduction .zip](https://squidfunk.github.io/mkdocs-material/bug-report/reproduction/).
+    Report a bug in Material for MkDocs by creating an issue and a reproduction
 
-    [:octicons-arrow-right-24: Report a bug](https://squidfunk.github.io/mkdocs-material/bug-report/)
+    [:octicons-arrow-right-24: Report a bug][report a bug]
 
--   :material-file-document:{ .lg .middle } __Missing information in the docs?__
+-   :material-file-document:{ .lg .middle } __Missing information in our docs?__
 
     ---
 
-    Report missing information or an issue in our documentation.
+    Report missing information or potential inconsistencies in our documentation
 
-    [:octicons-arrow-right-24: Report a docs issue](https://squidfunk.github.io/mkdocs-material/documentation-issue-report/)
+    [:octicons-arrow-right-24: Report a docs issue][report a docs issue]
 
 -   :material-lightbulb-on:{ .lg .middle } __Want to submit an idea?__
 
     ---
 
-    Submit a change, feature or improvement suggestion.
+    Propose a change or feature request or suggest an improvement
 
-    [:octicons-arrow-right-24: Request a change](https://squidfunk.github.io/mkdocs-material/change-request/)
+    [:octicons-arrow-right-24: Request a change][request a change]
 
 -   :material-chat-question:{ .lg .middle } __Have a question or need help?__
 
     ---
 
-    Ask questions on our discussion board and get in touch with the community.
+    Ask questions on our discussion board and get in touch with our community
 
-    [:octicons-arrow-right-24: Ask as question](https://github.com/squidfunk/mkdocs-material/discussions)
+    [:octicons-arrow-right-24: Ask as question][ask a question]
 
 </div>
 
-### You want to help us
+### Contributing to this project
 
 <div class="grid cards" markdown>
 
--   :material-translate-variant:{ .lg .middle } __Want to add or update a translation?__
+-   :material-translate-variant:{ .lg .middle } __Missing support for your language?__
 
     ---
 
-    Update or add localization for a (new) language.
+    Add missing translation for a new or supported language
 
-    [:octicons-arrow-right-24: Translation](https://github.com/squidfunk/mkdocs-material/translation)
+    [:octicons-arrow-right-24: Translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
 
 -   :material-source-pull:{ .lg .middle } __Want to create a pull request?__
 
     ---
 
-    Learn how to create a comprehensive pull request (PR).
+    Learn how to create a comprehensive pull request (PR)
 
-    [:octicons-arrow-right-24: Pull request](https://github.com/squidfunk/mkdocs-material/pull-request)
+    [:octicons-arrow-right-24: Pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request)
 
 </div>
 
+
+  [report a bug]: reporting-a-bug.md
+  [report a docs issue]: reporting-a-docs-issue.md
+  [request a change]: requesting-a-change.md
+  [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
 
 ## Code of conduct
 
 Please understand that 
-
-## Reporting
-
-If you would like to report a bug or 
-
-
-If you found a bug in the source code, you can help us by submitting an issue. 
-Before doing so, please read the bug reporting guidelines for more information 
-on how to submit a useful report.
-
-
-Before doing so, please read the 
-[bug reporting guidelines]
-for more information on how to submit a useful report.
-
-  [bug reporting guidelines]: https://squidfunk.github.io/mkdocs-material/bug-report/
-
-## Requesting
-
-If you would like to request a new feature or change to the project, you can 
-submit a change request to our GitHub repository. If you would like to implement 
-a new feature, please submit an issue with a proposal for your work first to be 
-sure that it is of use to everyone, as Material for MkDocs is highly 
-opinionated. Please consider what kind of change it is:
-
-## Exchanging
-
-If you have questions or problems 
-
-there's no need to open an issue as
-
-
- and would like to get in contact with the community, you have 
-two options.
-
-- [discussion board]: Our discussion boars the first 
-- [gitter.im] - For quick questions, there's no need to open an issue, as you can reach us on
-
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
-  [gitter.im]: https://gitter.im/squidfunk/mkdocs-material
-
-
-## Submitting
-
-* For a **major feature**, first open an issue and outline your proposal so
-  that it can be discussed. This will also allow us to better coordinate our
-  efforts, prevent duplication of work, and help you to craft the change so
-  that it is successfully accepted into the project.
-
-* **Small features and bugs** can be crafted and directly submitted as a pull
-  request. However, there is no guarantee that your feature will make it into
-  the `master`, as it's always a matter of opinion whether it benefits the
-  overall functionality of the project.
-
-
-
-<div class="grid cards" markdown>
-
-- :material-bug: __Bug report__ – reporting bugs in the source code
-- :material-file-document: __Documentation issue report__ – reporting issues in the docs
-- :material-lightbulb-on: __Change request__ – suggesting ideas, changes, features or improvements 
-- :material-chat-question: __Discussion board__ – exchanging with the community
-- :material-translate-variant: __Translations__ – submitting a new language
-- :material-source-pull: __Pull request__ – submitting comprehensive pull requests
-</div>
-
-
----
-
----
-
