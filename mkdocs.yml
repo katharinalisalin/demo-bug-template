@@ -29,10 +29,10 @@ nav:
   - Contributing:
     - contributing/index.md
     - Reporting a bug: contributing/bug-report.md
-    - Reporting a docs issue: contributing/documentation-issue.md # ???
+    - Reporting a docs issue: contributing/documentation-issue.md 
     - Requesting a change: contributing/change-request.md
     - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
-    - Adding a translation: contributing/translation.md
-    - Creating a pull request: "#"
+    - Adding a translation: contributing/adding-a-translation.md
+    - Creating a pull request: contributing/pull-request.md
   - Guides:
     - Creating a reproduction: contributing/reproduction.md
