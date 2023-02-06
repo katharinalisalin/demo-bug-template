@@ -95,15 +95,15 @@ the title is already set with no need for adjustment.
 
 ### Translations
 
-Please translate the labels on the right. For new languages, translate each 
-line. For existing languages, only translate lines containing the icon ⬅️ and 
-remove the icons before submitting. 
-
-> __Why we need this__: in order for us to understand the problem, we
-> need a clear description of it and quantify its impact, which is essential
-> for triage and prioritization.
+With the preliminary work done, you can now add all missing translations for 
+your language. Each label on the right side with the `⬅️ icon` needs to be 
+translated. To ensure accuracy, consider double-checking the context of the 
+words by looking at the English version. Once you have added the translation, 
+delete the `⬅️ icon`.
 
 ### Country flag
+
+
 
 Please provide us with your country flag when adding a new language. You can 
 select the flag on our [Icons, Emojis site] by inserting the command `flag_` in 
@@ -112,7 +112,10 @@ the search field.
 
  [Icons, Emojis site]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
 
-> __Why this might be helpful__: some errors only manifest in specific settings,
+> __Why this might be helpful__: as 
+
+
+some errors only manifest in specific settings,
 > environments or edge cases, for example, when your documentation contains
 > thousands of documents.
 
