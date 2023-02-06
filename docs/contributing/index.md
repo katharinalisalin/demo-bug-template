@@ -83,3 +83,6 @@ the documentation explains each process.
 ## Code of conduct
 
 Please understand that 
+
+
+https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md

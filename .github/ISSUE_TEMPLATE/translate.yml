@@ -73,7 +73,7 @@ body:
       description: >-     
         Please provide us with your country flag when adding a new 
         language. You can select the flag on our [Icons, Emojis site](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search)
-        by inserting the command "flag_" in the search field. 
+        by inserting the command `flag_` in the search field. 
         [More](#)
       placeholder: |-
         Post your country's flag icon here.
