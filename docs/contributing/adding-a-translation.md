@@ -1,13 +1,13 @@
 # Adding a translation
 
 Material for MkDocs supports 50+ languages with the help of community
-contributions. Keeping all translations up-to-date is crucial, as new features 
-or changes often require new translations. For us maintainers it's impossible to 
-update all translations ourselfes (we just don't speak 50+ languages) and are 
-greateful for our international community. If you would like to help us make 
-Material for MkDocs even more international and have noticed a missing 
-translation in your language or want to add a new one, you can submit your 
-contribution by following this guide.
+contributions. Keeping all translations up-to-date requires lot of work, as new 
+features or changes always need new translations. For us maintainers, it's 
+impossible to update all translations ourselves (we just don't speak 50+ 
+languages), therefore, we are grateful for our international supportive 
+community. If you would like to help us make Material for MkDocs, even more, 
+global and have noticed a missing translation in your language or want to add a 
+new one, you can submit your contribution by following this guide.
 
 ## Before adding a translation
 
@@ -26,11 +26,11 @@ ensure that your language is not already supported by checking the
 
   [List of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
 
-If Material for MkDocs already provides support for your language, you can check 
-completeness of the translations which are displayed below every language in 
-the list and update them if needed. _Your language is not on the list of 
-supported languages?_ You can make your contribution by opening a new issue and 
-[add a translation] with the help of this guide.
+Suppose Material for MkDocs already provides support for your language. In that 
+case, you can check the completeness of the translations, which are displayed 
+below every language in the list, and update them if needed. _Your language is 
+not on the list of supported languages?_ You can contribute it by opening a new 
+issue and [add a translation] with the help of this guide.
 
   [Add a translation]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
 
@@ -38,7 +38,7 @@ supported languages?_ You can make your contribution by opening a new issue and
 ### Search the issue tracker
 
 Our issue tracker might already contain an open issue with a contribution with 
-missing translations for your language, that has not yet been integrated by us 
+missing translations for your language that still needs to be integrated by us 
 maintainers. To avoid investing your time in duplicated work, please search the 
 [issue tracker] beforehand.
 
@@ -63,7 +63,7 @@ highlighted fields that need to be adjusted by you.
 We have created a new issue template to make contributing translations for new 
 languages as simple as possible. It is the result of our experience with +50
 language contributions and updates over the last couple of years. The language 
-contribution process was simplifed and the new template consists of the 
+contribution process was simplified, and the new template consists of the 
 following parts:
 
 - [Title]
@@ -76,12 +76,11 @@ following parts:
   [Country flag]: #country-flag
   [Checklist]: #checklist
 
-
 ### Title
 
 Translation issue titles are simple. When adding a new language, the first part 
 of the title with "Add translations for..." is already pre-filled in the 
-template and you need to replace the three dots with your language name. If 
+template, and you need to replace the three dots with your language name. If 
 adding missing translations for a language from the [list of supported languages], 
 the title is already set with no need for adjustment. 
 
@@ -103,21 +102,16 @@ delete the `⬅️ icon`.
 
 ### Country flag
 
+Now, that you have added translations for a new language, please select the 
+appropriate flag for your language from our documentation [Icons, Emojis site] 
+by inserting the command `flag_` in the search field.
 
-
-Please provide us with your country flag when adding a new language. You can 
-select the flag on our [Icons, Emojis site] by inserting the command `flag_` in 
-the search field. 
-
+> __Why this might be helpful__: different countries often have unique 
+> linguistic differences, making the flag a useful tool for us maintainers to 
+> keep track of the origin of the new translation.
 
  [Icons, Emojis site]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
 
-> __Why this might be helpful__: as 
-
-
-some errors only manifest in specific settings,
-> environments or edge cases, for example, when your documentation contains
-> thousands of documents.
 
 ### Checklist
 
@@ -128,22 +122,17 @@ we need to know to integrate your contribution to Material for MkDocs.
 
 ### Authors credits
 
-
-
+We are attributing the authors in the commits without the need of creating a 
+pull request. ???
 
 ## Adding a translation via pull request 
 
-If you want to integrate this translation yourself, you can also create a pull 
-request after following the issue and submitting it. Please 
-
-
-
-find a missing translation in your language, please follow these 
-guidelines to assist in the process:
+If you want to integrate the translation yourself, you can also create a pull 
+request after filling out the issue template by following this guide.
 
 1.  Fork the repository.
 
-2.  Open up the [translation file for your language] as well as the
+2.  Open the [translation file for your language] as well as the 
     [English translations], as they are always up-to-date.
     
 3.  Compare the languages side-by-side and add the missing translations.
@@ -151,7 +140,7 @@ guidelines to assist in the process:
     __Important__: add only the translations that are different from the 
     defaults, e.g., if your language is left-to-right, don't add the `direction` 
     translation, as English is left-to-right as well.
-    The following translations are for technical purposes and __should not be 
+    The following translations are for technical purposes, and __should not be 
     updated__, so if they're missing from your language, it's for a good reason:
 
     - `search.config.lang`
