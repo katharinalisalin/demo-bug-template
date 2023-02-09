@@ -9,8 +9,6 @@ body:
     attributes:
       value: |-
         **Important**: Before creating a new translation, please make sure that Material for MkDocs does not already include support for your language. Review the list of [available languages](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language) and consider contributing missing translations.
-        
-        _Please note_, that we have grouped languages. To add specific linguistic variations for your country, please add a new language by filling out the following issue and including your country's flag.
 
   - type: textarea
     id: translations

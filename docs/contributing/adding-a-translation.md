@@ -17,21 +17,26 @@ contribution.
 
 ### List of supported languages
 
-Chances are your language is already supported by Material for MkDocs. Hence, 
-before investing your time and contributing a new translation for your language, 
-ensure that your language is not already supported by checking the 
-[list of supported languages].
+Chances are your language is already supported by Material for MkDocs. Therefore, 
+before investing your time and contributing a new translation, ensure that your 
+language is not included in the [list of supported languages].
 
 [:material-earth-plus:&nbsp; Search for your language][Search for your language]{ .md-button .md-button--primary }
 
   [list of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
   [Search for your language]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
 
-Suppose Material for MkDocs already provides support for your language. In that 
-case, you can check the completeness of the translations, which are displayed 
-below every language in the list, and update them if needed. _Your language is 
-not on the list of supported languages?_ You can contribute it by opening a new 
-issue and [add a translation] with the help of this guide.
+If your language is already supported, you can review the completeness of the 
+translations, which are displayed below each language in the list. If any 
+updates are needed, you can make the necessary changes.
+
+If your language is not on the list of supported languages, you can contribute 
+by opening a new issue and [adding a translation] with the help of the provided 
+guide.
+
+Please note that we grouped languages. If you would like to add specific 
+linguistic variations for your country, please open a new issue and include your 
+country's flag along with the details.
 
   [Add a translation]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
 
