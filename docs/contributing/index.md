@@ -46,9 +46,9 @@ the documentation explains each process.
 
     ---
 
-    Ask questions on our discussion board and get in touch with our community
+    Ask a question on our discussion board and get in touch with our community
 
-    [:octicons-arrow-right-24: Ask as question][ask a question]
+    [:octicons-arrow-right-24: Ask a question][ask a question]
 
 </div>
 

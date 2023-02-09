@@ -287,9 +287,9 @@ five-year-old and focus on continuity.
 If you're reporting a bug that only occurs in one or more _specific_ browsers,
 we need to know which browsers are affected. This field is optional, as it is
 only relevant when the bug you are reporting does not involve a crash when
-[previewing] or [building] your site. Furthermore, to ensure the bug is not 
-caused by a browser extension, try to see if the bug also appeats when switching 
-to the incognito modus.
+[previewing] or [building] your site. Moreover, to verify that a browser 
+extension is not the source of the bug, test if the issue persists when 
+switching to incognito mode.
 
 > __Why we need this__: some bugs only occur in specific browsers or versions.
 > Since now, almost all browsers are evergreen, we usually don't need to know the

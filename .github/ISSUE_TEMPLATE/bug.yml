@@ -87,7 +87,7 @@ body:
       description: >-
         If the bug only occurs in __specific browsers__, please select them
         from the dropdown menu below. If the bug also appears in the icognito 
-        modus, please check the required box. If your browser is not listed or 
+        mode, please check the required box. If your browser is not listed or 
         the version is relevant, you may select _Other_ and provide more details 
         in the field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#browser)
       multiple: true
