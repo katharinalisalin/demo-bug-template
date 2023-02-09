@@ -15,16 +15,17 @@ Given the constant expansion of our project and the frequent translation updates
 it is important to check the following things before submitting a translation 
 contribution.
 
-### Check the list of supported languages
+### List of supported languages
 
 Chances are your language is already supported by Material for MkDocs. Hence, 
 before investing your time and contributing a new translation for your language, 
 ensure that your language is not already supported by checking the 
 [list of supported languages].
 
-[:material-translate-variant:&nbsp; List of supported languages][List of supported languages]{ .md-button .md-button--primary }
+[:material-earth-plus:&nbsp; Search for your language][Search for your language]{ .md-button .md-button--primary }
 
-  [List of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
+  [list of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
+  [Search for your language]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
 
 Suppose Material for MkDocs already provides support for your language. In that 
 case, you can check the completeness of the translations, which are displayed 
@@ -34,17 +35,16 @@ issue and [add a translation] with the help of this guide.
 
   [Add a translation]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
 
-
-### Search the issue tracker
+### Issue tracker
 
 Our issue tracker might already contain an open issue with a contribution with 
 missing translations for your language that still needs to be integrated by us 
 maintainers. To avoid investing your time in duplicated work, please search the 
 [issue tracker] beforehand.
 
-[:octicons-issue-opened-24:&nbsp; Issue tracker][Issue tracker]{ .md-button .md-button--primary }
+[:octicons-issue-opened-24:&nbsp; Search our issue tracker][Search our issue tracker]{ .md-button .md-button--primary }
 
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+  [search our issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
 ### Update supported languages
 
@@ -55,8 +55,17 @@ the [list of supported languages]. This will redirect you to a new issue
 template that will be automatically filled with basic information and have 
 highlighted fields that need to be adjusted by you.
 
- [List of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
+[:material-translate-variant:&nbsp; Add missing translations][Update your translations]{ .md-button .md-button--primary }
 
+ [List of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
+ [Update your translations]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
+
+
+At this point, when you have made sure, that Material for MkDocs doesn't support
+language already, you can add translations for your language by following the 
+issue template.
+
+---
 
 ## Issue template
 
@@ -95,23 +104,37 @@ the title is already set with no need for adjustment.
 ### Translations
 
 With the preliminary work done, you can now add all missing translations for 
-your language. Each label on the right side with the `⬅️ icon` needs to be 
-translated. To ensure accuracy, consider double-checking the context of the 
-words by looking at the English version. Once you have added the translation, 
-delete the `⬅️ icon`.
+your language. Each label on the right side containing the `⬅️ icon` is missing 
+a translation. To ensure accuracy of your translation, consider double-checking 
+the context of the words by looking at the [English version].
+
+[English version]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages
+
+#### Translation context
+
+
+
+After adding the translation, remove the `⬅️ icon` from each translated line. If 
+you couldn't find translations for some required fields, simply leave them for 
+other contributors to complete.
 
 ### Country flag
 
-Now, that you have added translations for a new language, please select the 
-appropriate flag for your language from our documentation [Icons, Emojis site] 
-by inserting the command `flag_` in the search field.
+Now, that you have contributed translations for a new language, please select 
+the appropriate flag for your language from our documentation's [Icons, Emojis site] 
+by entering the command `flag` in the search field.
 
-> __Why this might be helpful__: different countries often have unique 
-> linguistic differences, making the flag a useful tool for us maintainers to 
-> keep track of the origin of the new translation.
+!!! warning "Icon limitation by Twemoji"
+
+    Please note that only icons provided by Twemoji can be used. If your flag is 
+    not available on the list on the [Icons, Emojis site], choose an alternative 
+    or leave the field empty.
+
+> __Why this might be helpful__: providing us with the correct country flag 
+> helps us to integrate the new language to the list of supported languages
+> faster and easier as we spend less time searching. 
 
  [Icons, Emojis site]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
-
 
 ### Checklist
 
@@ -122,13 +145,22 @@ we need to know to integrate your contribution to Material for MkDocs.
 
 ### Authors credits
 
-We are attributing the authors in the commits without the need of creating a 
-pull request. ???
+Authors who submit a translation using the template above will be 
+__credited as co-authors__ in commits for Material for MkDocs. To list your 
+account as a co-author without knowing or revealing your email address, we will 
+use your GitHub-provided no-reply email, following 
+[GitHub's recommended workaround], to protect your privacy. This way, your 
+commit will count as a contribution without the need to open a pull request.
 
-## Adding a translation via pull request 
+ [GitHub's recommended workaround]: https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors
 
-If you want to integrate the translation yourself, you can also create a pull 
-request after filling out the issue template by following this guide.
+## Committing new translations via PR
+
+If you want to contribute missing translations for a new or supported language 
+by creating a pull request in order to be listed as the solo author on the 
+commit, you can open it after submitting the translation issue. Ensure that you 
+thoroughly read the pull request guide below to prevent breaking functionality 
+in the translation file.
 
 1.  Fork the repository.
 
@@ -154,6 +186,6 @@ request after filling out the issue template by following this guide.
 
 
 
-
+Twemoji, which we take the flags from, does not provide a Catalan flag, which is why we've chosen the closest option that is the Spanish flag (go to our icon search and search for flag). We're aware that this is not perfect, but it's only meant for visual orientation. It's not political by any means. We'll add a note to the documentation.
 
 
