@@ -43,8 +43,10 @@ maintainers. To avoid investing your time in duplicated work, please search the
 [issue tracker] beforehand.
 
 [:octicons-issue-opened-24:&nbsp; Search our issue tracker][Search our issue tracker]{ .md-button .md-button--primary }
-
+  
+  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
   [search our issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+
 
 ### Update supported languages
 
@@ -60,12 +62,11 @@ highlighted fields that need to be adjusted by you.
  [List of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
  [Update your translations]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
 
+---
 
 At this point, when you have made sure, that Material for MkDocs doesn't support
 language already, you can add translations for your language by following the 
 issue template.
-
----
 
 ## Issue template
 

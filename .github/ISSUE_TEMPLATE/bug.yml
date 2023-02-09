@@ -85,18 +85,21 @@ body:
     attributes:
       label: Browser
       description: >-
-        If the bug only happens in __specific browsers__, please select them
-        from the dropdown below. If your browser is not listed or the version
-        is relevant, you may select _Other_ and provide more details in the
-        field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#browser)
+        If the bug only occurs in __specific browsers__, please select them
+        from the dropdown menu below. To make sure that the bug is not caused by 
+        a browser extension, please try if the bug also appears in the icognito 
+        modus and select it in the menu below when it does. If your browser is 
+        not listed or the version is relevant, you may select _Other_ and 
+        provide more details in the field above. [More](https://squidfunk.github.io/mkdocs-material/bug-report/#browser)
       multiple: true
       options:
         - Chrome
-        - Safari
+        - Safari 
         - Edge
         - Firefox
         - Opera
         - Other
+        - Incognito modus
 
   - type: checkboxes
     id: checklist

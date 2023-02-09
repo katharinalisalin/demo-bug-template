@@ -60,9 +60,9 @@ the documentation explains each process.
 
     ---
 
-    Add missing translation for a new or supported language
+    Add missing translations for a new or supported language
 
-    [:octicons-arrow-right-24: Translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
+    [:octicons-arrow-right-24: Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
 
 -   :material-source-pull:{ .lg .middle } __Want to create a pull request?__
 
@@ -70,7 +70,7 @@ the documentation explains each process.
 
     Learn how to create a comprehensive pull request (PR)
 
-    [:octicons-arrow-right-24: Pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request)
+    [:octicons-arrow-right-24: Create a pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request)
 
 </div>
 
