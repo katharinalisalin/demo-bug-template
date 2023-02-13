@@ -8,7 +8,7 @@ Your Pull Request should include test cases that confirm the correct functioning
 Please also note that all contributions are subject to review and may not be accepted if they do not meet the project's standards or goals.
 
 
-## Want to contribute and submit a Pull Request (PR)
+## Want to contribute and submit a pull request (PR)
 
 Search GitHub for an open or closed PR that relates to your submission. You
 don't want to duplicate effort. If you do not find a related issue or PR,
