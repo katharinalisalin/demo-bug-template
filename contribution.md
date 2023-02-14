@@ -24,39 +24,27 @@ features or changes, contribute to the project or exchange with our community.
 ### Creating an issue
 
 
--   __Something is not working?__
-    
-    Report a bug in Material for MkDocs by creating an issue and a reproduction
+-   [Report a bug][report a bug]
+    __Something is not working?__ Report a bug in Material for MkDocs by creating an issue and a reproduction
 
-    [Report a bug][report a bug]
+-   [Report a docs issue][report a docs issue]
+    __Missing information in our docs?__ Report missing information or potential inconsistencies in our documentation 
 
--    __Missing information in our docs?__ Report missing information or potential inconsistencies in our documentation [Report a docs issue][report a docs issue]
+-   [Request a change][request a change]
+    __Want to submit an idea?__ Propose a change or feature request or suggest an improvement
 
--   __Want to submit an idea?__
-    
-    Propose a change or feature request or suggest an improvement
-
-    [Request a change][request a change]
-
--   __Have a question or need help?__
-    
-    Ask a question on our discussion board and get in touch with our community
-
-    [Ask a question][ask a question]
+-   [Ask a question][ask a question]
+    __Have a question or need help?__ Ask a question on our discussion board and get in touch with our community
 
 ---
 
 ### Contributing to this project
 
--   __Missing support for your language?__ Add missing translations for a new or supported language
+-   [Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
+    __Missing support for your language?__ Add missing translations for a new or supported language
 
-    [Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
-
--   __Want to create a pull request?__
-    
-    Learn how to create a comprehensive pull request (PR)
-
-    [Create a pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request)
+-   [Create a pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request) 
+    __Want to create a pull request?__ Learn how to create a comprehensive pull request (PR)
 
 
   [report a bug]: reporting-a-bug.md
