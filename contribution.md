@@ -19,7 +19,6 @@ features or changes, contribute to the project or exchange with our community.
 
 ---
 
-
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
 ### Creating an issue
