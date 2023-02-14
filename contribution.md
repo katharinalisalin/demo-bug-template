@@ -13,12 +13,9 @@ We have invested quite a lot of time in creating better templates for our
 [issue tracker], optimizing the processes for our users to report bugs, request
 features or changes, contribute to the project or exchange with our community. 
 
----
-
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
 ### Creating an issue
-
 
 -   #### [Report a bug][report a bug]
 
@@ -36,9 +33,7 @@ features or changes, contribute to the project or exchange with our community.
 
     --
     __Have a question or need help?__ Ask a question on our discussion board and get in touch with our community
-
 ---
-
 ### Contributing to this project
 
 -   #### [Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
