@@ -1,7 +1,5 @@
 # Contributing
 
----
-
 Material for MkDocs is an actively maintained and constantly improved project 
 that caters to a diverse user base with varying backgrounds and needs. In order
 to effectively address the needs of all our users, evaluate requests, and fix 
@@ -33,7 +31,9 @@ features or changes, contribute to the project or exchange with our community.
 
     --
     __Have a question or need help?__ Ask a question on our discussion board and get in touch with our community
+
 ---
+
 ### Contributing to this project
 
 -   #### [Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
