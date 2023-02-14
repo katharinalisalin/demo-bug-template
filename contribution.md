@@ -32,7 +32,7 @@ features or changes, contribute to the project or exchange with our community.
     --
     __Have a question or need help?__ Ask a question on our discussion board and get in touch with our community
 
----
+
 
 ### Contributing to this project
 
