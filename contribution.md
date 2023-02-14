@@ -8,8 +8,10 @@ bugs, a lot of work from us maintainers is required.
 ## How to contribute
 
 We have invested quite a lot of time in creating better templates for our
-[issue tracker], optimizing the processes for our users to report bugs, request
+[issue tracker], optimizing the processes for you to report bugs, request
 features or changes, contribute to the project or exchange with our community. 
+Please have a look at the following templates and guides and choose the most 
+fitting one when reporting or contributing.  
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
