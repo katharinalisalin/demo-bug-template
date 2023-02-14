@@ -25,45 +25,43 @@ features or changes, contribute to the project or exchange with our community.
 ### Creating an issue
 
 
--   :material-bug:{ .lg .middle } __Something is not working?__
+-   __Something is not working?__
     
     Report a bug in Material for MkDocs by creating an issue and a reproduction
 
-    [:octicons-arrow-right-24: Report a bug][report a bug]
+    [Report a bug][report a bug]
 
--   :material-file-document:{ .lg .middle } __Missing information in our docs?__
+-    __Missing information in our docs?__
     
     Report missing information or potential inconsistencies in our documentation
 
-    [:octicons-arrow-right-24: Report a docs issue][report a docs issue]
+    [Report a docs issue][report a docs issue]
 
--   :material-lightbulb-on:{ .lg .middle } __Want to submit an idea?__
+-   __Want to submit an idea?__
     
     Propose a change or feature request or suggest an improvement
 
-    [:octicons-arrow-right-24: Request a change][request a change]
+    [Request a change][request a change]
 
--   :material-chat-question:{ .lg .middle } __Have a question or need help?__
+-   __Have a question or need help?__
     
     Ask a question on our discussion board and get in touch with our community
 
-    [:octicons-arrow-right-24: Ask a question][ask a question]
+    [Ask a question][ask a question]
 
 ---
 
 ### Contributing to this project
 
--   :material-translate-variant:{ .lg .middle } __Missing support for your language?__
-    
-    Add missing translations for a new or supported language
+-   __Missing support for your language?__ Add missing translations for a new or supported language
 
-    [:octicons-arrow-right-24: Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
+    [Add a translation](https://github.com/squidfunk/mkdocs-material/adding-a-translation)
 
--   :material-source-pull:{ .lg .middle } __Want to create a pull request?__
+-   __Want to create a pull request?__
     
     Learn how to create a comprehensive pull request (PR)
 
-    [:octicons-arrow-right-24: Create a pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request)
+    [Create a pull request](https://github.com/squidfunk/mkdocs-material/creating-a-pull-request)
 
 
   [report a bug]: reporting-a-bug.md
