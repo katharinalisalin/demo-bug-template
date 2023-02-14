@@ -30,9 +30,7 @@ features or changes, contribute to the project or exchange with our community.
 
     [Report a bug][report a bug]
 
--    __Missing information in our docs?__ Report missing information or potential inconsistencies in our documentation
-
-    [Report a docs issue][report a docs issue]
+-    __Missing information in our docs?__ Report missing information or potential inconsistencies in our documentation [Report a docs issue][report a docs issue]
 
 -   __Want to submit an idea?__
     
