@@ -50,3 +50,20 @@ fitting one when reporting or contributing.
   [report a docs issue]: reporting-a-docs-issue.md
   [request a change]: requesting-a-change.md
   [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
+
+
+  ---
+
+### Code of Conduct
+
+
+
+Our issue tracker fuctions as a knowdledge base. It should be easily searchable and a place for our community to share knowledge, solutions, workaround and discuss.
+
+When opening an issue, you should keep the following things in mind:
+- your issue will stay in this project, for people to read for years to come
+- be respectful: towards the community and the maintainers
+- discussions are welcome, since it's great step in other point of views, but it's important to do it in a respectful way
+- accept decisions, even if it's not going your way
+
+We are alsways 
