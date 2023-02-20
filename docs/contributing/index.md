@@ -80,6 +80,46 @@ the documentation explains each process.
   [request a change]: requesting-a-change.md
   [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
 
+## Before contributing
+
+Our community is vast and includes many curious people who open new discussions 
+or issues multiple times a day and are filling the issue tracker or the 
+discussion board with a lot of valuable knowledge. Therefore, we see our issue 
+tracker and the discussion board as a knowledge base that is an important 
+addition to our documentations and brings value to both new and experienced 
+users of Material for MkDocs.
+
+Before opening a discussion, an issue or commenting
+
+- Issues: Is this the right issue template for my request?
+- Discussions: Is my request related to this discussion or should I open a new one and link the old one?
+- Blog post: Is my comment directly related to this blog post or should I open a discussion and link the blog post?
+
+
+issues and discusion can't be deleted – they will stay in this project _forever_, for _everybody_ to read
+
+### Code of Conduct
+
+When opening an issue, you should keep the following things in mind:
+
+- treat the community and the maintainers with respect
+- use welcoming, inclusive and respectful language
+- embrace and understand different viewpoints and experiences
+- accept decisions from the maintainers, even if things are not going your way
+- focus on what's best for the community and show empathy towards other community members
+- follow the standards of acceptable behavior
+
+## Incomplete issues and CoC violations
+
+Us maintainers reserve the right and have the responsibility to remove, edit, 
+or reject comments, commits, code, issues, and other contributions that are not 
+aligned with the Code of Conduct and our guidelines.
+
+
+ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
+
+
 ## Code of conduct
 
 Please understand that 

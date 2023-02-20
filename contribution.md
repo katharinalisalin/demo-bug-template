@@ -43,7 +43,6 @@ the most suitable one when reporting or contributing.
     
     __Want to create a pull request?__ Learn how to create a comprehensive pull request (PR)
 
-
   [report a bug]: reporting-a-bug.md
   [report a docs issue]: reporting-a-docs-issue.md
   [request a change]: requesting-a-change.md
@@ -51,16 +50,35 @@ the most suitable one when reporting or contributing.
 
 ## Before contributing
 
-Our community is vast and includes many curious people who share workarounds or discuss new features or implementations. Therefore, new discussions or issues appear multiple times a day, which means the issue tracker or the discussion board contains a lot of valuable knowledge for both new and experienced users of Material for MkDocs. We see our issue tracker and discussion board as a knowledge base where our community and we maintainers share important information for the community.
+Our community is vast and includes many curious people who share workarounds or 
+discuss new features or implementations. Therefore, new discussions or issues 
+appear multiple times a day, which means the issue tracker or the discussion 
+board contains a lot of valuable knowledge for both new and experienced users 
+of Material for MkDocs. We see our issue tracker and discussion board as a 
+knowledge base where our community and we maintainers share important 
+information for the community.
 
-## Code of Conduct
+It should be easily searchable and a place for our community to share knowledge, 
+solutions, workaround and discuss. 
 
- It should be easily searchable and a place for our community to share knowledge, solutions, workaround and discuss.
+issues and discusion can't be deleted – they will stay in this project _forever_, for _everybody_ to read
+
+### Code of Conduct
 
 When opening an issue, you should keep the following things in mind:
-- your issue will stay in this project, for people to read for years to come
-- be respectful: towards the community and the maintainers
-- discussions are welcome, since it's great step in other point of views, but it's important to do it in a respectful way
-- accept decisions, even if it's not going your way
 
-We are alsways 
+- treat the community and the maintainers with respect
+- use welcoming, inclusive and respectful language
+- embrace and understand different viewpoints and experiences
+- accept decisions from the maintainers, even if things are not going your way
+- focus on what's best for the community and show empathy towards other community members
+- follow the standards of acceptable behavior
+
+## Incomplete issues and CoC violations
+
+Us maintainers reserve the right and have the responsibility to remove, edit, 
+or reject comments, commits, code, issues, and other contributions that are not 
+aligned with the Code of Conduct and our guidelines.
+
+
+ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
