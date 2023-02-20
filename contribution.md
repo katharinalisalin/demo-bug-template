@@ -49,9 +49,9 @@ the most suitable one when reporting or contributing.
   [request a change]: requesting-a-change.md
   [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
 
+## Before contributing
 
 Our community is vast and includes many curious people who share workarounds or discuss new features or implementations. Therefore, new discussions or issues appear multiple times a day, which means the issue tracker or the discussion board contains a lot of valuable knowledge for both new and experienced users of Material for MkDocs. We see our issue tracker and discussion board as a knowledge base where our community and we maintainers share important information for the community.
-
 
 ## Code of Conduct
 
