@@ -1,16 +1,16 @@
 # Contributing
 
 Material for MkDocs is an actively maintained and constantly improved project 
-that caters to a diverse user base with varying backgrounds and needs. In order
-to effectively address the needs of all our users, evaluate requests, and fix 
-bugs, a lot of work from us maintainers is required.
+that serves a diverse user base with varying backgrounds and needs. In order to 
+effectively address the needs of all our users, evaluate requests, and fix bugs, 
+we maintainers need to put in a lot of work.
 
 ## How to contribute
 
-We have invested quite a lot of time in creating better templates for our
+We have invested a lot of time in creating better templates for our
 [issue tracker], optimizing the processes for our users to report bugs, request
-features or changes, contribute to the project or exchange with our community. This section of
-the documentation explains each process.
+features or changes, contribute to the project, or exchange with our community. 
+This section of the documentation explains each process.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
@@ -38,7 +38,7 @@ the documentation explains each process.
 
     ---
 
-    Propose a change or feature request or suggest an improvement
+    Propose a change, feature request, or suggest an improvement
 
     [:octicons-arrow-right-24: Request a change][request a change]
 
@@ -89,9 +89,9 @@ documentation, and brings value to both new and experienced users of Material
 for MkDocs.
 
 To ensure that our issue tracker and discussion board remain structured,
-searchable, and easy to follow, it is mandatory to make sure you are 
-contributing in the right context and environment before submitting an issue,
-opening a discussion, or commenting on existing discussions or subpages.
+searchable and easy to follow, it is mandatory to make sure you are contributing 
+in the right context and environment before submitting an issue, opening a 
+discussion or commenting on existing discussions or subpages.
 
 ### Before submitting an issue, ask yourself:
 
@@ -109,80 +109,59 @@ opening a discussion, or commenting on existing discussions or subpages.
 
 - Is my comment directly related to the content of this blog post?
 
-Please note, that all issues and discussions are permanent and will remain in 
-this project for everyone to read. Therefore, it is essential to follow our 
-contribution guidelines and comply our Code of Conduct.
+Please note that all issues and discussions are permanent and will remain for 
+everyone to read in this project. Therefore, it is essential to follow our 
+contribution guidelines and comply with our Code of Conduct.
 
 ### Code of Conduct
 
-With a large community like ours it's important to follow the rules of a 
+With a large community like ours, it's important to follow the rules of a 
 [Code of Conduct] and value the standards of acceptable behavior. Please make
-sure to esspecially pay attention the following points and keep them in mind 
+sure to especially pay attention to the following points and keep them in mind 
 when interacting within this project.  
 
 - treat the community and the maintainers with respect
-- use welcoming, inclusive and respectful language
+- use welcoming, inclusive, and respectful language
 - embrace and understand different viewpoints and experiences
 - accept decisions from the maintainers, even if things are not going your way
 - focus on what's best for the community and show empathy towards other community members
 
-## Maintainers rights
+## Rights of the Maintainers
 
-As maintainers we reserve us the right and have the responsibility to close 
-issues or remove, reject or edit comments, commits, code, issues, and other 
-contributions that are not aligned with our contribution guidelines and our 
-Code of Conduct.
+As maintainers, we reserve the right and have the responsibility to close, 
+remove, reject, or edit contributions, such as issues, comments, or commits, 
+that do not align with our contribution guidelines and our Code of Conduct.
 
 ### Incomplete issues
 
-We have spent a significant amount of time reviewing our contributing process 
-and have meticulously re-evaluated which information is crucial for us when 
-reviewing and responding to issues. Each field in our issue templates has been 
-thoughtfully curated, requesting only the necessary information needed to 
-comprehend your report or request. It is therefore mandatory for you to fill out 
-every field as requested to the best of your knowledge, without questioning the 
-issue template. This way, we can ensure that every user and project maintainer, 
-regardless of experience, can comprehend the content and severity of the report 
-or request.
+We have invested significant time in reviewing our contribution process and 
+carefully assessed the information that is crucial to us when reviewing and 
+responding to issues. Each field in our issue templates has been thoughtfully 
+curated, requesting only the information required to understand your report or 
+request. Therefore, it is mandatory for you to fill out every field as requested 
+to the best of your knowledge without questioning the issue template. This 
+ensures that every user and project maintainer, regardless of experience, can 
+understand the content and severity of your report or request.
 
-Keeping this in mind, we are reserving us the right to close every incomple 
-issue. 
-
-
+Please note that we reserve the right to close issues that require more 
+information, such as minimal reproductions, or that do not comply with the 
+quality standards and requirements stated in the issue template. Issues can be 
+reopened once the missing information has been provided.
 
 
 ### CoC violations
 
+As our Code of Conduct outlines, it is essential to treat the community and the 
+maintainers with respect and use inclusive, welcoming language. We reserve the 
+right to remove, edit, or reject any contributions, including comments, commits, 
+and issues, that violate our [Code of Conduct]. This includes behavior that is 
+inappropriate, threatening, offensive, or harmful.
 
-
-
-that do not 
-follow the 
-
-
-or remove edit, 
-or reject comments, commits, code, issues, and other contributions that are not 
-aligned with the Code of Conduct and our guidelines.
-
-
-and have the responsibility to remove, edit, 
-or reject comments, commits, code, issues, and other contributions that are not 
-aligned with the Code of Conduct and our guidelines.
-
-Please understand that we reserve the right to close incomplete issues which
-do not contain all information in every required field or do not adhere to the 
-quality standards. 
-
-Issues can be reopened when the missing information has been provided.
-
-ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
-
-
+Please note that we take violations of these guidelines very seriously and 
+reserve the right and responsibility to temporarily or permanently ban users 
+from contributing to the project. Therefore, we ask that all community members 
+keep our Code of Conduct in mind when interacting with others and seek to build 
+a positive and respectful community.
 
 [Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
 
-
-Please understand that we reserve the right to close incomplete issues which
-do not contain minimal reproductions or do not adhere to the quality standards
-and requirements mentioned in this document. Issues can be reopened when the
-missing information has been provided.
