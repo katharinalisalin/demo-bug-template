@@ -74,7 +74,6 @@ the documentation explains each process.
 
 </div>
 
-
   [report a bug]: reporting-a-bug.md
   [report a docs issue]: reporting-a-docs-issue.md
   [request a change]: requesting-a-change.md
@@ -83,46 +82,107 @@ the documentation explains each process.
 ## Before contributing
 
 Our community is vast and includes many curious people who open new discussions 
-or issues multiple times a day and are filling the issue tracker or the 
-discussion board with a lot of valuable knowledge. Therefore, we see our issue 
-tracker and the discussion board as a knowledge base that is an important 
-addition to our documentations and brings value to both new and experienced 
-users of Material for MkDocs.
+or issues multiple times a day, filling the issue tracker or the discussion 
+board with a lot of valuable knowledge. As such, we consider our issue tracker 
+and discussion board to be a knowledge base that is an important addition to our 
+documentation, and brings value to both new and experienced users of Material 
+for MkDocs.
 
-Before opening a discussion, an issue or commenting
+To ensure that our issue tracker and discussion board remain structured,
+searchable, and easy to follow, it is mandatory to make sure you are 
+contributing in the right context and environment before submitting an issue,
+opening a discussion, or commenting on existing discussions or subpages.
 
-- Issues: Is this the right issue template for my request?
-- Discussions: Is my request related to this discussion or should I open a new one and link the old one?
-- Blog post: Is my comment directly related to this blog post or should I open a discussion and link the blog post?
+### Before submitting an issue, ask yourself:
 
+- Is this the right issue template for my request or report?
+- Have I provided all the information requested in the issue template?
 
-issues and discusion can't be deleted – they will stay in this project _forever_, for _everybody_ to read
+### Before asking a question, consider:
+
+- Is my request related to the discussion I'm commenting on?
+- Should I open a new discussion for my request?
+- Is my request a question for the community, or should it be a bug report?
+- Have I provided the community with the necessary information?
+
+### When commenting on blog posts, ask yourself:
+
+- Is my comment directly related to the content of this blog post?
+
+Please note, that all issues and discussions are permanent and will remain in 
+this project for everyone to read. Therefore, it is essential to follow our 
+contribution guidelines and comply our Code of Conduct.
 
 ### Code of Conduct
 
-When opening an issue, you should keep the following things in mind:
+With a large community like ours it's important to follow the rules of a 
+[Code of Conduct] and value the standards of acceptable behavior. Please make
+sure to esspecially pay attention the following points and keep them in mind 
+when interacting within this project.  
 
 - treat the community and the maintainers with respect
 - use welcoming, inclusive and respectful language
 - embrace and understand different viewpoints and experiences
 - accept decisions from the maintainers, even if things are not going your way
 - focus on what's best for the community and show empathy towards other community members
-- follow the standards of acceptable behavior
 
-## Incomplete issues and CoC violations
+## Maintainers rights
 
-Us maintainers reserve the right and have the responsibility to remove, edit, 
+As maintainers we reserve us the right and have the responsibility to close 
+issues or remove, reject or edit comments, commits, code, issues, and other 
+contributions that are not aligned with our contribution guidelines and our 
+Code of Conduct.
+
+### Incomplete issues
+
+We have spent a significant amount of time reviewing our contributing process 
+and have meticulously re-evaluated which information is crucial for us when 
+reviewing and responding to issues. Each field in our issue templates has been 
+thoughtfully curated, requesting only the necessary information needed to 
+comprehend your report or request. It is therefore mandatory for you to fill out 
+every field as requested to the best of your knowledge, without questioning the 
+issue template. This way, we can ensure that every user and project maintainer, 
+regardless of experience, can comprehend the content and severity of the report 
+or request.
+
+Keeping this in mind, we are reserving us the right to close every incomple 
+issue. 
+
+
+
+
+### CoC violations
+
+
+
+
+that do not 
+follow the 
+
+
+or remove edit, 
 or reject comments, commits, code, issues, and other contributions that are not 
 aligned with the Code of Conduct and our guidelines.
 
+
+and have the responsibility to remove, edit, 
+or reject comments, commits, code, issues, and other contributions that are not 
+aligned with the Code of Conduct and our guidelines.
+
+Please understand that we reserve the right to close incomplete issues which
+do not contain all information in every required field or do not adhere to the 
+quality standards. 
+
+Issues can be reopened when the missing information has been provided.
 
 ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 
 
-## Code of conduct
-
-Please understand that 
+[Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
 
 
-https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
+Please understand that we reserve the right to close incomplete issues which
+do not contain minimal reproductions or do not adhere to the quality standards
+and requirements mentioned in this document. Issues can be reopened when the
+missing information has been provided.
