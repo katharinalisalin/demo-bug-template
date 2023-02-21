@@ -151,25 +151,25 @@ to the best of your knowledge without questioning the issue template. This
 ensures that every user and project maintainer, regardless of experience, can 
 understand the content and severity of your report or request.
 
-Please note that we __reserve the right to close issues__ that require more 
-information, such as minimal reproductions, or that do not comply with the 
-quality standards and requirements stated in the issue template. Issues can be 
-reopened once the missing information has been provided.
+> __Please note__ that we __reserve the right to close issues__ that require more 
+> information, such as minimal reproductions, or that do not comply with the 
+> quality standards and requirements stated in the issue template. Issues can be 
+> reopened once the missing information has been provided.
 
 
 ### Code of Conduct violations
 
 As our [Code of Conduct] outlines, it is essential to treat the community and 
-the maintainers with respect and use inclusive, welcoming language. We 
-__reserve the right and have the responsibility to remove, edit, or reject any contributions__,
-including comments, commits, and issues, that violate our Code of Conduct. This 
-includes behavior that is inappropriate, threatening, offensive, or harmful.
+As stated in our [Code of Conduct], we expect all members of our community to 
+treat each other with respect and use language that is inclusive and welcoming. 
+We strive to create a positive and supportive environment, and any behavior that 
+is inappropriate, threatening, offensive, or harmful violates our Code of Conduct. 
+We take such violations seriously and will take appropriate action in response.
 
-Please note that we take violations of these guidelines very seriously and 
-reserve the right and responsibility to temporarily or permanently ban users 
-from contributing to the project. Therefore, we ask that all community members 
-keep our [Code of Conduct] in mind when interacting with others and seek to 
-build a positive and respectful community.
+> __Please note__ that we __reserve the right and have the responsibility to remove, edit, or reject any contributions__,
+> including comments, commits, and issues, that violate our Code of Conduct. We 
+> may also temporarily or permanently ban users who are found to be in violation 
+> of the CoC from contributing to the project.
 
   [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues

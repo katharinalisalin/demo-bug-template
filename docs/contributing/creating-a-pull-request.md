@@ -4,7 +4,7 @@ Material for MkDocs is a project that is driven by "hero developers", 80% of the
 contributions come from less than 20% of the developers.
 
 
-pull request, short PR, is a proposed code chjange 
+pull request, short PR, is a proposed code change 
 
 
 When submitting a Pull Request, please make sure that your contribution follows 
