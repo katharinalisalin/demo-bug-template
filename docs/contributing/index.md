@@ -12,8 +12,6 @@ We have invested a lot of time in creating better templates for our
 features or changes, contribute to the project, or exchange with our community. 
 This section of the documentation explains each process.
 
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
-
 ### Creating an issue
 
 <div class="grid cards" markdown>
@@ -88,49 +86,59 @@ and discussion board to be a knowledge base that is an important addition to our
 documentation, and brings value to both new and experienced users of Material 
 for MkDocs.
 
-To ensure that our issue tracker and discussion board remain structured,
-searchable and easy to follow, it is mandatory to make sure you are contributing 
-in the right context and environment before submitting an issue, opening a 
-discussion or commenting on existing discussions or subpages.
+To ensure that our [issue tracker] and [discussion board] remain __structured__, 
+__searchable__ and __easy to follow__, it is mandatory to make sure you are 
+contributing in the right context and environment before submitting an issue, 
+opening a discussion or commenting on existing discussions or subpages.
 
 ### Before submitting an issue, ask yourself:
 
-- Is this the right issue template for my request or report?
-- Have I provided all the information requested in the issue template?
+  :material-head-question: Is this the right issue template for my request or report?
+
+  :material-head-question: Have I provided all the information requested in the issue template?
 
 ### Before asking a question, consider:
 
-- Is my request related to the discussion I'm commenting on?
-- Should I open a new discussion for my request?
-- Is my request a question for the community, or should it be a bug report?
-- Have I provided the community with the necessary information?
+  :material-head-question: Is my request related to the discussion I'm commenting on?
+
+  :material-head-question: Should I open a new discussion for my request?
+
+  :material-head-question: Is my request a question for the community, or should it be a bug report?
+
+  :material-head-question: Have I provided the community with the necessary information?
 
 ### When commenting on blog posts, ask yourself:
 
-- Is my comment directly related to the content of this blog post?
+  :material-head-question: Is my comment directly related to the content of this blog post?
 
-Please note that all issues and discussions are permanent and will remain for 
-everyone to read in this project. Therefore, it is essential to follow our 
-contribution guidelines and comply with our Code of Conduct.
+!!! warning "Issues are permanent"
 
-### Code of Conduct
+    Please note that all issues and discussions are permanent and will remain 
+    for everyone to read in this project. Therefore, it is essential to follow 
+    our contribution guidelines and comply with our Code of Conduct.
+
+## Code of Conduct
 
 With a large community like ours, it's important to follow the rules of a 
 [Code of Conduct] and value the standards of acceptable behavior. Please make
 sure to especially pay attention to the following points and keep them in mind 
 when interacting within this project.  
 
-- treat the community and the maintainers with respect
-- use welcoming, inclusive, and respectful language
-- embrace and understand different viewpoints and experiences
-- accept decisions from the maintainers, even if things are not going your way
-- focus on what's best for the community and show empathy towards other community members
+:material-account-multiple-check: Treat the community and the maintainers with respect
+
+:material-comment-text-multiple: Use welcoming, inclusive, and respectful language
+
+:material-account-box-multiple: Embrace and understand different viewpoints and experiences
+
+:material-checkbox-multiple-marked-circle: Accept decisions from the maintainers, even if things are not going your way
+
+:material-heart-multiple: Focus on what's best for the community and show empathy towards other community members
 
 ## Rights of the Maintainers
 
 As maintainers, we reserve the right and have the responsibility to close, 
 remove, reject, or edit contributions, such as issues, comments, or commits, 
-that do not align with our contribution guidelines and our Code of Conduct.
+that do not align with our contribution guidelines and our [Code of Conduct].
 
 ### Incomplete issues
 
@@ -143,25 +151,27 @@ to the best of your knowledge without questioning the issue template. This
 ensures that every user and project maintainer, regardless of experience, can 
 understand the content and severity of your report or request.
 
-Please note that we reserve the right to close issues that require more 
+Please note that we __reserve the right to close issues__ that require more 
 information, such as minimal reproductions, or that do not comply with the 
 quality standards and requirements stated in the issue template. Issues can be 
 reopened once the missing information has been provided.
 
 
-### CoC violations
+### Code of Conduct violations
 
-As our Code of Conduct outlines, it is essential to treat the community and the 
-maintainers with respect and use inclusive, welcoming language. We reserve the 
-right to remove, edit, or reject any contributions, including comments, commits, 
-and issues, that violate our [Code of Conduct]. This includes behavior that is 
-inappropriate, threatening, offensive, or harmful.
+As our [Code of Conduct] outlines, it is essential to treat the community and 
+the maintainers with respect and use inclusive, welcoming language. We 
+__reserve the right and have the responsibility to remove, edit, or reject any contributions__,
+including comments, commits, and issues, that violate our Code of Conduct. This 
+includes behavior that is inappropriate, threatening, offensive, or harmful.
 
 Please note that we take violations of these guidelines very seriously and 
 reserve the right and responsibility to temporarily or permanently ban users 
 from contributing to the project. Therefore, we ask that all community members 
-keep our Code of Conduct in mind when interacting with others and seek to build 
-a positive and respectful community.
+keep our [Code of Conduct] in mind when interacting with others and seek to 
+build a positive and respectful community.
 
-[Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
+  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+  [Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
 
