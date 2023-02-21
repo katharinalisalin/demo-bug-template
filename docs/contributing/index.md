@@ -93,23 +93,19 @@ opening a discussion or commenting on existing discussions or subpages.
 
 ### Before submitting an issue, ask yourself:
 
-  :material-head-question: Is this the right issue template for my request or report?
-
-  :material-head-question: Have I provided all the information requested in the issue template?
+- Is this the right issue template for my request or report?
+- Have I provided all the information requested in the issue template?
 
 ### Before asking a question, consider:
 
-  :material-head-question: Is my request related to the discussion I'm commenting on?
-
-  :material-head-question: Should I open a new discussion for my request?
-
-  :material-head-question: Is my request a question for the community, or should it be a bug report?
-
-  :material-head-question: Have I provided the community with the necessary information?
+- Is my request related to the discussion I'm commenting on?
+- Should I open a new discussion for my request?
+- Is my request a question for the community, or should it be a bug report?
+- Have I provided the community with the necessary information?
 
 ### When commenting on blog posts, ask yourself:
 
-  :material-head-question: Is my comment directly related to the content of this blog post?
+- Is my comment directly related to the content of this blog post?
 
 !!! warning "Issues are permanent"
 
