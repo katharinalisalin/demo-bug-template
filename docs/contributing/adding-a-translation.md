@@ -187,16 +187,16 @@ prevent breaking functionality in the translation file.
 6.  Add missing translations for your language to the best of your knowledge
     and save the changes.
 
-!!! warning "Important"
-    Only add the translations that are different from the defaults. For example,
-    if your language is left-to-right, don't add the `direction` translation, as 
-    English is also left-to-right. The following translations are for technical 
-    purposes and __should not be updated__. If they're missing from your 
-    language, it's for a good reason:
+    !!! warning "Important"
+        Only add the translations that are different from the defaults. For example,
+        if your language is left-to-right, don't add the `direction` translation, as 
+        English is also left-to-right. The following translations are for technical 
+        purposes and __should not be updated__. If they're missing from your 
+        language, it's for a good reason:
 
-    - `search.config.lang`
-    - `search.config.pipeline`
-    - `search.config.separator`
+        - `search.config.lang`
+        - `search.config.pipeline`
+        - `search.config.separator`
 
 7.  Lastly, check if your pull request requires all necessary steps and create a 
     PR with your changes.

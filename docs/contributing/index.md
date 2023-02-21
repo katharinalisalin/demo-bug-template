@@ -124,11 +124,11 @@ With a large community like ours, it's important to follow the rules of a
 sure to especially pay attention to the following points and keep them in mind 
 when interacting within this project.  
 
-:material-account-multiple-check: Treat the community and the maintainers with respect
+:material-handshake: Treat the community and the maintainers with respect
 
 :material-comment-text-multiple: Use welcoming, inclusive, and respectful language
 
-:material-account-box-multiple: Embrace and understand different viewpoints and experiences
+:material-account-group: Embrace and understand different viewpoints and experiences
 
 :material-checkbox-multiple-marked-circle: Accept decisions from the maintainers, even if things are not going your way
 
