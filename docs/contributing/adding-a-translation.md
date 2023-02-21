@@ -1,8 +1,8 @@
 # Adding a translation
 
 Material for MkDocs supports 50+ languages with the help of community
-contributions. Keeping all translations up-to-date requires a lot of work, as new 
-features or changes always need new translations. For us maintainers, it's 
+contributions. Keeping all translations up-to-date requires a lot of work, as 
+new features or changes always need new translations. For us maintainers, it's 
 impossible to update all translations ourselves (we just don't speak 50+ 
 languages). Therefore, we are grateful for our international supportive 
 community. If you would like to help us make Material for MkDocs, even more 
@@ -128,8 +128,8 @@ other contributors to complete.
 
 ### Country flag
 
-Now that you have contributed translations for a new language, please select 
-the appropriate flag for your language from our documentation's [Icons, Emojis site] 
+Now that you have contributed translations for a new language, please select the 
+appropriate flag for your language from our documentation's [Icons, Emojis site] 
 by entering the command `flag` in the search field.
 
 !!! warning "Icon limitation by Twemoji"
@@ -157,7 +157,7 @@ Authors who submit a translation using the template above will be
 __credited as co-authors__ in commits for Material for MkDocs. To list your 
 account as a co-author without knowing or revealing your email address, we will 
 use your GitHub-provided no-reply email, following 
-[GitHub's recommended workaround], to protect your privacy. This way, your 
+[GitHub's recommended workaround] to protect your privacy. This way, your 
 commit will count as a contribution without opening a pull request.
 
  [GitHub's recommended workaround]: https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors
@@ -166,8 +166,8 @@ commit will count as a contribution without opening a pull request.
 
 If you want to contribute missing translations by creating a pull request to be 
 listed as the sole author of the commit, you can open a PR after submitting the 
-translation issue. Ensure that you thoroughly read the pull request guide below 
-to prevent breaking functionality in the translation file.
+translation issue. Ensure you thoroughly read the pull request guide below to 
+prevent breaking functionality in the translation file.
 
 1.  Fill out a [translation issue] according to the guide and submit it in the 
     [issue tracker].
@@ -191,7 +191,7 @@ to prevent breaking functionality in the translation file.
     Only add the translations that are different from the defaults. For example,
     if your language is left-to-right, don't add the `direction` translation, as 
     English is also left-to-right. The following translations are for technical 
-    purposes, and __should not be updated__. If they're missing from your 
+    purposes and __should not be updated__. If they're missing from your 
     language, it's for a good reason:
 
     - `search.config.lang`
