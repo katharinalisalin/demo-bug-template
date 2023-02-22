@@ -1,17 +1,23 @@
 # Contributing
 
-Material for MkDocs is a constantly improving and actively maintained project 
-that caters to a diverse user base with varying backgrounds and needs. In order
-to effectively address the needs of all our users, evaluate requests, and fix 
-bugs, a lot of work from us maintainers is required.
+Material for MkDocs is an actively maintained and constantly improved project 
+that serves a diverse user base with varying backgrounds and needs. In order to 
+effectively address the needs of all our users, evaluate requests, and fix bugs, 
+we maintainers need to put in a lot of work.
 
 ## How to contribute
 
-We have invested a significant amount of time in creating better templates for 
-our [issue tracker], optimizing the processes for for reporting bugs, requesting 
-features or changes, contributing to the project, or exchanging ideas with our 
-community. Please take a look at the following templates and guides and choose 
-the most suitable one when reporting or contributing.
+We have devoted significant effort in creating better templates for our
+[issue tracker], optimizing the processes for our users to report bugs, request
+features or changes, contribute to the project, or exchange with our community. 
+Given the wealth of valuable knowledge contained in numerous issues and 
+discussions, we consider our issue tracker and discussion board to serve as a 
+crucial knowledge base, that is an important addition to our documentation and 
+brings value to both new and experienced users of Material for MkDocs. To
+maintain the organization, searchability, and ease of use of these knowledge 
+bases, it is essential to select the appropriate contribution template. In this 
+section of our documentation, we outline the available options and their 
+respective procedures.
 
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
 
@@ -50,16 +56,20 @@ the most suitable one when reporting or contributing.
 
 ## Before contributing
 
-Our community is vast and includes many curious people who share workarounds or 
-discuss new features or implementations. Therefore, new discussions or issues 
-appear multiple times a day, which means the issue tracker or the discussion 
-board contains a lot of valuable knowledge for both new and experienced users 
-of Material for MkDocs. We see our issue tracker and discussion board as a 
-knowledge base where our community and we maintainers share important 
-information for the community.
+Our community is vast and includes many curious people who open new discussions 
+or issues multiple times a day and are filling the issue tracker or the 
+discussion board with a lot of valuable knowledge. Therefore, we see our issue 
+tracker and the discussion board as a knowledge base that is an important 
+addition to our documentations and brings value to both new and experienced 
+users of Material for MkDocs.
 
-It should be easily searchable and a place for our community to share knowledge, 
-solutions, workaround and discuss. 
+Before opening a discussion, an issue or commenting
+
+- Issues: Is this the right issue template for my request?
+- Discussions: Is my request related to this discussion or should I open a new one and link the old one?
+- Blog post: Is my comment directly related to this blog post or should I open a discussion and link the blog post?
+
+
 
 issues and discusion can't be deleted – they will stay in this project _forever_, for _everybody_ to read
 

@@ -5,6 +5,48 @@ that serves a diverse user base with varying backgrounds and needs. In order to
 effectively address the needs of all our users, evaluate requests, and fix bugs, 
 we maintainers need to put in a lot of work.
 
+## Before contributing
+
+Our community is vast and includes many curious people who open new discussions 
+or issues multiple times a day, filling the [issue tracker] or the [discussion board] 
+with a lot of valuable knowledge. As such, we consider our issue tracker and 
+discussion board to be a knowledge base that is an important addition to our 
+[documentation], and brings value to both new and experienced users of Material 
+for MkDocs. To ensure that our issue tracker and discussion board remain __structured__, 
+__searchable__ and __easy to follow__, it is mandatory to make sure you are 
+contributing in the right context and environment before submitting an issue, 
+opening a discussion or commenting on existing discussions or subpages.
+
+### Before submitting an issue, review:
+
+- Am I using the appropriate issue template for my request, report, or contribution?
+- Have I checked if a similar issue or request has already been submitted?
+- Did I fill out every field as requested?
+- Did I provide all additional information others might need to comprehend my request?
+
+### Before asking a question, reconsider:
+
+- Am I asking this question in the dedicated space, e.g., discussion board?
+- Is there an open discussion with the topic of my request?
+- Does my question fit direction of the discussion, or should I open a new discussion?
+- Does my question leave room for discussion, or should it be a bug report?
+- Did I provide the community with all the necessary information to comprehend my request?
+- Have I checked if my question has been answered before?
+
+### Before leaving a comment, rethink:
+
+- Is my comment directly related to the topic of this page, e.g., blog post?
+- Is it a comment or a request?
+- Should I rather use the discussion board for my request or comment?
+- Does my comment add value to the conversation?
+- Is my comment respectful and constructive?
+
+!!! warning "Issues are permanent"
+
+    Please note that all issues and discussions are permanent and will remain 
+    for everyone to read in this project. Therefore, it is essential to follow 
+    our contribution guidelines and comply with our Code of Conduct.
+
 ## How to contribute
 
 We have invested a lot of time in creating better templates for our
@@ -77,43 +119,7 @@ This section of the documentation explains each process.
   [request a change]: requesting-a-change.md
   [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
 
-## Before contributing
-
-Our community is vast and includes many curious people who open new discussions 
-or issues multiple times a day, filling the issue tracker or the discussion 
-board with a lot of valuable knowledge. As such, we consider our issue tracker 
-and discussion board to be a knowledge base that is an important addition to our 
-documentation, and brings value to both new and experienced users of Material 
-for MkDocs.
-
-To ensure that our [issue tracker] and [discussion board] remain __structured__, 
-__searchable__ and __easy to follow__, it is mandatory to make sure you are 
-contributing in the right context and environment before submitting an issue, 
-opening a discussion or commenting on existing discussions or subpages.
-
-### Before submitting an issue, ask yourself:
-
-- Is this the right issue template for my request or report?
-- Have I provided all the information requested in the issue template?
-
-### Before asking a question, consider:
-
-- Is my request related to the discussion I'm commenting on?
-- Should I open a new discussion for my request?
-- Is my request a question for the community, or should it be a bug report?
-- Have I provided the community with the necessary information?
-
-### When commenting on blog posts, ask yourself:
-
-- Is my comment directly related to the content of this blog post?
-
-!!! warning "Issues are permanent"
-
-    Please note that all issues and discussions are permanent and will remain 
-    for everyone to read in this project. Therefore, it is essential to follow 
-    our contribution guidelines and comply with our Code of Conduct.
-
-## Code of Conduct
+## Code of Conduct (CoC)
 
 With a large community like ours, it's important to follow the rules of a 
 [Code of Conduct] and value the standards of acceptable behavior. Please make
@@ -153,7 +159,7 @@ understand the content and severity of your report or request.
 > reopened once the missing information has been provided.
 
 
-### Code of Conduct violations
+### CoC violations
 
 As our [Code of Conduct] outlines, it is essential to treat the community and 
 As stated in our [Code of Conduct], we expect all members of our community to 
@@ -169,5 +175,6 @@ We take such violations seriously and will take appropriate action in response.
 
   [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+  [documentation]: https://squidfunk.github.io/mkdocs-material/
   [Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
 
