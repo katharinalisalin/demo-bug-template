@@ -5,14 +5,16 @@ that serves a diverse user base with varying backgrounds and needs. In order to
 effectively address the needs of all our users, evaluate requests, and fix bugs, 
 we maintainers need to put in a lot of work.
 
-## Before contributing
-
 Our community is vast and includes many curious people who open new discussions 
 or issues multiple times a day, filling the [issue tracker] or the [discussion board] 
 with a lot of valuable knowledge. As such, we consider our issue tracker and 
 discussion board to be a knowledge base that is an important addition to our 
 [documentation], and brings value to both new and experienced users of Material 
-for MkDocs. To ensure that our issue tracker and discussion board remain __structured__, 
+for MkDocs. 
+
+## Before contributing
+
+To ensure that our issue tracker and discussion board remain __structured__, 
 __searchable__ and __easy to follow__, it is mandatory to make sure you are 
 contributing in the right context and environment before submitting an issue, 
 opening a discussion or commenting on existing discussions or subpages.
@@ -125,6 +127,8 @@ With a large community like ours, it's important to follow the rules of a
 [Code of Conduct] and value the standards of acceptable behavior. Please make
 sure to especially pay attention to the following points and keep them in mind 
 when interacting within this project.  
+
+### Our key values
 
 :material-handshake: Treat the community and the maintainers with respect
 
