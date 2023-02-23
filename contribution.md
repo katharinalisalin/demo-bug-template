@@ -10,8 +10,8 @@ project, or exchange with our community.
 
 Given the wealth of valuable knowledge contained in numerous issues and 
 discussions, we consider our [issue tracker] and [discussion board] to serve as a 
-crucial knowledge base, that is an important addition to our [documentation] and 
-brings value to both new and experienced users of Material for MkDocs.
+crucial __knowledge base__, that is an important addition to our [documentation] 
+and brings value to both new and experienced users of Material for MkDocs.
 
 ## How to contribute
 
