@@ -64,8 +64,8 @@ respective procedures.
 As maintainers of Material for MkDocs, we strive to create a positive and 
 supportive community, where all members are treated with respect and dignity. We 
 believe in upholding high standards of behavior and conduct. Therefore, we 
-request all contributors to keep the following values in mind when working 
-within this project's environment:
+request all contributors to stick to our [Code of Conduct] and keep the 
+following values in mind when working within this project's environment:
 
 - treat the community and the maintainers with respect
 - use welcoming, inclusive and respectful language
@@ -74,3 +74,4 @@ within this project's environment:
 - focus on what's best for the community and show empathy towards other community members
 - follow the standards of acceptable behavior
 
+  [Code of Conduct]: https://github.com/squidfunk/mkdocs-material/blob/master/CODE_OF_CONDUCT.md
