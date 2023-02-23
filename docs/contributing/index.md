@@ -161,11 +161,11 @@ understand the content and severity of your report or request.
 
 ### CoC violations
 
-As our [Code of Conduct] outlines, it is essential to treat the community and 
-As stated in our [Code of Conduct], we expect all members of our community to 
-treat each other with respect and use language that is inclusive and welcoming. 
-We strive to create a positive and supportive environment, and any behavior that 
-is inappropriate, threatening, offensive, or harmful violates our Code of Conduct. 
+As our [Code of Conduct] outlines, it is essential to treat the community and as 
+stated in our [Code of Conduct], we expect all members of our community to treat 
+each other with respect and use language that is inclusive and welcoming. We 
+strive to create a positive and supportive environment, and any behavior that is 
+inappropriate, threatening, offensive, or harmful violates our Code of Conduct. 
 We take such violations seriously and will take appropriate action in response.
 
 > __Please note__ that we __reserve the right and have the responsibility to remove, edit, or reject any contributions__,

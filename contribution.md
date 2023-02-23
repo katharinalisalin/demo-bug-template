@@ -59,9 +59,13 @@ respective procedures.
   [request a change]: requesting-a-change.md
   [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
 
-### Code of Conduct
+## Code of Conduct
 
-When opening an issue, you should keep the following things in mind:
+As maintainers of Material for MkDocs, we strive to create a positive and 
+supportive community, where all members are treated with respect and dignity. We 
+believe in upholding high standards of behavior and conduct. Therefore, we 
+request all contributors to keep the following values in mind when working 
+within this project's environment:
 
 - treat the community and the maintainers with respect
 - use welcoming, inclusive and respectful language
@@ -69,5 +73,4 @@ When opening an issue, you should keep the following things in mind:
 - accept decisions from the maintainers, even if things are not going your way
 - focus on what's best for the community and show empathy towards other community members
 - follow the standards of acceptable behavior
-
 
