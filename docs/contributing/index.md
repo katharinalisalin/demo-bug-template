@@ -29,8 +29,8 @@ opening a discussion or commenting on existing discussions or subpages.
 ### Before asking a question, reconsider:
 
 - Am I asking this question in the dedicated space, e.g., discussion board?
-- Is there an open discussion with the topic of my request?
-- Does my question fit direction of the discussion, or should I open a new discussion?
+- Is there an open discussion on the topic of my request?
+- Does my question fit the direction of the discussion, or should I open a new discussion?
 - Does my question leave room for discussion, or should it be a bug report?
 - Did I provide the community with all the necessary information to comprehend my request?
 - Have I checked if my question has been answered before?
@@ -39,7 +39,7 @@ opening a discussion or commenting on existing discussions or subpages.
 
 - Is my comment directly related to the topic of this page, e.g., blog post?
 - Is it a comment or a request?
-- Should I rather use the discussion board for my request or comment?
+- Should I use the discussion board for my request or comment instead?
 - Does my comment add value to the conversation?
 - Is my comment respectful and constructive?
 
@@ -157,10 +157,10 @@ to the best of your knowledge without questioning the issue template. This
 ensures that every user and project maintainer, regardless of experience, can 
 understand the content and severity of your report or request.
 
-> __Please note__ that we __reserve the right to close issues__ that require more 
-> information, such as minimal reproductions, or that do not comply with the 
-> quality standards and requirements stated in the issue template. Issues can be 
-> reopened once the missing information has been provided.
+> __Please note__ that we __reserve the right to close issues__ that require 
+> more information, such as minimal reproductions, or that do not comply with 
+> the quality standards and requirements stated in the issue template. Issues 
+> can be reopened once the missing information has been provided.
 
 
 ### CoC violations

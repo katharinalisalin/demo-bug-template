@@ -203,39 +203,43 @@ review your idea for Material for MkDocs.
 
 __We'll take it from here.__
 
-## Declination
+## Rejection, Turndown, Denial, Dismissal of a change request
 
-If your request has been denied by us maintainers, it may be due to various
-reasons. As maintainers, we have a deeper understanding of the project's 
-background and can evaluate community ideas based on our experience and the 
-project's development over the last few years. Even though you may have done 
-your preliminary research, your understanding of implementing your idea may not 
-align with the project's goals or resources. Additionally, there may be other 
-reasons that led to the declination of your change request that may not be 
-immediately apparent to you as a user. These reasons may include the following:
+As maintainers of this project with years of experience in its development and 
+maintenance, we evaluate change requests based on various factors. While it 
+may not always be easy to understand the reasons behind a rejection we strive 
+to explain when possible.
 
+If your change request has been denied, it may be because your idea does not 
+align with the project's goals or available resources, or for other reasons. 
+Here are some common reasons for rejection:
 
-- [x] ...is useful to the majority of users.
-- [x] ...matches the overall "tone" of this project.
-- [x] ...is easy to use for authors.
-- [x] ...is not incompatible with one existing feature, theme, or plugin.
-- [x] ...can (ideally) be used together with all existing features, themes, or plugins.
-- [x] ...can be implemented in a way that is accessible.
-- [x] ...can be implemented with reasonable effort.
-- [x] ...can be implemented following the principle of progressive enhancement.
-- [x] ...can be implemented to work on all screen sizes (mobile, tablet, desktop).
-- [x] ...can be implemented to work on all modern browsers (nope, not IE).
+> __Your idea may not:__
+
+> - match the overall tone or vision of this project
+> - be compatible with existing features, themes, or plugins
+> - be useful to the majority of users
+> - be user-friendly for authors
+> - be implemented in an accessible way
+> - be implemented with reasonable effort
+> - be implemented using the principle of progressive enhancement
+> - be implemented to work on all screen sizes
+> - be implemented to work on all modern browsers
+
+We understand that rejection can be disappointing, but it's important to 
+consider the project's overall direction and vision, which should be an 
+excellent fit for a variety of users. We value and appreciate all ideas and 
+contributions and encourage you to keep sharing them with us.
 
 ### Upstream dependencies
 
 Your change might not be directly related to Material for MkDocs. Since our 
 project relies on many different projects and has dependencies, your change 
 request might need to be implemented in another project. Here is a list 
-of dependencies that might regard your change request
+of dependencies that might regard your change request:
 
   - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
   - [GitHub](https://github.com/)
   - [Cairo]
   - [Pillow]
   - [Homebrew]
-
