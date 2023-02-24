@@ -121,6 +121,8 @@ This section of the documentation explains each process.
   [request a change]: requesting-a-change.md
   [ask a question]: https://github.com/squidfunk/mkdocs-material/discussions
 
+---
+
 ## Code of Conduct (CoC)
 
 With a large community like ours, it's important to follow the rules of a 
@@ -139,6 +141,8 @@ when interacting within this project.
 :material-checkbox-multiple-marked-circle: Accept decisions from the maintainers, even if things are not going your way
 
 :material-heart-multiple: Focus on what's best for the community and show empathy towards other community members
+
+---
 
 ## Rights and responsibilities
 

@@ -308,6 +308,8 @@ know to help you.
 
 __We'll take it from here.__
 
+---
+
 ## Incomplete issues
 
 Please understand that we reserve the right to close incomplete issues which

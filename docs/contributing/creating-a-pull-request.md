@@ -16,7 +16,6 @@ these guidelines:
 
 Please also note that all contributions are subject to review and may not be accepted if they do not meet the project's standards or goals.
 
-
 ## Want to contribute and submit a pull request (PR)
 
 Search GitHub for an open or closed PR that relates to your submission. You

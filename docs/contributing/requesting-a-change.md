@@ -203,6 +203,8 @@ review your idea for Material for MkDocs.
 
 __We'll take it from here.__
 
+---
+
 ## Turned down requests
 
 Rejection | Turndown | Denial | Dismissal of a change request

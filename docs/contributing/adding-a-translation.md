@@ -151,7 +151,11 @@ translation issue – you are almost done. This section ensures that you have re
 this guide and have worked to your best knowledge to provide us with everything 
 we need to know to integrate your contribution to Material for MkDocs.
 
-### Authors credits
+__We'll take it from here.__
+
+---
+
+## Authors credits
 
 Authors who submit a translation using the template above will be 
 __credited as co-authors__ in commits for Material for MkDocs. To list your 
@@ -162,7 +166,7 @@ commit will count as a contribution without opening a pull request.
 
  [GitHub's recommended workaround]: https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors
 
-## Contributing translations via PR
+## Contributing via pull request
 
 If you want to contribute missing translations by creating a pull request to be 
 listed as the sole author of the commit, you can open a PR after submitting the 
@@ -188,11 +192,11 @@ prevent breaking functionality in the translation file.
     and save the changes.
 
     !!! warning "Important"
-        Only add the translations that are different from the defaults. For example,
-        if your language is left-to-right, don't add the `direction` translation, as 
-        English is also left-to-right. The following translations are for technical 
-        purposes and __should not be updated__. If they're missing from your 
-        language, it's for a good reason:
+        Only add the translations that are different from the defaults. For 
+        example, if your language is left-to-right, don't add the `direction` 
+        translation, as English is also left-to-right. The following 
+        translations are for technical purposes and __should not be updated__. 
+        If they're missing from your language, it's for a good reason:
 
         - `search.config.lang`
         - `search.config.pipeline`
