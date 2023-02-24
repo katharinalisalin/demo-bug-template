@@ -214,7 +214,7 @@ If your change request has been denied, it may be because your idea does not
 align with the project's goals or available resources, or for other reasons. 
 Here are some common reasons for rejection:
 
-> __Your idea may not:__
+> __Your idea may not...__
 
 > - match the overall tone or vision of this project
 > - be compatible with existing features, themes, or plugins
