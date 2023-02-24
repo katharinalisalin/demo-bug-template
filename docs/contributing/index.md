@@ -140,7 +140,7 @@ when interacting within this project.
 
 :material-heart-multiple: Focus on what's best for the community and show empathy towards other community members
 
-## Rights of the Maintainers
+## Rights and responsibilities
 
 As maintainers, we reserve the right and have the responsibility to close, 
 remove, reject, or edit contributions, such as issues, comments, or commits, 

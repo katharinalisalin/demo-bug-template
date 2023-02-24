@@ -6,17 +6,17 @@ effectively address the needs of all our users, evaluate requests, and fix bugs,
 we maintainers need to put in a lot of work. We have devoted significant effort 
 in creating better templates for our issue tracker, optimizing the processes for 
 our users to report bugs, request features or changes, contribute to the 
-project, or exchange with our community. 
+project or exchange with our community. 
 
 Given the wealth of valuable knowledge contained in numerous issues and 
 discussions, we consider our [issue tracker] and [discussion board] to serve as a 
-crucial __knowledge base__, that is an important addition to our [documentation] 
+crucial __knowledge base__ that is an important addition to our [documentation] 
 and brings value to both new and experienced users of Material for MkDocs.
 
 ## How to contribute
 
 To maintain the organization, searchability, and ease of use of these knowledge 
-bases, it is essential to select the appropriate contribution template. In this 
+bases, selecting the appropriate contribution template is essential. In this 
 section of our documentation, we outline the available options and their 
 respective procedures.
 
@@ -62,13 +62,13 @@ respective procedures.
 ## Code of Conduct
 
 As maintainers of Material for MkDocs, we strive to create a positive and 
-supportive community, where all members are treated with respect and dignity. We 
+supportive community where all members are treated with respect and dignity. We 
 believe in upholding high standards of behavior and conduct. Therefore, we 
 request all contributors to stick to our [Code of Conduct] and keep the 
 following values in mind when working within this project's environment:
 
 - treat the community and the maintainers with respect
-- use welcoming, inclusive and respectful language
+- use welcoming, inclusive, and respectful language
 - embrace and understand different viewpoints and experiences
 - accept decisions from the maintainers, even if things are not going your way
 - focus on what's best for the community and show empathy towards other community members
