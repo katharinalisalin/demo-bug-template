@@ -235,7 +235,7 @@ consider the project's overall direction and vision, which should be an
 excellent fit for a variety of users. We value and appreciate all ideas and 
 contributions and encourage you to keep sharing them with us.
 
-### Upstream dependencies
+### Dependencies
 
 Your change request may also have been turned down because it's not directly 
 related to Material for MkDocs. Since our project relies on many different 
