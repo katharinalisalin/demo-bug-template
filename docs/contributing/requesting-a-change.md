@@ -203,12 +203,16 @@ review your idea for Material for MkDocs.
 
 __We'll take it from here.__
 
-## Rejection, Turndown, Denial, Dismissal of a change request
+## Turned down requests
 
-As maintainers of this project with years of experience in its development and 
-maintenance, we evaluate change requests based on various factors. While it 
-may not always be easy to understand the reasons behind a rejection we strive 
-to explain when possible.
+Rejection | Turndown | Denial | Dismissal of a change request
+
+As the maintainers of this project, we have years of experience in its 
+development and maintenance. When evaluating change requests, we consider 
+various factors. Although it may not always be easy to understand the reasons 
+behind a rejection, we strive to provide explanations whenever possible.
+
+### Common reasons
 
 If your change request has been denied, it may be because your idea does not 
 align with the project's goals or available resources, or for other reasons. 
@@ -233,10 +237,11 @@ contributions and encourage you to keep sharing them with us.
 
 ### Upstream dependencies
 
-Your change might not be directly related to Material for MkDocs. Since our 
-project relies on many different projects and has dependencies, your change 
-request might need to be implemented in another project. Here is a list 
-of dependencies that might regard your change request:
+Your change request may also have been turned down because it's not directly 
+related to Material for MkDocs. Since our project relies on many different 
+projects and has dependencies, your change request might need to be implemented 
+in another project. Here is a list of dependencies that might relate to your 
+change request:
 
   - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
   - [GitHub](https://github.com/)
