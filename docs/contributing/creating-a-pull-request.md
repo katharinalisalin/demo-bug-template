@@ -1,10 +1,19 @@
 # Submitting a Pull Request (PR)
 
+
+
+
+## Keep in mind
+
+
+
+
 Material for MkDocs is a project that is driven by "hero developers", 80% of the 
 contributions come from less than 20% of the developers.
 
 
 pull request, short PR, is a proposed code change 
+
 
 
 When submitting a Pull Request, please make sure that your contribution follows 
@@ -14,7 +23,8 @@ these guidelines:
 - [x] Your changes are well-documented, with clear explanations of what the code does and why it is necessary.
 - [x] Your Pull Request includes test cases that confirm the correct functioning of the code.
 
-Please also note that all contributions are subject to review and may not be accepted if they do not meet the project's standards or goals.
+Please also note that all contributions are subject to review and may not be 
+accepted if they do not meet the project's standards or goals.
 
 ## Want to contribute and submit a pull request (PR)
 

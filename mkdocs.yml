@@ -26,6 +26,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Setup: setup-page.md
   - Contributing:
     - contributing/index.md
     - Reporting a bug: contributing/reporting-a-bug.md
