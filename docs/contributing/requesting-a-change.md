@@ -58,7 +58,6 @@ that benefits a large number of users.
 
 [:octicons-comment-discussion-16:&nbsp; Start a discussion][Start a discussion]{ .md-button .md-button--primary }
 
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [Start a discussion]: https://github.com/squidfunk/mkdocs-material/discussions
 
 ## Issue template
@@ -113,14 +112,7 @@ relevant. Don't write about the change request here.
 
 Next, provide a detailed and clear description of your idea. Explain why your 
 idea is relevant to Material for MkDocs and must be implemented here, and not
-in one of its dependencies:[^1]
-
-  [^1]:
-    Sometimes, users suggest ideas on our [issue tracker] that concern one of
-    our upstream dependencies, including [MkDocs], [Python Markdown],
-    [Python Markdown Extensions] or third-party plugins. It's a good idea to
-    think about whether your idea is beneficial to other themes, upstreaming
-    change requests for bigger impact.
+in one of its dependencies:
 
 -   __Explain the <u>what</u>, not the <u>why</u>__ – don't explain
     [the benefits of your idea][Use cases] here, we're getting there.
@@ -148,6 +140,7 @@ before we  maintainers can add it to our code base.
   [Python Markdown]: https://python-markdown.github.io/extensions/
   [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
   [theme.name]: https://www.mkdocs.org/user-guide/configuration/#theme
+  [dependencies]: #dependencies
 
 ### Related links
 
@@ -197,7 +190,7 @@ it and describing how it was implemented and incorporated.
 ### Checklist
 
 Thanks for following the change request guide and creating a high-quality 
-change request. This section ensures that you have read this guide and have
+change request. The checklist ensures that you have read this guide and have
 worked to your best knowledge to provide us with every piece of information to 
 review your idea for Material for MkDocs.
 
@@ -205,20 +198,21 @@ __We'll take it from here.__
 
 ---
 
-## Turned down requests
+## Your change request was rejected?
 
-Rejection | Turndown | Denial | Dismissal of a change request
-
-As the maintainers of this project, we have years of experience in its 
-development and maintenance. When evaluating change requests, we consider 
-various factors. Although it may not always be easy to understand the reasons 
-behind a rejection, we strive to provide explanations whenever possible.
+We're sorry that your change request didn't make the cut. We understand it can 
+be frustrating when your ideas don't get accepted. We want you to know that as 
+the project maintainers, we have to weigh the needs of the community as a whole, 
+and sometimes that means making tough decisions. We always try to consider many 
+factors when evaluating change requests, and we'll explain the reasoning behind 
+our decisions whenever we can. If you're ever unsure about why a request was t
+urned down, please don't hesitate to ask for clarification.
 
 ### Common reasons
 
-If your change request has been denied, it may be because your idea does not 
-align with the project's goals or available resources, or for other reasons. 
-Here are some common reasons for rejection:
+To provide you with some insight as to why your idea may have been rejected, 
+it's possible that it didn't align with the project's goals and direction or 
+the available resources. Here are a few common reasons for rejections:
 
 > __Your idea may not...__
 
@@ -228,25 +222,29 @@ Here are some common reasons for rejection:
 > - be user-friendly for authors
 > - be implemented in an accessible way
 > - be implemented with reasonable effort
-> - be implemented using the principle of progressive enhancement
+> - be implemented using the [principle of progressive enhancement]
 > - be implemented to work on all screen sizes
 > - be implemented to work on all modern browsers
 
-We understand that rejection can be disappointing, but it's important to 
-consider the project's overall direction and vision, which should be an 
-excellent fit for a variety of users. We value and appreciate all ideas and 
-contributions and encourage you to keep sharing them with us.
+
+We highly value and appreciate every idea and contribution you bring to the 
+table, and we encourage you to keep sharing them with us. Some of these ideas 
+might even be implemented by us! However, we want to remind you that you also 
+have the power to implement your ideas on your own by customizing the theme. If 
+you're unsure about how to realize your ideas or want to know if someone has 
+already found a solution, feel free to visit our [discussion board] - it's the 
+perfect place for you!
+
+ [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+ [principle of progressive enhancement]: https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement?retiredLocale=de
 
 ### Dependencies
 
-Your change request may also have been turned down because it's not directly 
-related to Material for MkDocs. Since our project relies on many different 
-projects and has dependencies, your change request might need to be implemented 
-in another project. Here is a list of dependencies that might relate to your 
-change request:
+Occasionally, users propose ideas on our [issue tracker] that concern one of our 
+upstream dependencies, such as [MkDocs], [Python Markdown],
+[Python Markdown Extensions] or third-party plugins. In such cases, it's 
+worthwhile to consider whether your idea could benefit other themes as well. If 
+so, you might want to consider submitting a change request upstream to have a 
+greater impact.
 
-  - [MkDocs](https://github.com/mkdocs/mkdocs#mkdocs)
-  - [GitHub](https://github.com/)
-  - [Cairo]
-  - [Pillow]
-  - [Homebrew]
+

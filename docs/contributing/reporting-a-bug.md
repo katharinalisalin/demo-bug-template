@@ -302,7 +302,7 @@ switching to incognito mode.
 ### Checklist
 
 Thanks for following the guide and creating a high-quality and complete bug
-report – you are almost done. This section ensures that you have read this guide
+report – you are almost done. The checklist ensures that you have read this guide
 and have worked to your best knowledge to provide us with everything we need to
 know to help you.
 

@@ -74,7 +74,7 @@ body:
             I have variefied that my idea is a change request and not a bug report. 
         required: true
       - label: >-
-            I have ensured that, to the best knowledge, my idea will benefit the entire community.
+            I have ensured that, to the best of my knowledge, my idea will benefit the entire community.
         required: true
       - label: >-
             I have included relevant links to [the documentation](https://squidfunk.github.io/mkdocs-material), related [issues](https://github.com/squidfunk/mkdocs-material/issues)

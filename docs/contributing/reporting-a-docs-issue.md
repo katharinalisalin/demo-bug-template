@@ -69,7 +69,7 @@ improvement. This can be a suggestions, a fix or a temporary workaround.
 ### Checklist
 
 Thanks for following the documentation issue reporting guide and creating a 
-high-quality documentation issue report. This section ensures that you have read 
+high-quality documentation issue report. The checklist ensures that you have read 
 this guide and have worked to your best knowledge to provide us with every piece 
 of information we need to improve the Material for MkDocs documentation.
 

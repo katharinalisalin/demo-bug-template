@@ -5,7 +5,7 @@ that serves a diverse user base with varying backgrounds and needs. In order to
 effectively address the needs of all our users, evaluate requests, and fix bugs, 
 we maintainers need to put in a lot of work.
 
-Our community is vast and includes many curious people who open new discussions 
+Our community is pretty big and includes many active users who open new discussions 
 or issues multiple times a day, filling the [issue tracker] or the [discussion board] 
 with a lot of valuable knowledge. As such, we consider our issue tracker and 
 discussion board to be a knowledge base that is an important addition to our 
@@ -15,29 +15,28 @@ for MkDocs.
 ## Before contributing
 
 To ensure that our issue tracker and discussion board remain __structured__, 
-__searchable__ and __easy to follow__, it is mandatory to make sure you are 
-contributing in the right context and environment before submitting an issue, 
-opening a discussion or commenting on existing discussions or subpages.
+__searchable__ and __easy to follow__, it is mandatory to ensure you are 
+contributing in the right context before submitting an issue, opening a 
+discussion or commenting on existing discussions or subpages.
 
 ### Before submitting an issue, review:
 
-- Am I using the appropriate issue template for my request, report, or contribution?
+- Am I using the appropriate issue template for my request, report, or contribution?                LINKS
 - Have I checked if a similar issue or request has already been submitted?
 - Did I fill out every field as requested?
 - Did I provide all additional information others might need to comprehend my request?
 
 ### Before asking a question, reconsider:
 
-- Am I asking this question in the dedicated space, e.g., discussion board?
 - Is there an open discussion on the topic of my request?
 - Does my question fit the direction of the discussion, or should I open a new discussion?
-- Does my question leave room for discussion, or should it be a bug report?
-- Did I provide the community with all the necessary information to comprehend my request?
+- Does my question leave room for discussion, or should it be a bug report?                         anpassen
+- Did I provide the community with all the necessary information to comprehend my question?
 - Have I checked if my question has been answered before?
 
 ### Before leaving a comment, rethink:
 
-- Is my comment directly related to the topic of this page, e.g., blog post?
+- Is my comment directly related to the topic of this page, e.g., blog post or discussion?
 - Is it a comment or a request?
 - Should I use the discussion board for my request or comment instead?
 - Does my comment add value to the conversation?
@@ -45,8 +44,8 @@ opening a discussion or commenting on existing discussions or subpages.
 
 !!! warning "Issues are permanent"
 
-    Please note that all issues and discussions are permanent and will remain 
-    for everyone to read in this project. Therefore, it is essential to follow 
+    Please note that everything you write is permanent and will remain 
+    for everyone to read in this project for ever. Therefore, be nice, follow
     our contribution guidelines and comply with our Code of Conduct.
 
 ## How to contribute
@@ -64,7 +63,7 @@ This section of the documentation explains each process.
 
     ---
 
-    Report a bug in Material for MkDocs by creating an issue and a reproduction
+    Report a bug in Material for MkDocs by creating an issue with a reproduction
 
     [:octicons-arrow-right-24: Report a bug][report a bug]
 
@@ -125,7 +124,7 @@ This section of the documentation explains each process.
 
 ## Code of Conduct (CoC)
 
-With a large community like ours, it's important to follow the rules of a 
+With a large community like ours, it's important to follow the rules of our
 [Code of Conduct] and value the standards of acceptable behavior. Please make
 sure to especially pay attention to the following points and keep them in mind 
 when interacting within this project.  
@@ -155,26 +154,27 @@ that do not align with our contribution guidelines and our [Code of Conduct].
 We have invested significant time in reviewing our contribution process and 
 carefully assessed the information that is crucial to us when reviewing and 
 responding to issues. Each field in our issue templates has been thoughtfully 
-curated, requesting only the information required to understand your report or 
+curated, requesting only the necessary information to understand your report or 
 request. Therefore, it is mandatory for you to fill out every field as requested 
-to the best of your knowledge without questioning the issue template. This 
-ensures that every user and project maintainer, regardless of experience, can 
-understand the content and severity of your report or request.
+to the best of your knowledge without questioning the issue template. Trust us, 
+we need this information, because it ensures that every user and project
+maintainer, regardless of experience, can understand the content and severity of 
+your report or request.
 
-> __Please note__ that we __reserve the right to close issues__ that require 
-> more information, such as minimal reproductions, or that do not comply with 
+> __Please note that we reserve the right to close issues__ missing essential 
+> information, such as minimal reproductions, or that do not comply with 
 > the quality standards and requirements stated in the issue template. Issues 
 > can be reopened once the missing information has been provided.
 
 
 ### CoC violations
 
-As our [Code of Conduct] outlines, it is essential to treat the community and as 
-stated in our [Code of Conduct], we expect all members of our community to treat 
+As stated in our [Code of Conduct], we expect all members of our community to treat 
 each other with respect and use language that is inclusive and welcoming. We 
-strive to create a positive and supportive environment, and any behavior that is 
-inappropriate, threatening, offensive, or harmful violates our Code of Conduct. 
-We take such violations seriously and will take appropriate action in response.
+strive to create a positive and supportive environment, and consider any 
+behavior that is inappropriate, threatening, offensive, or harmful in violation 
+with our Code of Conduct. We take such violations seriously and will take 
+appropriate action in response.
 
 > __Please note__ that we __reserve the right and have the responsibility to remove, edit, or reject any contributions__,
 > including comments, commits, and issues, that violate our Code of Conduct. We 
