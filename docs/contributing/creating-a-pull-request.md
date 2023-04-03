@@ -96,9 +96,9 @@ consists of the following parts:
 
 ### Branch name
 
-A good title is short and descriptive. It should be a one-sentence executive
-summary of the issue, so the impact and severity of the bug you want to report
-can be inferred from the title.
+When you create a pull request, the name of the branch will be authomatically 
+set as the title of the pull request. good title is short and descriptive. This
+is why it is important to 
 
 | <!-- --> | Example  |
 | -------- | -------- | 

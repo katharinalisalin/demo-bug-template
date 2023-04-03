@@ -307,12 +307,3 @@ and have worked to your best knowledge to provide us with everything we need to
 know to help you.
 
 __We'll take it from here.__
-
----
-
-## Incomplete issues
-
-Please understand that we reserve the right to close incomplete issues which
-do not contain minimal reproductions or do not adhere to the quality standards
-and requirements mentioned in this document. Issues can be reopened when the
-missing information has been provided.

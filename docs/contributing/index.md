@@ -5,48 +5,12 @@ that serves a diverse user base with varying backgrounds and needs. In order to
 effectively address the needs of all our users, evaluate requests, and fix bugs, 
 we maintainers need to put in a lot of work.
 
-Our community is pretty big and includes many active users who open new discussions 
-or issues multiple times a day, filling the [issue tracker] or the [discussion board] 
-with a lot of valuable knowledge. As such, we consider our issue tracker and 
-discussion board to be a knowledge base that is an important addition to our 
-[documentation], and brings value to both new and experienced users of Material 
-for MkDocs. 
-
-## Before contributing
-
-To ensure that our issue tracker and discussion board remain __structured__, 
-__searchable__ and __easy to follow__, it is mandatory to ensure you are 
-contributing in the right context before submitting an issue, opening a 
-discussion or commenting on existing discussions or subpages.
-
-### Before submitting an issue, review:
-
-- Am I using the appropriate issue template for my request, report, or contribution?                LINKS
-- Have I checked if a similar issue or request has already been submitted?
-- Did I fill out every field as requested?
-- Did I provide all additional information others might need to comprehend my request?
-
-### Before asking a question, reconsider:
-
-- Is there an open discussion on the topic of my request?
-- Does my question fit the direction of the discussion, or should I open a new discussion?
-- Does my question leave room for discussion, or should it be a bug report?                         anpassen
-- Did I provide the community with all the necessary information to comprehend my question?
-- Have I checked if my question has been answered before?
-
-### Before leaving a comment, rethink:
-
-- Is my comment directly related to the topic of this page, e.g., blog post or discussion?
-- Is it a comment or a request?
-- Should I use the discussion board for my request or comment instead?
-- Does my comment add value to the conversation?
-- Is my comment respectful and constructive?
-
-!!! warning "Issues are permanent"
-
-    Please note that everything you write is permanent and will remain 
-    for everyone to read in this project for ever. Therefore, be nice, follow
-    our contribution guidelines and comply with our Code of Conduct.
+Our community is pretty big and includes many active users who open new 
+discussions or issues multiple times a day, filling the [issue tracker] or the 
+[discussion board] with a lot of valuable knowledge. As such, we consider our 
+issue tracker and discussion board to be a knowledge base that is an important 
+addition to our [documentation], and brings value to both new and experienced 
+users of Material for MkDocs. 
 
 ## How to contribute
 
@@ -122,12 +86,57 @@ This section of the documentation explains each process.
 
 ---
 
+!!! warning "Issues, discussions and comments are permanent"
+
+    Please note that everything you write is permanent and will remain 
+    for everyone to read in this project for ever. Therefore, be nice, follow
+    our contribution guidelines and comply with our Code of Conduct.
+
+---
+
+## Before contributing
+
+To ensure that our issue tracker and discussion board remain __structured__, 
+__searchable__ and __easy to follow__, it is mandatory to ensure you are 
+contributing in the right context before submitting an issue, opening a 
+discussion or commenting on existing discussions or subpages.
+
+### Before submitting an issue, review:
+
+- Am I using the right issue template for my [request], [report], or [contribution]?           
+- Have I checked if a similar issue or request has already been submitted?
+- Did I fill out every field as requested?
+- Did I provide all additional information others might need to comprehend my request?
+
+ [request]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=&template=03-request-a-change.yml
+ [report]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=&template=01-report-a-bug.yml
+ [contribution]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
+
+### Before asking a question, reconsider:
+
+- Is there an open discussion on the topic of my request?
+- Does my question fit the direction of the discussion, or should I open a new discussion?
+- Is my topic a question for the discussion boards, or is it a bug report or idea request that require a new issue?
+- Did I provide the community with all the necessary information to comprehend my question?
+- Have I checked if my question has been answered before?
+
+### Before leaving a comment, rethink:
+
+- Is my comment directly related to the topic of this page, e.g., blog post or discussion?
+- Is it a comment or a request?
+- Should I use the discussion board for my request or comment instead?
+- Does my comment add value to the conversation?
+- Is my comment respectful and constructive?
+
+---
+
 ## Code of Conduct (CoC)
 
 With a large community like ours, it's important to follow the rules of our
-[Code of Conduct] and value the standards of acceptable behavior. Please make
-sure to especially pay attention to the following points and keep them in mind 
-when interacting within this project.  
+[Code of Conduct] and value the standards of acceptable behavior. We request you 
+to take a moment to read through our [Code of Conduct], which can always be found 
+in full on our documentation. Please pay particular attention to our key values 
+and keep them in mind when participating in any interactions within this project.
 
 ### Our key values
 

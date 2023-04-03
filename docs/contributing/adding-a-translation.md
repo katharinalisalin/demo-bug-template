@@ -1,14 +1,16 @@
 # Adding a translation
 
-We can't believe it ourselves, but with the help of community contribution, we 
-managed to support in 50+ languages for Material for MkDocs. It's impossible for us 
-maintainers to keep all translations up-to-date (we just don't speak 50+ 
-languages). Thats why we rely on our international supportive community to help 
-us to update them in case new feature releases require new translations.
+We can't believe it ourselves, but with the help of community contribution, 
+Material for MkDocs already supports 50+ languages. As you can imagine, it's
+impossible for us maintainers to keep all languages up-to-date (we just don't 
+speak 50+ languages). That's why we need the help of our international community 
+to help us add new or update translations, as new feature releases sometimes 
+require new translations.
 
-If you would like to help us make Material for MkDocs even more global and have 
-noticed a missing translation in your language or want to add a new one, you can 
-submit your contribution by following this guide.
+If you would like to help us to make Material for MkDocs more globally 
+accessible and have noticed a missing translation in your language or want to 
+add a new one, we have simplefied the contributing process for you. Just follow 
+the few steps of the guide below.
 
 ## Before adding a translation
 
@@ -18,38 +20,30 @@ contribution.
 
 ### List of supported languages
 
-Chances are your language is already supported by Material for MkDocs. If you 
-
-
-
-??????? Therefore, 
-before investing your time and contributing a new translation, ensure that your 
-language is not included in the [list of supported languages].
+Chances are your language is already supported by Material for MkDocs. To check
+if you language is supported or needs improvements and updates, we would advise 
+you to check the [list of supported languages].
 
 [:material-earth-plus:&nbsp; Search for your language][Search for your language]{ .md-button .md-button--primary }
 
   [list of supported languages]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
   [Search for your language]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
 
-If your language is already supported, you can check for **missing translations**, 
-which are displayed below each language. If any updates are needed, you can make 
-the necessary changes and contribute them.
+In case your language is already supported, you can add **missing translations**, 
+which are displayed below each language. If your language is not on the list of 
+supported languages, you can contribute translations by opening a new issue and 
+[adding a translation] by following the guide below.
 
-If your language is not on the list of supported languages, you can contribute 
-by opening a new issue and [adding a translation] by following the guide below.
-
-
-
-TO DO MARTIN
-
-Aktuell haben wir keinen language designations with regions
-https://lingohub.com/developers/supported-locales/language-designators-with-regions
-
-Please note that we grouped languages. If you would like to add specific regional
-linguistic variations for your country, please open a new issue and include your 
-country's flag, along with the details.
+> __Please note,__ that we use region designators in conjunction with regions, 
+> and cluster all languages using language designators with regions. Language 
+> region designators consist of codes that represent countries and follow the 
+> [ISO 3166-1 standard], which employs two-letter capitalized codes. If you need 
+> to specify a particular dialect, please utilize this system by hyphenating a 
+> language designator with a region designator. For instance, to specify British 
+> English, use the "en" language designator and indicate the locale as "en-GB."
 
   [Adding a translation]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
+  [ISO 3166-1 standard]: https://lingohub.com/developers/supported-locales/language-designators-with-regions
 
 ### Issue tracker
 
@@ -65,14 +59,12 @@ maintainers. To avoid investing your time in duplicated work, please search the
 
 ### Update supported languages
 
-TO DO MARTIN
-
-If, after checking the issue tracker, you have found that the missing 
-translations for your language haven't been submitted by other users yet, you 
-can add them by clicking the link that displays tthe number of missing t
-ranslations under each language in the [list of supported languages]. This will 
-redirect you to a new issue template that will be automatically filled with 
-essential information and have highlighted fields that need to be adjusted by you.
+You noticed that your language hasn't been updated by other users yet? You are 
+welcome to contribute and add any missing translations by clicking the link 
+provided underneath each language in the [list of supported languages]. This 
+link will direct you to a new issue template that is pre-filled with all the 
+necessary information. Any fields that can be adjusted will be highlighted for 
+your convenience.
 
 [:material-translate-variant:&nbsp; Add missing translations][Update your translations]{ .md-button .md-button--primary }
 
