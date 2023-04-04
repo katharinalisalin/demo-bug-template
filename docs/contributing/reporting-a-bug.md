@@ -50,7 +50,7 @@ adjusted all partials you have overridden.
 
     A handful of the features Material for MkDocs offers can only be implemented
     with customizations. If you find a bug in any of the customizations [that
-    our documentation explicitly mentions], you are of course encouraged to
+    our documentation explicitly mentions], you are, of course, encouraged to
     report it.
 
 __Don't be shy to ask on our [discussion board] for help if you run into
@@ -74,7 +74,7 @@ problems.__
 
 At this stage, we know that the problem persists in the latest version and is
 not caused by any of your customizations. However, the problem might result from
-a small typo or a syntactical error in a configuration file, e.g. `mkdocs.yml`.
+a small typo or a syntactical error in a configuration file, e.g., `mkdocs.yml`.
 
 Now, before you go through the trouble of creating a bug report that is answered
 and closed right away with a link to the relevant documentation section or
@@ -104,7 +104,7 @@ them in the bug report.__[^2]
 
   [^2]:
     We might be using terminology in our documentation different from yours,
-    but mean the same. When you include the search terms and related links
+    but we mean the same. When you include the search terms and related links
     in your bug report, you help us to adjust and improve the documentation.
 
 ---
@@ -167,7 +167,7 @@ relevant. Don't write about the bug here.
 
 ### Bug description
 
-Now, to the bug, you want to report. Provide a clear, focused, specific, and
+Now, to the bug you want to report. Provide a clear, focused, specific, and
 concise summary of the bug you encountered. Explain why you think this is a bug
 that should be reported to Material for MkDocs, and not to one of its
 dependencies.[^3] Adhere to the following principles:
@@ -189,7 +189,7 @@ dependencies.[^3] Adhere to the following principles:
     or two sentences, perfect. Don't inflate it – maintainers and future users
     will be grateful for having to read less.
 
--   __One bug at a time__ – if you encountered several unrelated bugs, please
+-   __One bug at a time__ – if you encounter several unrelated bugs, please
     create separate issues for them. Don't report them in the same issue, as
     this makes attribution difficult.
 
@@ -247,7 +247,7 @@ After you have created the reproduction, you should have a .zip file, ideally no
 larger than 1 MB. Just drag and drop the .zip file into this field, which will
 automatically upload it to GitHub.
 
-> __Why we need this__: if an issue contains no minimal reproduction, or just
+> __Why we need this__: if an issue contains no minimal reproduction or just
 > a link to a repository with thousands of files, the maintainers would need to
 > invest a lot of time into trying to recreate the right conditions to even
 > inspect the bug, let alone fix it.
@@ -256,7 +256,7 @@ automatically upload it to GitHub.
 
     While we know that it is a good practice among developers to include a link
     to a repository with the bug report, we currently don't support those in our
-    process. The reason is that the reproduction which is automatically
+    process. The reason is that the reproduction, which is automatically
     produced by the [built-in info plugin] contains all of the necessary
     environment information that is often forgotten to be included.
     
@@ -268,15 +268,15 @@ automatically upload it to GitHub.
 
 ### Steps to reproduce
 
-At this point, you provided us with enough information to understand the bug,
-and you gave us a reproduction that we can run and inspect. However, when we
+At this point, you provided us with enough information to understand the bug
+and gave us a reproduction that we could run and inspect. However, when we
 run your reproduction, it might not be immediately apparent how we can see
 the bug in action.
 
 Next, please list the specific steps we should follow when running your
 reproduction to observe the bug. Keep the steps short and concise, and make sure
 not to leave anything out. Use simple language as you would explain it to a
-five-year-old and focus on continuity.
+five-year-old, and focus on continuity.
 
 > __Why we need this__: we must know how to navigate your reproduction in order
 > to observe the bug, as some bugs only occur at certain viewports or in

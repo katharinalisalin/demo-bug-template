@@ -1,6 +1,6 @@
 # Requesting a change
 
-Material for MkDocs is a powerful tool to create beautiful and functional
+Material for MkDocs is a powerful tool for creating beautiful and functional
 project documentation. With more than 20,000 users, we understand that our
 project serves a wide range of use cases, which is why we have created the
 following guide.
@@ -12,7 +12,7 @@ to maintain existing functionality while constantly adding new features at the
 same time. We highly value every idea or contribution from our community, and
 we kindly ask you to take the time to read the following guidelines before 
 submitting your change request in our public [issue tracker]. This will help us 
-better understand the proposed change, and how it will benefit the community.
+better understand the proposed change and how it will benefit the community.
 
 This guide is our best effort to explain the criteria and reasoning behind our
 decisions when evaluating change requests and considering them for
@@ -22,7 +22,7 @@ implementation.
 
 ## Before creating an issue
 
-Before you invest your time to fill out and submit a change request, we kindly
+Before you invest your time in filling out and submit a change request, we kindly
 ask you to do some preliminary work by answering some questions to determine if
 your idea is a good fit for Material for MkDocs and matches the project's
 [philosophy] and tone.
@@ -33,7 +33,7 @@ __Please find answers to the following questions before creating an issue.__
 
 ### It's not a bug, it's a feature
 
-Change requests are intended for suggesting minor adjustments, ideas for new
+Change requests are intended to suggest minor adjustments, ideas for new
 features, or to influence the project's direction and vision. It is important
 to note that change requests are not intended for reporting bugs, as they're
 missing essential information for debugging.
@@ -64,8 +64,8 @@ that benefits a large number of users.
 
 Now that you have taken the time to do the necessary preliminary work and ensure 
 that your idea meets our requirements, you are invited to create a change
-request. The following guide will walk you through all necessary steps to help
-you submit a comprehensive and useful issue:
+request. The following guide will walk you through all the necessary steps to 
+help you submit a comprehensive and useful issue:
 
 - [Title]
 - [Context] <small>optional</small>
@@ -104,14 +104,14 @@ in which you're using Material for MkDocs, and what you _think_ might be
 relevant. Don't write about the change request here.
 
 > __Why this might be helpful__: some ideas might only benefit specific
-> settings, environments or edge cases, for example, when your documentation
+> settings, environments, or edge cases, for example, when your documentation
 > contains thousands of documents. With a little context, change requests
 > can be prioritized more accurately.
 
 ### Description
 
 Next, provide a detailed and clear description of your idea. Explain why your 
-idea is relevant to Material for MkDocs and must be implemented here, and not
+idea is relevant to Material for MkDocs and must be implemented here and not
 in one of its dependencies:
 
 -   __Explain the <u>what</u>, not the <u>why</u>__ – don't explain
@@ -123,13 +123,13 @@ in one of its dependencies:
     users will be grateful for having to read less.
 
 -   __One idea at a time__ – if you have multiple ideas that don't belong 
-together, please open separate change requests for each of those ideas.
+    together, please open separate change requests for each of those ideas.
 
 ---
 
 :material-run-fast: __Stretch goal__ – if you have a customization or another
 way to add the proposed change, you can help other users by sharing it here
-before we  maintainers can add it to our code base.
+before we maintainers can add it to our code base.
 
 > __Why we need this__: To understand and evaluate your proposed change, we
 > need to have a clear understanding of your idea. By providing a detailed and 
@@ -157,7 +157,7 @@ the link to the discussion as well.
 ### Use cases
 
 Explain how your change request would work from an author's and user's
-perspective – what's the expected impact and why does it not only benefit you,
+perspective – what's the expected impact, and why does it not only benefit you,
 but other users? How many of them? Furthermore, would it potentially break
 existing functionality?
 
@@ -202,11 +202,11 @@ __We'll take it from here.__
 
 We're sorry that your change request didn't make the cut. We understand it can 
 be frustrating when your ideas don't get accepted. We want you to know that as 
-the project maintainers, we have to weigh the needs of the community as a whole, 
-and sometimes that means making tough decisions. We always try to consider many 
+project maintainers, we have to weigh the community's needs as a whole, and 
+sometimes that means making tough decisions. We always try to consider many 
 factors when evaluating change requests, and we'll explain the reasoning behind 
-our decisions whenever we can. If you're ever unsure about why a request was t
-urned down, please don't hesitate to ask for clarification.
+our decisions whenever we can. If you're unsure why your request was turned 
+down, please ask for clarification.
 
 ### Common reasons
 

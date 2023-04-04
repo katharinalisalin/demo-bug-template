@@ -1,6 +1,6 @@
 # Adding a translation
 
-We can't believe it ourselves, but with the help of community contribution, 
+We can't believe it ourselves but with the help of community contribution, 
 Material for MkDocs already supports 50+ languages. As you can imagine, it's
 impossible for us maintainers to keep all languages up-to-date (we just don't 
 speak 50+ languages). That's why we need the help of our international community 
@@ -9,8 +9,8 @@ require new translations.
 
 If you would like to help us to make Material for MkDocs more globally 
 accessible and have noticed a missing translation in your language or want to 
-add a new one, we have simplefied the contributing process for you. Just follow 
-the few steps of the guide below.
+add a new one. In that case, we have simplified the contributing process for you. 
+Just follow the few steps of the guide below.
 
 ## Before adding a translation
 
@@ -21,7 +21,7 @@ contribution.
 ### List of supported languages
 
 Chances are your language is already supported by Material for MkDocs. To check
-if you language is supported or needs improvements and updates, we would advise 
+if your language is supported or needs improvements and updates, we would advise 
 you to check the [list of supported languages].
 
 [:material-earth-plus:&nbsp; Search for your language][Search for your language]{ .md-button .md-button--primary }
@@ -30,8 +30,8 @@ you to check the [list of supported languages].
   [Search for your language]: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#site-language
 
 In case your language is already supported, you can add **missing translations**, 
-which are displayed below each language. If your language is not on the list of 
-supported languages, you can contribute translations by opening a new issue and 
+displayed below each language. If your language is not on the list of supported 
+languages, you can contribute translations by opening a new issue and 
 [adding a translation] by following the guide below.
 
 > __Please note,__ that we use region designators in conjunction with regions, 
@@ -39,8 +39,9 @@ supported languages, you can contribute translations by opening a new issue and
 > region designators consist of codes that represent countries and follow the 
 > [ISO 3166-1 standard], which employs two-letter capitalized codes. If you need 
 > to specify a particular dialect, please utilize this system by hyphenating a 
-> language designator with a region designator. For instance, to specify British 
-> English, use the "en" language designator and indicate the locale as "en-GB."
+> language designator with a region designator. For instance, to specify the 
+> British English, use the "en" language designator and indicate the locale as 
+> "en-GB."
 
   [Adding a translation]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
   [ISO 3166-1 standard]: https://lingohub.com/developers/supported-locales/language-designators-with-regions
@@ -59,7 +60,7 @@ maintainers. To avoid investing your time in duplicated work, please search the
 
 ### Update supported languages
 
-You noticed that your language hasn't been updated by other users yet? You are 
+Have you noticed that other users haven't yet updated your language? You are 
 welcome to contribute and add any missing translations by clicking the link 
 provided underneath each language in the [list of supported languages]. This 
 link will direct you to a new issue template that is pre-filled with all the 
@@ -74,7 +75,7 @@ your convenience.
 ---
 
 At this point, when you have made sure that Material for MkDocs doesn't already 
-support your language, you can add translations for it by following the issue 
+support your language you can add translations for it by following the issue 
 template.
 
 ## Issue template
@@ -82,7 +83,7 @@ template.
 We have created a new issue template to make contributing translations for new 
 languages as simple as possible. It is the result of our experience with 50+
 language contributions and updates over the last couple of years. We recently 
-simplified the language contribution process and the new template consists of the 
+simplified the language contribution process, and the new template consists of the 
 following parts:
 
 - [Title]
@@ -118,33 +119,38 @@ your language. Each label on the right side containing the `⬅️ icon` is miss
 a translation. To ensure the accuracy of your translation, consider double-checking 
 the context of the words by looking at the [English version].
 
+After adding the translation, remove the `⬅️ icon` from each translated line. If 
+you don't know how to translate specific fields, simply leave them for other 
+contributors to complete.
+
 [English version]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages/en.html
 
 #### Translation context
 
-TO DO MARTIN - explain translation context
+TO DO MARTIN - explain the translation context
 .
 .
 
-
-After adding the translation, remove the `⬅️ icon` from each translated line. If 
-you don't know how to translate sertain fields, simply leave them for other 
-contributors to complete.
 
 ### Country flag
 
-Now that you have contributed translations for a new language, please select the 
-best fitting flag for your language from our documentation's [Icons, Emojis site] 
-by entering the command `flag` in the search field.
+Congratulations on contributing translations for a new language! To make it 
+easier for you and others to find the language in our list of supported 
+languages, please select the best-fitting flag for your language from our 
+documentation's [Icons, Emojis site] by entering the command `flag` in the 
+search field.
 
 !!! warning "Icon limitation by Twemoji"
 
     Please note that only icons provided by Twemoji can be used. If your flag is 
-    not available on the list on the [Icons, Emojis site], choose an alternative 
-    or leave the field empty.
+    not available on the list on the [Icons, Emojis site], please choose an 
+    alternative.
 
-> __Why this might be helpful__: this country flag helps you and others to find 
-> the language in the list of supported languages faster and easier. 
+> __Why this might be helpful__: adding a country flag next to the country name 
+> can be helpful for you and for others to find the language in the list of 
+> supported languages faster and easier. If your country's flag is not supported 
+> by Temoji, it is best that you provide us with an alternative instead of us 
+> choosing one for you.
 
  [Icons, Emojis site]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
 
@@ -184,35 +190,46 @@ prevent breaking functionality in the translation file.
     - [x]  __Optional__: I want to integrate this translation myself and create a 
             pull request following the [contribution guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
 
-3.  Fork the Material for MkDocs repository.
+3.  Fork the Material for MkDocs repository, set up a [development environment] 
+and create a separate git branch on which you make all your changes.
 
-4.  Search for your language in the [list of translations] in the repository, 
-    and open the translation file or create a new one by copying an existing file.
-
-5.  Open the [English translations] file and compare your translations with the 
-    up-to-date English translations file. 
+4.  Please review all [existing language files] in the repository and search for 
+your language. If a file for your language already exists, please use it for 
+your edits or create a new file if your language is not listed by copying one of 
+the existing files.
     
-6.  Add missing translations for your language to the best of your knowledge
+5.  Add the missing translations for your language to the best of your knowledge
     and save the changes.
 
     !!! warning "Important"
         Only add the translations that are different from the defaults. For 
         example, if your language is left-to-right, don't add the `direction` 
         translation, as English is also left-to-right. The following 
-        translations are for technical purposes and __should not be updated__. 
+        translations are for technical purposes, and __should not be updated__. 
         If they're missing from your language, it's for a good reason:
 
         - `search.config.lang`
         - `search.config.pipeline`
         - `search.config.separator`
 
-7.  Lastly, check if your pull request requires all necessary steps and create a 
-    PR with your changes.
+6.  Open the [English translations] file and compare your translations with the 
+    up-to-date English translations file. 
+
+7.  Before submitting a pull request, build the theme. This is a mandatory 
+requirement for your PR to get accepted, as the theme should be installable 
+through GitHub at all times.
+
+8.  After building the theme, commit the compiled output, push your branch to 
+GitHub and send a PR to mkdocs-material:master. If we suggest changes, make the 
+required updates, rebase your branch, and push the changes to your GitHub 
+repository, which will automatically update your PR.
+
+9. After your PR is merged, you can safely delete your branch and pull the 
+changes from the main (upstream) repository.
 
   [translation issue]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues/new/choose
-  [list of translations]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages
+  [language files]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages
   [English translations]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages/en.html
 
-
-
+__After your PR was merged by us maintainers, you can start using the new language.__

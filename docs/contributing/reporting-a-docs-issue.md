@@ -44,7 +44,7 @@ describe the severity of the issue.
 
 > __Why we need this__: for us to understand the issue you have found or the 
 > clarification of the documentation needs, we ask for a description and 
-> explanation of the serenety.
+> explanation of the serenity.
 
 ### Links to the documentation
 
@@ -60,7 +60,7 @@ sure you link to the sub-pages and anchor the headings directly.
 
 Now that you have provided us with the description and link to the 
 documentation, you can help us, maintainers, and the community by proposing an 
-improvement. This can be a suggestions, a fix or a temporary workaround.
+improvement. This can be a suggestion, a fix, or a temporary workaround.
 
 > __Why we need this__: improvement proposal can be beneficial for other users 
 > who encounter the same issue, since it will offer them a temporary solution 

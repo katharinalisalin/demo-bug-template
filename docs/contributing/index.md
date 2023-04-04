@@ -14,10 +14,19 @@ users of Material for MkDocs.
 
 ## How to contribute
 
-We have invested a lot of time in creating better templates for our
-[issue tracker], optimizing the processes for our users to report bugs, request
-features or changes, contribute to the project, or exchange with our community. 
-This section of the documentation explains each process.
+We've invested time and effort into making our [issue tracker] and [discussion board] 
+as user-friendly as possible. We understand that reporting bugs, 
+requesting features, and engaging with our community can be challenging, so 
+we've optimized our templates and added guidelines to improve all overall 
+interaction within this project.
+
+Our goal is to ensure that our platform is __well-structured__, __easy to navigate__, 
+and __searchable__, so you can find what you need quickly and efficiently. We've 
+also optimized our templates to help us understand your needs better, so we can 
+provide you with faster and more effective support. In this documentation 
+section, we'll give you an overview of each process and guide you to the
+detailed subpages.
+
 
 ### Creating an issue
 
@@ -86,20 +95,20 @@ This section of the documentation explains each process.
 
 ---
 
-!!! warning "Issues, discussions and comments are permanent"
+!!! warning "Issues, discussions, and comments are permanent"
 
     Please note that everything you write is permanent and will remain 
-    for everyone to read in this project for ever. Therefore, be nice, follow
-    our contribution guidelines and comply with our Code of Conduct.
+    for everyone to read in this project forever. Therefore, be nice, follow
+    our contribution guidelines, and comply with our Code of Conduct.
 
 ---
 
 ## Before contributing
 
-To ensure that our issue tracker and discussion board remain __structured__, 
-__searchable__ and __easy to follow__, it is mandatory to ensure you are 
-contributing in the right context before submitting an issue, opening a 
-discussion or commenting on existing discussions or subpages.
+Before interacting within this project, please take a moment to consider the 
+following questions. By doing so, you can ensure that you are using the correct 
+issue template or provide all necessary information when interacting with the 
+community:
 
 ### Before submitting an issue, review:
 
@@ -116,7 +125,7 @@ discussion or commenting on existing discussions or subpages.
 
 - Is there an open discussion on the topic of my request?
 - Does my question fit the direction of the discussion, or should I open a new discussion?
-- Is my topic a question for the discussion boards, or is it a bug report or idea request that require a new issue?
+- Is my topic a question for the discussion boards, or is it a bug report or idea request that requires a new issue?
 - Did I provide the community with all the necessary information to comprehend my question?
 - Have I checked if my question has been answered before?
 
@@ -132,9 +141,9 @@ discussion or commenting on existing discussions or subpages.
 
 ## Code of Conduct (CoC)
 
-With a large community like ours, it's important to follow the rules of our
-[Code of Conduct] and value the standards of acceptable behavior. We request you 
-to take a moment to read through our [Code of Conduct], which can always be found 
+With a large community like ours, it's essential to follow the rules of our
+[Code of Conduct] and value the standards of acceptable behavior. Please take a 
+moment to read through our [Code of Conduct], which can always be found 
 in full on our documentation. Please pay particular attention to our key values 
 and keep them in mind when participating in any interactions within this project.
 
@@ -166,7 +175,7 @@ responding to issues. Each field in our issue templates has been thoughtfully
 curated, requesting only the necessary information to understand your report or 
 request. Therefore, it is mandatory for you to fill out every field as requested 
 to the best of your knowledge without questioning the issue template. Trust us, 
-we need this information, because it ensures that every user and project
+we need this information because it ensures that every user and project
 maintainer, regardless of experience, can understand the content and severity of 
 your report or request.
 
@@ -178,17 +187,17 @@ your report or request.
 
 ### CoC violations
 
-As stated in our [Code of Conduct], we expect all members of our community to treat 
-each other with respect and use language that is inclusive and welcoming. We 
-strive to create a positive and supportive environment, and consider any 
-behavior that is inappropriate, threatening, offensive, or harmful in violation 
-with our Code of Conduct. We take such violations seriously and will take 
-appropriate action in response.
+As stated in our [Code of Conduct], we expect all members of our community to 
+treat each other with respect and use inclusive and welcoming language. We 
+strive to create a positive and supportive environment and consider any 
+inappropriate, threatening, offensive, or harmful behavior violating our Code of 
+Conduct. We take such violations seriously and will take appropriate action in 
+response.
 
 > __Please note__ that we __reserve the right and have the responsibility to remove, edit, or reject any contributions__,
 > including comments, commits, and issues, that violate our Code of Conduct. We 
-> may also temporarily or permanently ban users who are found to be in violation 
-> of the CoC from contributing to the project.
+> may also temporarily or permanently ban users found to be violating of the CoC 
+> from contributing to or interacting in the project.
 
   [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues

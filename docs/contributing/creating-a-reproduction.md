@@ -41,7 +41,7 @@ just delete and recreate the environment. It's trivial to set up:
 
 Following the instructions below, you will set up a skeleton project to create
 a reproduction. As mentioned above, we recommend using a [virtual environment],
-so create a new folder in your working directory and a a new virtual environment
+so create a new folder in your working directory and a new virtual environment
 inside it. Next:
 
 1.  As mentioned in our [bug reporting guide], ensure that you're running the
@@ -84,7 +84,7 @@ inside it. Next:
 
 Material for MkDocs 9.0.0 includes a new plugin solely intended to create
 reproductions for bug reports. When the built-in info plugin is enabled, MkDocs
-will add all relevant files to a .zip, print a summary to the terminal and
+will add all relevant files to a .zip, print a summary to the terminal, and
 exit. Add the following lines to `mkdocs.yml`:
 
 ``` yaml
