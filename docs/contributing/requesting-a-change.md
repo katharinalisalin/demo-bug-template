@@ -136,12 +136,6 @@ before we maintainers can add it to our code base.
 > precise description, you can help save you and us time spent discussing
 > further clarification of your idea in the comments.
 
-  [MkDocs]: https://www.mkdocs.org
-  [Python Markdown]: https://python-markdown.github.io/extensions/
-  [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
-  [theme.name]: https://www.mkdocs.org/user-guide/configuration/#theme
-  [dependencies]: #dependencies
-
 ### Related links
 
 Please provide any relevant links to issues, discussions, or documentation 
@@ -241,10 +235,15 @@ perfect place for you!
 ### Dependencies
 
 Occasionally, users propose ideas on our [issue tracker] that concern one of our 
-upstream dependencies, such as [MkDocs], [Python Markdown],
+upstream [dependencies], such as [MkDocs], [Python Markdown],
 [Python Markdown Extensions] or third-party plugins. In such cases, it's 
 worthwhile to consider whether your idea could benefit other themes as well. If 
 so, you might want to consider submitting a change request upstream to have a 
 greater impact.
 
-
+  [dependencies]: https://squidfunk.github.io/mkdocs-material/setup/dependencies/image-processing/
+  [MkDocs]: https://www.mkdocs.org
+  [Python Markdown]: https://python-markdown.github.io/extensions/
+  [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
+  [theme.name]: https://www.mkdocs.org/user-guide/configuration/#theme
+  [dependencies]: #dependencies

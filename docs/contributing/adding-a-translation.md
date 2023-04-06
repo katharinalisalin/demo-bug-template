@@ -229,7 +229,8 @@ changes from the main (upstream) repository.
 
   [translation issue]: https://github.com/squidfunk/mkdocs-material/issues/new?assignees=&labels=change+request&template=04-add-a-translation.yml&title=Add+translations+for+...
   [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues/new/choose
-  [language files]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages
+  [existing language files]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages
   [English translations]: https://github.com/squidfunk/mkdocs-material/tree/master/src/partials/languages/en.html
+  [development environment]: https://squidfunk.github.io/mkdocs-material/customization/#environment-setup
 
 __After your PR was merged by us maintainers, you can start using the new language.__

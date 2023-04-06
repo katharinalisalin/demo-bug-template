@@ -148,3 +148,65 @@ Please also note that all contributions are subject to review and may not be
 accepted if they do not meet the project's standards or goals.
 
 ## Declined and closed PRs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you want to contribute missing translations by creating a pull request to be 
+listed as the sole author of the commit, you can open a PR after submitting the 
+translation issue. Ensure you thoroughly read the pull request guide below to 
+prevent breaking functionality in the translation file.
+
+1.  Fill out a [translation issue] according to the guide and submit it in the 
+    [issue tracker].
+
+2.  Tick the box for the last point in the "Before submitting..." section.
+    - [x]  __Optional__: I want to integrate this translation myself and create a 
+            pull request following the [contribution guide](https://github.com/squidfunk/mkdocs-material/blob/master/CONTRIBUTING.md).
+
+3.  Fork the Material for MkDocs repository, set up a [development environment] 
+and create a separate git branch on which you make all your changes.
+
+4.  Please review all [existing language files] in the repository and search for 
+your language. If a file for your language already exists, please use it for 
+your edits or create a new file if your language is not listed by copying one of 
+the existing files.
+    
+5.  Add the missing translations for your language to the best of your knowledge
+    and save the changes.
+
+    !!! warning "Important"
+        Only add the translations that are different from the defaults. For 
+        example, if your language is left-to-right, don't add the `direction` 
+        translation, as English is also left-to-right. The following 
+        translations are for technical purposes, and __should not be updated__. 
+        If they're missing from your language, it's for a good reason:
+
+        - `search.config.lang`
+        - `search.config.pipeline`
+        - `search.config.separator`
+
+6.  Open the [English translations] file and compare your translations with the 
+    up-to-date English translations file. 
+
+7.  Before submitting a pull request, build the theme. This is a mandatory 
+requirement for your PR to get accepted, as the theme should be installable 
+through GitHub at all times.
+
+8.  After building the theme, commit the compiled output, push your branch to 
+GitHub and send a PR to mkdocs-material:master. If we suggest changes, make the 
+required updates, rebase your branch, and push the changes to your GitHub 
+repository, which will automatically update your PR.
+
+9. After your PR is merged, you can safely delete your branch and pull the 
+changes from the main (upstream) repository.

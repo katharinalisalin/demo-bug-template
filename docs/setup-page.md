@@ -1,15 +1,16 @@
 # Setup
 
 Material for MkDocs offers a wide range of options for customizing and adjusting 
-documentation. This section will explain how to configure your documentation to 
-change its appearance, add more content, improve functionality, and work with 
-extensions.
+your documentation. In this section, we will explain how to make the most use of 
+Material for MkDocs to change the look of your documentation, add more content,
+improve its functionality, and work with extensions.
 
 ## Customizing the look
 
 Make your documentation reflect your brand by changing its colors, fonts, icons, 
-logo, and more with just a few lines of configuration. Material for MkDocs can 
-be easily extended and provides many options to alter appearance.
+logo, and more with just a few lines of configuration. Material for MkDocs makes 
+it easy to extend the basic configurations and provides many options to alter 
+the appearance.
 
 <div class="grid cards" markdown>
 
@@ -25,8 +26,9 @@ be easily extended and provides many options to alter appearance.
 
 ## Adding additional content
 
-Enhance your documentation by adding more content, such as headers, footers, 
-social media previews, blogs, comment systems, and more.
+Easily extend the content of your documentation. Adjusting headers, including a 
+footer, creating a blog, implementing comment systems, and automatically creating 
+social media previews.
 
 <div class="grid cards" markdown>
 
@@ -44,11 +46,11 @@ social media previews, blogs, comment systems, and more.
   [Blog]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
   [Comment System]: https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
 
-## Improving functionality
+## Enhancing functionality
 
-Make your documentation more user-friendly by improving its functionality with 
-features such as navigation, site search, language translations, page tags, 
-versioning, and more.
+Improve the functionality of your documentation by integrating navigation and 
+site search, categorizing pages using tags, changing the language, or adding 
+multiple languages, and deploying multiple versions.
 
 <div class="grid cards" markdown>
 
@@ -66,7 +68,11 @@ versioning, and more.
   [Tags]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
   [Versioning]: https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/
 
-## Optimizing the output
+## Optimizing your site
+
+Optimize your site by displaying information from your Git repository, getting a 
+higher ranking on search engines, ensuring compliance with data privacy 
+regulations, and unlocking offline usage.
 
 <div class="grid cards" markdown>
 
@@ -84,6 +90,9 @@ versioning, and more.
 
 ## Working with extensions
 
+Extend the range of available features and enhance your technical writing by 
+working with extensions in your documentation.
+
 <div class="grid cards" markdown>
 
 - :material-language-python: __[Python Markdown]__ – Unlock a large range of features that require Python Markdown
@@ -95,6 +104,9 @@ versioning, and more.
   [Python Markdown Extension]: https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
 
 ## Dependencies
+
+Install external libraries to allow for image processing as part of the build 
+pipeline to make use of social cards and image optimization features.
 
 <div class="grid cards" markdown>
 
