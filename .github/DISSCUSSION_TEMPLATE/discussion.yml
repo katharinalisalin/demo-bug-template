@@ -1,0 +1,92 @@
+description: Have a question or need help? Connect with the community on this discussion board
+title: 
+body:
+
+  - type: markdown
+    attributes:
+      value: |-
+        **Important**: Before opening a new discussion please search the issue 
+        tracker and discussion board to check if your question has been answered 
+        before. Make sure to avoid double content and cross posting on other 
+        repositories or discussion boards!
+
+
+No double post (if it was needed: resons why and share to the doubled post)
+double post will be deleted when we see it: making double the work!
+no bug report
+
+
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: >-
+        This field is optional. You may provide the context to provide the 
+        community with information about the situation you are in and what you 
+        are working on. If the context is not relevant, you can leave this field 
+        empty. 
+        [More](#)
+    validations:
+      required: false
+
+  - type: textarea
+    id: question-and-description
+    attributes:
+      label: Question and description
+      description: >-
+        Ask your question and give a detailed description of what you are 
+        working on, have trouble with, trying to archieve or what you would like 
+        to share with the community. 
+        [More](#)
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Code
+      description: >-
+        This field is optional. [More](X)
+    validations:
+      required: false
+
+  - type: textarea
+    id: related-links
+    attributes:
+      label: Helpful and related links
+      description: >-
+        Please list all links that might be relevant to this discussion.        
+        [More](#)
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: >-
+        This field is optional.
+        [More](#)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      description: >-
+        Please ensure you opened a new discussion that includes all the
+        requirements. This will help the maintainers and the community valuable 
+        time.
+        [More](#)
+      options:
+        - label: >-
+            I have read and followed the [discussion guidelines](#).
+          required: true
+        - label: >-
+            I have attached all relevant links that might help in this discussion.
+          required: true
+        - label: >-
+            I have variefied that I have my question qualifies for a discussion and should not yet be a bug report. 
+          required: true
