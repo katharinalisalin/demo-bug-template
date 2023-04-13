@@ -5,27 +5,29 @@ body:
   - type: markdown
     attributes:
       value: |-
-        **Important**: Before opening a new discussion please search the issue 
-        tracker and discussion board to check if your question has been answered 
-        before. Make sure to avoid double content and cross posting on other 
+        **Important**: Make sure to avoid double content and cross posting on other 
         repositories or discussion boards!
 
-
-No double post (if it was needed: resons why and share to the doubled post)
-double post will be deleted when we see it: making double the work!
-no bug report
-
-
-body:
-  - type: textarea
-    id: context
+  - type: dropdown
+    id: topic-area
     attributes:
-      label: Context
+      label: Topic area
+      options:
+        - Question
+        - Bug
+        - Feature
+        - Show and tell
+        - General
+
+  - type: textarea
+    id: introduction
+    attributes:
+      label: Introduction
       description: >-
-        This field is optional. You may provide the context to provide the 
-        community with information about the situation you are in and what you 
-        are working on. If the context is not relevant, you can leave this field 
-        empty. 
+        This field is optional. You may want to us this space to provide an 
+        introduction or give a context or to provide the community with 
+        information about the situation you are in and what you are working on. 
+        If this is not relevant, you can leave this field empty. 
         [More](#)
     validations:
       required: false
@@ -56,7 +58,7 @@ body:
     attributes:
       label: Helpful and related links
       description: >-
-        Please list all links that might be relevant to this discussion.        
+        Got any helpful links that might be relevant to this discussion.        
         [More](#)
     validations:
       required: true
@@ -90,3 +92,7 @@ body:
         - label: >-
             I have variefied that I have my question qualifies for a discussion and should not yet be a bug report. 
           required: true
+
+
+            
+            I have searched the issue tracker and discussion board for similar discussions*
