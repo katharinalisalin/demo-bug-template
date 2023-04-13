@@ -7,12 +7,15 @@
 
 ## Subscription & payment
 - _Why a subscription-model?_
+
 - _How can I set my billing to monthly or yearly?_
+
 - _What is considered commercial use?_
+
 - _What is_
 
 
-_How can I set my billing to monthly or yearly?_
+- _How can I set my billing to monthly or yearly?_
 
 You can sponsor on a monthly or yearly basis. The [billing cycle] is an account 
 level setting and can be easily changed by you in your account. If for some 
@@ -34,8 +37,27 @@ Due
 
 
 - _What if my company doesn’t use GitHub?_
+
 - _Do I need to fork this project?_
+
+
 - _Do you offer free Insiders access to Open Source projects?_
+No, we do not offer free access to our Material for McDoks Insiders version. We
+understand that non-profit organizations may have limited budgets and may need
+to prioritize their spending on other projects or organizations. It's important
+to note that Material for MkDocs is maintained by a small team, investing a lot 
+of time and resources into constantly improving this project. Material for 
+MkDocs and its __core features are available for free__ to the community through 
+our open-source model. However, the Insiders' version provides access to 
+additional features, and the compensation we receive through this program helps 
+us dedicate more time and resources to the project. When our funding goals are 
+reached, these features will be released to the public, and the open-source 
+community can benefit from them once again.
+However, we do offer an affordable "Individual" tier starting at $15/month which
+is meant for individuals and non-profit organizations using Material for MkDocs 
+to build 1-2 sites for __non-commercial purposes__. This tier provides access to
+all new features, allowing you to benefit from our ongoing development efforts.
+
 - _Do you offer discounts for the Insiders version?_
 - _We sponsored with our organisation, how do we get access?_
 
