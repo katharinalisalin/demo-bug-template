@@ -1,5 +1,7 @@
-body:
+title: "[General] "
+labels: ["General Introduction"]
 
+body:
   - type: markdown
     attributes:
       value: |-
@@ -96,3 +98,16 @@ body:
 
             
             I have searched the issue tracker and discussion board for similar discussions*
+
+  - type: textarea
+    id: commit-to-help
+    attributes:
+      label: Commit to help
+      description: >-
+        After submitting this, I commit to one of:
+
+        - I'll got through open discussions, choose two topics and offer my knowledge and experiences to help solving the matter.
+        - I'll hit the "watch" button in this repository to receive notifications, in order to help with at least two discussions in the future.    
+        [More](#)
+    validations:
+      required: true
