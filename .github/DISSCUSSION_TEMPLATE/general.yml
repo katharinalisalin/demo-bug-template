@@ -9,15 +9,17 @@ body:
         repositories or discussion boards!
 
   - type: dropdown
-    id: topic-area
+    id: category
     attributes:
-      label: Topic area
+      label: category
+      description: What would you like to discuss?
       options:
         - Question
         - Bug
         - Feature
         - Show and tell
-        - General
+    validations:
+      required: true
 
   - type: textarea
     id: introduction
