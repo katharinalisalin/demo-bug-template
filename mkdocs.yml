@@ -31,9 +31,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Setup: setup-page.md
-  - FAQ: 
-    - General: general.md
-    - Sponsoring: sponsoring.md 
   - Contributing:
     - contributing/index.md
     - Reporting a bug: contributing/reporting-a-bug.md
@@ -45,3 +42,7 @@ nav:
   - Guides:
     - Creating a reproduction: contributing/creating-a-reproduction.md
     - Creating a pull request: contributing/creating-a-pull-request.md
+
+  - FAQ: 
+    - Material for MkDocs: faq/material-for-mkdocs.md
+    - Material for MkDocs Insiders: faq/material-for-mkdocs-insiders.md
