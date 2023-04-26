@@ -1,6 +1,6 @@
 # FAQs – Material for MkDocs Insiders
 
-## General
+## Sponsoring
 
 __I'm thinking of becoming a sponsor. How can I reach out in advance?__ 
 >  If you have sponsoring-related questions and would like to contact us before  

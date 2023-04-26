@@ -1,5 +1,7 @@
 # FAQs – Material for MkDocs Insiders
 
+## Getting in touch
+
 __I have a question. Where do I ask it?__
 > You can ask your question on our [discussion board]. We are all about building 
 an open and supportive community where everyone can share their knowledge and 
@@ -8,6 +10,8 @@ users have access to the same information. We encourage all of our users to
 visit this discussion board or our issue tracker and search for previous 
 discussions to see if their question has already been addressed or start a new 
 discussion if needed.
+
+## Insiders and other tools
 
 __What is the difference between Material for MkDocs and other documentation frameworks?__
 > Material for MkDocs is a documentation framework built on top of MkDocs, a 
@@ -23,6 +27,8 @@ sites with a lot of different functionalities, while Material for MkDocs
 Insiders provides additional features and customization options. Insiders also 
 get early access to new features and updates before they are released to the 
 public, as well as prioritized bug report support.
+
+## License
 
 __Under which license does Material for MkDocs run?__
 > Material for MkDocs runs under the [MIT License], which means that it is free 
