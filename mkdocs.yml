@@ -44,5 +44,5 @@ nav:
     - Creating a pull request: contributing/creating-a-pull-request.md
 
   - FAQ: 
-    - Material for MkDocs: faq/material-for-mkdocs.md
-    - Material for MkDocs Insiders: faq/material-for-mkdocs-insiders.md
+    - faq/index.md
+    - FAQ Sponsoring: faq/insiders-version.md
