@@ -41,9 +41,9 @@ and/or sell copies of the software.
 __I have a question. Where do I ask it?__
 > You can ask your question on our [discussion board]. We are all about building 
 an open, supportive community where everyone can share their knowledge and 
-insights. This allows us to maintain transparency and ensures all our users access the same information. We encourage all our users to 
-visit this discussion board or our issue tracker and search for previous 
-discussions to see if their question has been addressed before or start a new 
-discussion.
+insights. This allows us to maintain transparency and ensures all our users 
+access the same information. We encourage all our users to visit this discussion 
+board or our issue tracker and search for previous discussions to see if their 
+question has been addressed before or start a new discussion.
 
   [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
