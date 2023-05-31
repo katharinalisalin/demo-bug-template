@@ -5,11 +5,11 @@ Material for MkDocs. As we maintainers have decided to monetize Material for
 MkDocs, to spend more time working on this project, we have divided the project 
 and its features into two versions with two repositories. 
 
-:fontawesome-solid-people-group: __Community version__ which is a public 
-repository and includes all the basic features and is updated once the funding 
+:fontawesome-solid-people-group: __Community version__ – a public 
+repository that includes all the basic features and is updated once the funding 
 goals are reached
 
-:fontawesome-solid-people-arrows: __Insiders verion__ which is a private 
+:fontawesome-solid-people-arrows: __Insiders verion__ – a private 
 repository exclusively for our Insiders, which contains more exclusive features
 
 
@@ -41,9 +41,10 @@ and/or sell copies of the software.
 __I have a question. Where do I ask it?__
 > You can ask your question on our [discussion board]. We are all about building 
 an open, supportive community where everyone can share their knowledge and 
-insights. This allows us to maintain transparency and ensures all our users 
-access the same information. We encourage all our users to visit this discussion 
-board or our issue tracker and search for previous discussions to see if their 
-question has been addressed before or start a new discussion.
+insights. This approach allows us to maintain transparency and ensures all our 
+users access the same information. We encourage all our users to visit this 
+[discussion board] or our [issue tracker] to search for previous discussions to 
+see if their question has been addressed before or address a new discussion.
 
   [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
